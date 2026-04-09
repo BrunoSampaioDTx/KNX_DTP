@@ -35,7 +35,7 @@ ENRICHMENTS: dict[str, dict] = {
     "1.007": {"description": "Step increase/decrease", "value_map": {"0": "Decrease", "1": "Increase"}, "use_scope": "FB", "notes": "Application-specific: in Shutters/Blinds FB, decrease=step-down, increase=step-up"},
     "1.008": {"description": "Up/down direction", "value_map": {"0": "Up", "1": "Down"}, "use_scope": "G"},
     "1.009": {"description": "Open/close state", "value_map": {"0": "Open", "1": "Close"}, "use_scope": "G", "notes": "Also used for mechanical normally-open push button interface and binary valve state"},
-    "1.01":  {"description": "Start/stop", "value_map": {"0": "Stop", "1": "Start"}, "use_scope": "G"},
+
     "1.010": {"description": "Start/stop", "value_map": {"0": "Stop", "1": "Start"}, "use_scope": "G"},
     "1.011": {"description": "Active/inactive state", "value_map": {"0": "Inactive", "1": "Active"}, "use_scope": "FB"},
     "1.012": {"description": "Invert", "value_map": {"0": "Not inverted", "1": "Inverted"}, "use_scope": "FB"},
@@ -50,9 +50,8 @@ ENRICHMENTS: dict[str, dict] = {
     "1.022": {"description": "Scene A/B selection", "value_map": {"0": "Scene A", "1": "Scene B"}, "use_scope": "FB"},
     "1.023": {"description": "Shutter/blinds operating mode", "value_map": {"0": "Only move Up/Down (shutter)", "1": "Move Up/Down + StepStop (blind)"}, "use_scope": "FB"},
     "1.024": {"description": "Day/night mode", "value_map": {"0": "Day", "1": "Night"}, "use_scope": "G"},
-    "1.1":   {"description": "Heating/cooling mode", "value_map": {"0": "Cooling", "1": "Heating"}, "use_scope": "FB"},
+
     "1.100": {"description": "Heating/cooling mode", "value_map": {"0": "Cooling", "1": "Heating"}, "use_scope": "FB"},
-    "1.12":  {"description": "Consumer/producer indication", "value_map": {"0": "Consumer", "1": "Producer"}, "use_scope": "FB"},
     "1.1200":{"description": "Consumer/producer indication", "value_map": {"0": "Consumer", "1": "Producer"}, "use_scope": "FB"},
     "1.1201":{"description": "Energy flow direction", "value_map": {"0": "Positive (consumption)", "1": "Negative (production)"}, "use_scope": "FB"},
 
@@ -76,9 +75,8 @@ ENRICHMENTS: dict[str, dict] = {
               "value_map": {"0": "No control, Up", "1": "No control, Down", "2": "Control, Up", "3": "Control, Down"}, "use_scope": "FB"},
     "2.009": {"description": "Open/close control with priority",
               "value_map": {"0": "No control, Open", "1": "No control, Close", "2": "Control, Open", "3": "Control, Close"}, "use_scope": "FB"},
-    "2.01":  {"description": "Start/stop control with priority",
-              "value_map": {"0": "No control, Stop", "1": "No control, Start", "2": "Control, Stop", "3": "Control, Start"}, "use_scope": "FB"},
-    "2.010": {"description": "Start/stop control with priority",
+
+    "2.010": {"description": "Start/stop control with priority", "encoding": "c=control bit, v=value bit",
               "value_map": {"0": "No control, Stop", "1": "No control, Start", "2": "Control, Stop", "3": "Control, Start"}, "use_scope": "FB"},
     "2.011": {"description": "State control with priority",
               "value_map": {"0": "No control, Inactive", "1": "No control, Active", "2": "Control, Inactive", "3": "Control, Active"}, "use_scope": "FB"},
@@ -123,17 +121,12 @@ ENRICHMENTS: dict[str, dict] = {
     # ── DPT 6.x  8-bit signed ────────────────────────────────────────
     "6.001": {"description": "Signed percentage (-128..127%)", "unit": "%", "value_min": -128, "value_max": 127,
               "resolution": "1 %", "encoding": "two's complement", "use_scope": "G"},
-    "6.01":  {"description": "Signed counter (8-bit)", "unit": "counter pulses", "value_min": -128, "value_max": 127,
+    "6.010": {"description": "Signed counter (8-bit)", "unit": "counter pulses", "value_min": -128, "value_max": 127,
               "resolution": "1 counter pulse", "encoding": "two's complement", "use_scope": "G",
               "notes": "Shall be used for counting discrete events only."},
-    "6.010": {"description": "Signed counter (8-bit)", "unit": "counter pulses", "value_min": -128, "value_max": 127,
-              "resolution": "1 counter pulse", "encoding": "two's complement", "use_scope": "G"},
-    "6.02":  {"description": "Status with operating mode (5 status bits + 3-bit mode)",
-              "encoding": "A,B,C,D,E status bits (0=set, 1=clear); mode: 001b=mode 0, 010b=mode 1, 100b=mode 2",
-              "use_scope": "FB", "notes": "Composite: 5 boolean status bits + 3-bit mode selector"},
     "6.020": {"description": "Status with operating mode (5 status bits + 3-bit mode)",
               "encoding": "A,B,C,D,E status bits (0=set, 1=clear); mode: 001b=mode 0, 010b=mode 1, 100b=mode 2",
-              "use_scope": "FB"},
+              "use_scope": "FB", "notes": "Composite: 5 boolean status bits + 3-bit mode selector"},
 
     # ── DPT 7.x  16-bit unsigned ─────────────────────────────────────
     "7.001": {"description": "Unsigned counter (16-bit)", "unit": "pulses", "value_min": 0, "value_max": 65535,
@@ -156,7 +149,7 @@ ENRICHMENTS: dict[str, dict] = {
     "7.007": {"description": "Time period in hours", "unit": "h", "value_min": 0, "value_max": 65535,
               "resolution": "1 h", "encoding": "binary encoded unsigned", "use_scope": "G",
               "notes": "Max ≈ 7.4 years"},
-    "7.010": {"description": "Interface Object Property data type identifier", "unit": None, "value_min": 0, "value_max": 65535,
+    "7.010": {"description": "Interface Object Property data type identifier", "unit": "n/a", "value_min": 0, "value_max": 65535,
               "resolution": None, "encoding": "binary encoded unsigned", "use_scope": "FB",
               "notes": "Identifier for Interface Object Property data types. No physical unit."},
     "7.011": {"description": "Length in millimeters", "unit": "mm", "value_min": 0, "value_max": 65535,
@@ -191,8 +184,6 @@ ENRICHMENTS: dict[str, dict] = {
     "8.007": {"description": "Delta time in hours", "unit": "h", "value_min": -32768, "value_max": 32767,
               "resolution": "1 h", "encoding": "two's complement", "use_scope": "G",
               "notes": "Range ≈ ±3.7 years"},
-    "8.01":  {"description": "Percentage (16-bit, 0.01% resolution)", "unit": "%", "value_min": -327.68, "value_max": 327.67,
-              "resolution": "0.01 %", "encoding": "two's complement, value = raw × 0.01", "use_scope": "G"},
     "8.010": {"description": "Percentage (16-bit, 0.01% resolution)", "unit": "%", "value_min": -327.68, "value_max": 327.67,
               "resolution": "0.01 %", "encoding": "two's complement, value = raw × 0.01", "use_scope": "G"},
     "8.011": {"description": "Rotation angle in degrees", "unit": "°", "value_min": -32768, "value_max": 32767,
@@ -226,14 +217,10 @@ ENRICHMENTS: dict[str, dict] = {
     "9.009": {"description": "Air volumetric flow in m³/h", "unit": "m³/h", "value_min": -671088.64, "value_max": 670433.28,
               "resolution": "0.01 m³/h", "encoding": "KNX float: 0.01*M*2^E", "use_scope": "G",
               "notes": "For higher precision use DPT 14.077 (F32). Signed: positive=supply, negative=exhaust."},
-    "9.01":  {"description": "Time in seconds (float)", "unit": "s", "value_min": -671088.64, "value_max": 670433.28,
-              "resolution": "0.01 s", "encoding": "KNX float: 0.01*M*2^E", "use_scope": "FB"},
     "9.010": {"description": "Time in seconds (float)", "unit": "s", "value_min": -671088.64, "value_max": 670433.28,
               "resolution": "0.01 s", "encoding": "KNX float: 0.01*M*2^E", "use_scope": "FB"},
     "9.011": {"description": "Time in milliseconds (float)", "unit": "ms", "value_min": -671088.64, "value_max": 670433.28,
               "resolution": "0.01 ms", "encoding": "KNX float: 0.01*M*2^E", "use_scope": "G"},
-    "9.02":  {"description": "Voltage in millivolts", "unit": "mV", "value_min": -671088.64, "value_max": 670433.28,
-              "resolution": "0.01 mV", "encoding": "KNX float: 0.01*M*2^E", "use_scope": "G"},
     "9.020": {"description": "Voltage in millivolts", "unit": "mV", "value_min": -671088.64, "value_max": 670433.28,
               "resolution": "0.01 mV", "encoding": "KNX float: 0.01*M*2^E", "use_scope": "G"},
     "9.021": {"description": "Current in milliamperes", "unit": "mA", "value_min": -671088.64, "value_max": 670433.28,
@@ -325,7 +312,7 @@ ENRICHMENTS: dict[str, dict] = {
     "14.002": {"description": "Activation energy in J/mol", "unit": "J/mol", "use_scope": "FB"},
     "14.003": {"description": "Activity (radioactive) in s⁻¹", "unit": "s⁻¹", "use_scope": "G"},
     "14.004": {"description": "Molar concentration in mol", "unit": "mol", "use_scope": "G"},
-    "14.005": {"description": "Amplitude (dimensionless)", "unit": None, "use_scope": "FB", "notes": "Dimensionless amplitude value"},
+    "14.005": {"description": "Amplitude (dimensionless)", "unit": "n/a", "use_scope": "FB", "notes": "Dimensionless amplitude value"},
     "14.006": {"description": "Angle in radians", "unit": "rad", "use_scope": "G"},
     "14.007": {"description": "Angular acceleration in rad/s²", "unit": "rad/s²", "use_scope": "FB"},
     "14.008": {"description": "Angular momentum in J·s", "unit": "J·s", "use_scope": "FB"},
@@ -380,7 +367,7 @@ ENRICHMENTS: dict[str, dict] = {
     "14.055": {"description": "Phase angle in degrees", "unit": "°", "use_scope": "G"},
     "14.056": {"description": "Power in Watt", "unit": "W", "use_scope": "G",
                "notes": "F32 precision. See also 9.024 (kW, F16) for lower-precision. Resolution 1W vs 0.01kW."},
-    "14.057": {"description": "Power factor (cos φ)", "unit": None, "use_scope": "G",
+    "14.057": {"description": "Power factor (cos φ)", "unit": "n/a", "use_scope": "G",
                "notes": "Dimensionless ratio, typically 0.0 to 1.0. cos(φ) of phase angle between voltage and current."},
     "14.058": {"description": "Pressure in Pascal", "unit": "Pa", "use_scope": "G", "notes": "Pa = N/m²"},
     "14.059": {"description": "Reactance in Ohm", "unit": "Ω", "use_scope": "G"},
@@ -530,12 +517,14 @@ ENRICHMENTS: dict[str, dict] = {
     "20.115": {"description": "Humidifier/dehumidifier mode", "use_scope": "FB",
                "value_map": {"0": "Inactive", "1": "Humidification", "2": "Dehumidification"},
                "value_min": 0, "value_max": 2},
-    "20.120": {"description": "ADA type", "use_scope": "FB",
-               "value_map": {"1": "Air damper", "2": "VAV"},
-               "value_min": 1, "value_max": 2},
+    "20.120": {"description": "ADA type (Air Damper Actuator)", "use_scope": "FB",
+               "value_map": {"0": "Not used, reserved", "1": "Air Damper", "2": "VAV"},
+               "value_min": 0, "value_max": 2, "encoding": "enumeration",
+               "notes": "field1=ADAType. Values 3-255 reserved."},
     "20.121": {"description": "Backup mode", "use_scope": "FB",
-               "value_map": {"0": "Backup value from ETS", "1": "Backup value from object"},
-               "value_min": 0, "value_max": 1},
+               "value_map": {"0": "Backup Value", "1": "Keep Last State"},
+               "value_min": 0, "value_max": 1, "encoding": "enumeration",
+               "notes": "field1=BackupMode. Values 2-255 reserved."},
     "20.122": {"description": "Start synchronization type", "use_scope": "FB",
                "value_map": {"0": "Positive rising edge", "1": "Negative rising edge"},
                "value_min": 0, "value_max": 1},
@@ -589,7 +578,8 @@ ENRICHMENTS: dict[str, dict] = {
                "value_min": 0, "value_max": 1},
     "20.1000":{"description": "Communication mode", "use_scope": "FB",
                "notes": "Encoding as specified in PID_COMM_MODE in 3/6/3"},
-    "20.1001":{"description": "Additional info types", "use_scope": "FB"},
+    "20.1001":{"description": "Additional info types", "use_scope": "FB", "encoding": "enumeration",
+               "value_map": {"0": "No additional info"}},
     "20.1002":{"description": "RF mode selection", "use_scope": "FB",
                "value_map": {"0": "Asynchronous", "1": "BiBat master", "2": "BiBat slave"},
                "value_min": 0, "value_max": 2},
@@ -1020,15 +1010,23 @@ def _canonical_id(main: int, sub: int) -> str:
 
 
 def _normalize_lookup() -> dict[str, dict]:
-    """Build a lookup keyed by (main, sub_int) from the ENRICHMENTS dict."""
+    """Build a lookup keyed by (main, sub_int) from the ENRICHMENTS dict.
+    
+    Handles OCR-truncated sub strings: if the sub part has fewer than 3
+    digits, pad with trailing zeros (same rule as data correction).
+    """
     lookup: dict[tuple[int, int], dict] = {}
     for raw_id, patch in ENRICHMENTS.items():
         parts = raw_id.split(".", 1)
         main = int(parts[0])
-        sub = int(parts[1])
+        sub_str = parts[1]
+        sub = int(sub_str)
+        # Apply same OCR trailing-zero padding as data correction
+        if len(sub_str) < 3:
+            sub = sub * (10 ** (3 - len(sub_str)))
         key = (main, sub)
         if key not in lookup:
-            lookup[key] = patch
+            lookup[key] = dict(patch)
         else:
             lookup[key].update(patch)
     return lookup
@@ -1038,27 +1036,76 @@ def enrich():
     data = json.loads(INPUT_JSON.read_text(encoding="utf-8"))
 
     # ── Step 0: Fix OCR-truncated sub_numbers ──────────────────
-    # The parser sometimes reads "270.12" as sub=12 when it should be 1200
-    SUB_FIXES = {
-        (268, 121): 1206,   # 268.121 → 268.1206 DPT_DateTime_Peak_Notice
-        (269, 12): 1200,    # 269.12 → 269.1200
-        (270, 12): 1200,    # 270.12 → 270.1200
-        (271, 12): 1200,    # 271.12 → 271.1200
-        (272, 6): 600,      # 272.6 → 272.600
-        (276, 12): 1200,    # 276.12 → 276.1200
-        (277, 12): 1200,
-        (278, 12): 1200,
-        (279, 12): 1200,
-        (280, 12): 1200,
-        (281, 12): 1200,
-        (282, 12): 1200,
-        (283, 12): 1200,
-        (284, 12): 1200,
+    # The overview table uses "MAIN.SUB" where SUB is always 3+ digits.
+    # OCR drops trailing zeros: "1.010" → "1.01" → sub=1 instead of 10
+    # We detect this by looking at the original dpt_id string format.
+    for entry in data:
+        raw_id = entry.get("dpt_id", "")
+        if "." not in raw_id:
+            continue
+        main_str, sub_str = raw_id.split(".", 1)
+        main = int(main_str)
+        raw_sub = int(sub_str)
+
+        # For sub-numbers that were correctly parsed (3+ digits, or already correct),
+        # the dpt_id string sub part has the right number of digits.
+        # OCR truncation means the string has fewer digits than expected.
+        # Sub < 1000 should be 3 digits, sub >= 1000 should be 4 digits.
+        # If the string is shorter, trailing zeros were lost.
+        if len(sub_str) < 3:
+            # Could be truncated from 3-digit (sub < 1000) or 4-digit (sub >= 1000)
+            # Use DPT naming conventions to decide:
+            # - sub >= 1200 → metering domain (common in high DPTs)
+            # - sub >= 600 → lighting domain
+            # - sub >= 100 → HVAC domain
+            # Pad to 3 digits first; if entry name suggests 4-digit, pad to 4
+            pass  # handled by the explicit table below
+
+    # Explicit corrections based on DPT name analysis
+    NAME_TO_SUB: dict[str, int] = {}
+    for entry in data:
+        nm = entry.get("dpt_name", "")
+        raw_id = entry.get("dpt_id", "")
+        if "." not in raw_id:
+            continue
+        main_str, sub_str = raw_id.split(".", 1)
+        main = int(main_str)
+        raw_sub = int(sub_str)
+        # Only fix entries that are OCR-truncated (sub_str shorter than 3 chars)
+        if len(sub_str) >= 3:
+            continue
+        # Pad trailing zeros: "01" → 10, "1" → 100, "12" → 120 (default 3-digit)
+        fixed_sub = raw_sub * (10 ** (3 - len(sub_str)))
+        entry["dpt_sub_number"] = fixed_sub
+
+    # Additional overrides for specific known 4-digit subs that OCR truncated to 2 digits
+    SUB_OVERRIDES = {
+        # DPT 1.12 = ConsumerProducer → should be 1200 (metering range)
+        ("1.12", "DPT_ConsumerProducer"): 1200,
+        # DPT 20.12 → 20.120 (OCR truncated trailing 0)
+        ("20.12", "DPT_ADAType"): 120,
+        # High-numbered DPTs where .12 means .1200
+        ("268.121", "DPT_DateTime_Peak_Notice"): 1206,
+        ("269.12", "DPT_DateTime_Tariff_ActiveEnergy"): 1200,
+        ("270.12", "DPT_DateTime_Value_Electric_Current_3"): 1200,
+        ("270.12", "DPT_DateTime_Value_Electric_Potential_3"): 1201,
+        ("270.12", "DPT_DateTime_Value_ApparentPower_3"): 1202,
+        ("271.12", "DPT_TariffDayProfile"): 1200,
+        ("272.6", "DPT_Converter_Info"): 600,
+        ("276.12", "DPT_ERL_Status"): 1200,
+        ("277.12", "DPT_4_EnergyRegisters"): 1200,
+        ("278.12", "DPT_5_EnergyRegisters"): 1200,
+        ("279.12", "DPT_6_EnergyRegisters"): 1200,
+        ("280.12", "DPT_11_EnergyRegisters"): 1200,
+        ("281.12", "DPT_DateTime_4_EnergyRegisters"): 1200,
+        ("282.12", "DPT_DateTime_5_EnergyRegisters"): 1200,
+        ("283.12", "DPT_DateTime_6_EnergyRegisters"): 1200,
+        ("284.12", "DPT_DateTime_11_EnergyRegisters"): 1200,
     }
     for entry in data:
-        key = (entry.get("dpt_main_number", 0), entry.get("dpt_sub_number", 0))
-        if key in SUB_FIXES:
-            entry["dpt_sub_number"] = SUB_FIXES[key]
+        key = (entry.get("dpt_id", ""), entry.get("dpt_name", ""))
+        if key in SUB_OVERRIDES:
+            entry["dpt_sub_number"] = SUB_OVERRIDES[key]
 
     # ── Step 1: Deduplicate by (main_number, sub_number) ─────────
     seen: dict[tuple, list[int]] = {}
@@ -1118,8 +1165,8 @@ def enrich():
         json.dumps(data, indent=2, ensure_ascii=False),
         encoding="utf-8",
     )
-    print(f"Deduplicated {dedup_count} dupes → {len(data)} unique entries")
-    print(f"Enriched {enriched}/{len(data)} entries → {OUTPUT_JSON}")
+    print(f"Deduplicated {dedup_count} dupes -> {len(data)} unique entries")
+    print(f"Enriched {enriched}/{len(data)} entries -> {OUTPUT_JSON}")
 
 
 if __name__ == "__main__":
