@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Convert PDF to Markdown",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/convert_pdf_to_markdown.py",
+            "args": [
+                "03_07_02 Datapoint Types v02.02.01 AS.pdf",
+                "-o", "version_2.md",
+                "--accurate-tables",
+                "-v"
+            ],
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "python": "${workspaceFolder}/.venv/Scripts/python.exe",
+            "justMyCode": true
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# System deps for docling
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends libgl1 libglib2.0-0 && \
+    rm -rf /var/lib/apt/lists/*
+
+# CPU-only torch + torchvision (keeps image smaller than full CUDA build)
+RUN pip install --no-cache-dir torch torchvision --index-url https://download.pytorch.org/whl/cpu
+
+# Docling + pypdf
+RUN pip install --no-cache-dir docling pypdf
+
+# Pre-warm: import docling so models are downloaded into the image
+RUN python -c "from docling.document_converter import DocumentConverter; print('models OK')"
+
+ENTRYPOINT ["python", "convert_pdf_to_markdown.py"]

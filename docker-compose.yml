@@ -1,0 +1,60 @@
+services:
+  postgres:
+    image: postgres:17-alpine
+    container_name: knx_dtp_db
+    environment:
+      POSTGRES_DB: knx
+      POSTGRES_USER: knx
+      POSTGRES_PASSWORD: knx
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./knx_datapoint_types.sql:/docker-entrypoint-initdb.d/01_knx_datapoint_types.sql:ro
+
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    container_name: knx_pgadmin
+    environment:
+      PGADMIN_DEFAULT_EMAIL: bruno@example.com
+      PGADMIN_DEFAULT_PASSWORD: admin
+    ports:
+      - "8080:80"
+    depends_on:
+      - postgres
+
+  pdf2md:
+    build:
+      context: .
+      dockerfile: Dockerfile.pdf2md
+    container_name: knx_pdf2md
+    volumes:
+      - .:/app
+    working_dir: /app
+    command:
+      [
+        "03_07_02 Datapoint Types v02.02.01 AS.pdf",
+        "--batch-pages", "30",
+        "--images-scale", "1.0",
+        "-o", "aux_aa/03_07_02 Datapoint Types v02.02.01 AS.md",
+        "-v",
+        "--accurate-tables"
+      ]
+    profiles:
+      - tools
+
+  parse-json:
+    image: python:3.11-slim
+    container_name: knx_parse_json
+    volumes:
+      - .:/app
+    working_dir: /app
+    entrypoint: ["python", "parse_md_to_json.py"]
+    depends_on:
+      pdf2md:
+        condition: service_completed_successfully
+    profiles:
+      - tools
+
+volumes:
+  pgdata:
