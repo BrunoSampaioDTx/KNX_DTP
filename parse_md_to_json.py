@@ -16,8 +16,8 @@ import re
 import sys
 from pathlib import Path
 
-MD_PATH = Path(__file__).parent / "output.md"
-OUTPUT_PATH = Path(__file__).parent / "dpt_new2.json"
+MD_PATH = Path(__file__).parent / "input" / "03_07_02 Datapoint Types v02.02.01 AS.md"
+OUTPUT_PATH = Path(__file__).parent / "output" / "dpt_new.json"
 
 # ── Format code → size + category mappings ──────────────────────────────────
 

@@ -1,7 +1,7 @@
 import json
 from collections import defaultdict
 
-data = json.load(open('dpt_new1.json'))
+data = json.load(open('../output/dpt_new1.json'))
 
 by_unit = defaultdict(list)
 no_unit = []

@@ -1,6 +1,6 @@
 import json
 
-data = json.load(open('dpt_new1.json'))
+data = json.load(open('../output/dpt_new1.json'))
 entries = {e['dpt_id']: e for e in data}
 
 # Collect all unique units
