@@ -29,6 +29,7 @@ import os
 import sys
 import tempfile
 import time
+from datetime import datetime
 from pathlib import Path
 
 logger = logging.getLogger("pdf2md")
@@ -253,6 +254,12 @@ def _convert_batched(
     return True
 
 
+def _timestamped_name(pdf_path: Path) -> str:
+    """Generate filename: {stem}_{DD_MM_YYYY_HH_MM}.md"""
+    stamp = datetime.now().strftime("%d_%m_%Y_%H_%M")
+    return f"{pdf_path.stem}_{stamp}.md"
+
+
 def resolve_output_path(
     pdf_path: Path, output_arg: str | None, batch_mode: bool
 ) -> Path:
@@ -260,18 +267,22 @@ def resolve_output_path(
     Determine the output .md file path.
 
     Rules:
-      - No -o flag          → same dir as PDF, .md extension
-      - -o is a directory   → place .md inside that directory
+      - No -o flag          → output/{stem}_{timestamp}.md
+      - -o is a directory   → place timestamped .md inside that directory
       - -o is a file path   → use it directly (single-file mode only)
     """
+    name = _timestamped_name(pdf_path)
+
     if output_arg is None:
-        return pdf_path.with_suffix(".md")
+        out_dir = Path(__file__).parent / "output"
+        out_dir.mkdir(parents=True, exist_ok=True)
+        return out_dir / name
 
     out = Path(output_arg)
 
     if batch_mode or out.is_dir() or output_arg.endswith(os.sep):
         out.mkdir(parents=True, exist_ok=True)
-        return out / pdf_path.with_suffix(".md").name
+        return out / name
 
     return out
 

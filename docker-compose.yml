@@ -33,10 +33,10 @@ services:
     working_dir: /app
     command:
       [
-        "03_07_02 Datapoint Types v02.02.01 AS.pdf",
+        "input/03_07_02 Datapoint Types v02.02.01 AS.pdf",
         "--batch-pages", "30",
         "--images-scale", "1.0",
-        "-o", "aux_aa/03_07_02 Datapoint Types v02.02.01 AS.md",
+        "-o", "input/03_07_02 Datapoint Types v02.02.01 AS.md",
         "-v",
         "--accurate-tables"
       ]
