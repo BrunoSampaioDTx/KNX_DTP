@@ -1,4 +1,4 @@
-# KNX Datapoint Types Parser
+﻿# KNX Datapoint Types Parser
 
 Extracts and structures the **KNX Datapoint Types** specification (document 03.07.02) from its PDF into machine-readable JSON and SQL.
 
@@ -106,19 +106,61 @@ python testing/check_f32_compare.py
 
 Each entry in the generated JSON contains:
 
-| Field                  | Description                              |
-|------------------------|------------------------------------------|
-| `dpt_id`               | e.g. `"1.001"`                           |
-| `dpt_name`             | e.g. `"DPT_Switch"`                      |
-| `format_code`          | e.g. `"B1"`                              |
-| `size_bits`            | Size in bits                             |
-| `size_bytes`           | Size in bytes                            |
-| `data_type_category`   | Boolean, Unsigned, Signed, Float, etc.   |
-| `range_from` / `range_to` | Value range                          |
-| `unit`                 | SI unit string (Unicode-normalised)      |
-| `resolution`           | Numeric resolution                       |
-| `encoding`             | Encoding description                     |
-| `value_map`            | Discrete value → label mappings          |
-| `use_scope`            | Functional block scope                   |
-| `application_domain`   | HVAC, lighting, etc.                     |
-| `notes`                | Additional notes from the spec           |
+| Field                       | Description                                  |
+|-----------------------------|----------------------------------------------|
+| `dpt_id`                    | e.g. `"1.001"`                               |
+| `dpt_main_number`           | Main type number (e.g. `1`)                  |
+| `dpt_sub_number`            | Sub type number (e.g. `1`)                   |
+| `dpt_name`                  | e.g. `"DPT_Switch"`                          |
+| `description`               | Human-readable description                   |
+| `format_code`               | e.g. `"B1"`, `"N8"`, `"F16"`                |
+| `size_bits`                 | Size in bits                                 |
+| `size_bytes`                | Size in bytes                                |
+| `data_type_category`        | Boolean, Unsigned, Signed, Float, enum, etc. |
+| `value_min` / `value_max`   | Value range                                  |
+| `unit`                      | SI unit string (Unicode-normalised)          |
+| `resolution`                | Numeric resolution                           |
+| `encoding`                  | Encoding description                         |
+| `coefficient`               | Scaling coefficient                          |
+| `use_scope`                 | Functional block scope (e.g. `"G"`)          |
+| `application_domain`        | HVAC, lighting, common, etc.                 |
+| `value_map`                 | Discrete value → label mappings              |
+| `notes`                     | Additional notes from the spec               |
+| `sparkplug_data_type`       | Sparkplug B type name (e.g. `"UInt8"`)       |
+| `sparkplug_data_type_value` | Sparkplug B numeric type ID (e.g. `5`)       |
+| Field                       | Description                                  |
+|-----------------------------|----------------------------------------------|
+| `dpt_id`                    | e.g. `"1.001"`                               |
+| `dpt_main_number`           | Main type number (e.g. `1`)                  |
+| `dpt_sub_number`            | Sub type number (e.g. `1`)                   |
+| `dpt_name`                  | e.g. `"DPT_Switch"`                          |
+| `description`               | Human-readable description                   |
+| `format_code`               | e.g. `"B1"`, `"N8"`, `"F16"`                |
+| `size_bits`                 | Size in bits                                 |
+| `size_bytes`                | Size in bytes                                |
+| `data_type_category`        | Boolean, Unsigned, Signed, Float, enum, etc. |
+| `value_min` / `value_max`   | Value range                                  |
+| `unit`                      | SI unit string (Unicode-normalised)          |
+| `resolution`                | Numeric resolution                           |
+| `encoding`                  | Encoding description                         |
+| `coefficient`               | Scaling coefficient                          |
+| `use_scope`                 | Functional block scope (e.g. `"G"`)          |
+| `application_domain`        | HVAC, lighting, common, etc.                 |
+| `value_map`                 | Discrete value → label mappings              |
+| `notes`                     | Additional notes from the spec               |
+| `sparkplug_data_type`       | Sparkplug B type name (e.g. `"UInt8"`)       |
+| `sparkplug_data_type_value` | Sparkplug B numeric type ID (e.g. `5`)            |
+| `use_scope`                 | Functional block scope (e.g. `"G"`)      |
+| `application_domain`        | HVAC, lighting, common, etc.             |
+| `value_map`                 | Discrete value → label mappings          |
+| `notes`                     | Additional notes from the spec           |
+| `sparkplug_data_type`       | Sparkplug B type name (e.g. `"UInt8"`)   |
+| `sparkplug_data_type_value` | Sparkplug B numeric type ID (e.g. `5`)    
+| `sparkplug_data_type`  | Sparkplug B type name (e.g. `"Boolean"`, `"UInt8"`, `"Float"`) |
+| `sparkplug_data_type_value` | Sparkplug B numeric type ID (e.g. `11`) |        |
+| `use_scope`                 | Functional block scope (e.g. `"G"`)          |
+| `application_domain`        | HVAC, lighting, common, etc.                 |
+| `value_map`                 | Discrete value -> label mappings             |
+| `notes`                     | Additional notes from the spec               |
+| `sparkplug_data_type`       | Sparkplug B type name (e.g. `"UInt8"`)       |
+| `sparkplug_data_type_value` | Sparkplug B numeric type ID (e.g. `5`)       |

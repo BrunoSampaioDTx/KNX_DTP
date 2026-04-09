@@ -901,6 +901,8 @@ def main():
 
     # Enrich from existing curated JSON if available
     existing = md_path.parent / "knx_datapoint_types.json"
+    if not existing.exists():
+        existing = Path(__file__).parent / "input" / "knx_datapoint_types.json"
     if existing.exists():
         print(f"Enriching from existing: {existing}")
         results = enrich_from_existing(results, existing)
