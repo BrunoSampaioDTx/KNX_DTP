@@ -3816,7 +3816,7 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "4-byte IEEE 754 single-precision length in m",
+    "notes": "4-byte IEEE 754 single-precision magnetic field strength in A/m",
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9
   },
@@ -3839,7 +3839,7 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "4-byte IEEE 754 single-precision light quantity in lm·s",
+    "notes": "4-byte IEEE 754 single-precision magnetic flux in Wb (Weber)",
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9
   },
@@ -4598,7 +4598,7 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "4-byte IEEE 754 single-precision weight in kg; used for load/weight measurements",
+    "notes": "4-byte IEEE 754 single-precision weight/force in Newtons (N); used for load and weight measurements",
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9
   },
@@ -4967,7 +4967,7 @@
       "1": "Presence simulation",
       "2": "Night round"
     },
-    "notes": "HVAC emergency mode; 0=Normal, 1=Emergency Pressure, 2=Emergency Depressure, 3=Emergency Purge, 4=Emergency Shutdown",
+    "notes": "Light application mode enumeration; 0=Normal, 1=Presence simulation, 2=Night round",
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5
   },
@@ -5002,7 +5002,7 @@
       "40": "Load Management",
       "50": "Shutters and blinds"
     },
-    "notes": "HVAC emergency mode for building controller; enumeration 0..4",
+    "notes": "Application area enumeration for fault reporting; 0=No fault, 1=System, 10=HVAC general, 20=Lighting, 30=Security, 40=Load Management, 50=Shutters/blinds",
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5
   },
@@ -5029,7 +5029,7 @@
       "2": "Basic alarm",
       "3": "Extended alarm"
     },
-    "notes": "HVAC changeover mode; 0=Auto, 1=Cooling only, 2=Heating only",
+    "notes": "Alarm class type enumeration; 1=Simple alarm, 2=Basic alarm, 3=Extended alarm",
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5
   },
@@ -5128,7 +5128,7 @@
       "3": "Actuator fault",
       "4": "Other fault"
     },
-    "notes": "HVAC system mode; 0=Auto, 1=Comfort, 2=Standby, 3=Economy, 4=Protection",
+    "notes": "HVAC error class enumeration; 0=No fault, 1=Sensor fault, 2=Process fault/controller, 3=Actuator fault, 4=Other fault",
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5
   },
@@ -6172,7 +6172,7 @@
       "7": "LED, leading",
       "8": "LED, trailing"
     },
-    "notes": "Ventilation controller mode enumeration",
+    "notes": "Load type setting for dimmer/actuator; 0=Automatic, 1=Leading edge, 2=Trailing edge, 3=Switch mode only, 4=Automatic once, 7=LED leading, 8=LED trailing; lighting application",
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5
   },
@@ -6423,7 +6423,7 @@
     "use_scope": "G",
     "application_domain": "system",
     "value_map": null,
-    "notes": "RHCC status mode enumeration for room humidity/climate controller",
+    "notes": "Communication mode enumeration for M-Bus/metering devices; system application domain",
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5
   },
@@ -6603,7 +6603,7 @@
       "2": "Breaker/Valve is released",
       "255": "Invalid"
     },
-    "notes": "AirQuality enumeration for ventilation/air quality control applications",
+    "notes": "M-Bus breaker/valve state enumeration; 0=Closed, 1=Open, 2=Released, 255=Invalid; metering application",
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5
   },
@@ -6714,7 +6714,7 @@
       "1": "New / Lock (S-FSK) – Associated",
       "2": "Registered (S-FSK) – reserved"
     },
-    "notes": "AirQualitySet enumeration for air quality setpoint control",
+    "notes": "PLC status enumeration for S-FSK pairing; 0=New/Unlock, 1=New/Lock, 2=Registered; metering application",
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5
   },
