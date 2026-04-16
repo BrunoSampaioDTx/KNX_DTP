@@ -7,6 +7,8 @@ from pathlib import Path
 SOURCE_JSON = Path(__file__).resolve().parent / "final_results" / "standard_knx_datapoint_types.json"
 OUTPUT_JSON = Path(__file__).resolve().parent / "final_results" / "standard_knx_datapoint_types_with_step.json"
 
+# Matches a leading numeric token at the start of the resolution string:
+# integers (10), decimals (0.01, .5), and scientific notation (1e-3).
 LEADING_NUMBER_PATTERN = re.compile(r"^\s*([+-]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][+-]?\d+)?)")
 
 
@@ -46,7 +48,7 @@ def fallback_step(entry):
     return None
 
 
-def add_step_after_resolution(entry, step):
+def insert_step_after_resolution(entry, step):
     updated = {}
     inserted = False
 
@@ -70,7 +72,7 @@ def main():
         step = extract_resolution_step(entry.get("resolution"))
         if step is None:
             step = fallback_step(entry)
-        output.append(add_step_after_resolution(entry, step))
+        output.append(insert_step_after_resolution(entry, step))
 
     OUTPUT_JSON.write_text(
         json.dumps(output, indent=2, ensure_ascii=False),
