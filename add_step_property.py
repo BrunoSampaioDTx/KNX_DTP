@@ -65,7 +65,13 @@ def insert_step_after_resolution(entry, step):
 
 
 def main():
-    data = json.loads(SOURCE_JSON.read_text(encoding="utf-8"))
+    try:
+        data = json.loads(SOURCE_JSON.read_text(encoding="utf-8"))
+    except FileNotFoundError as exc:
+        raise SystemExit(f"Source file not found: {SOURCE_JSON}") from exc
+    except json.JSONDecodeError as exc:
+        raise SystemExit(f"Invalid JSON in source file {SOURCE_JSON}: {exc}") from exc
+
     output = []
 
     for entry in data:
@@ -74,10 +80,7 @@ def main():
             step = fallback_step(entry)
         output.append(insert_step_after_resolution(entry, step))
 
-    OUTPUT_JSON.write_text(
-        json.dumps(output, indent=2, ensure_ascii=False),
-        encoding="utf-8",
-    )
+    OUTPUT_JSON.write_text(json.dumps(output, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
     print(f"Wrote {len(output)} entries to {OUTPUT_JSON}")
 
