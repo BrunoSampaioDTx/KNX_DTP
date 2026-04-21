@@ -1151,22 +1151,20 @@ def _resolve_formulas(entry: dict) -> tuple[str | None, str | None, str | None]:
     return (None, None, "No scalar transformer available for this structured DPT.")
 
 
-def _insert_formula_fields(entry: dict, formula_to_bus, formula_from_bus) -> dict:
-    updated = {}
-    inserted = False
-    for key, value in entry.items():
-        if key in {"formula_to_bus", "formula_from_bus"}:
-            continue
-        updated[key] = value
-        if key == "value_conversion":
-            updated["formula_to_bus"] = formula_to_bus
-            updated["formula_from_bus"] = formula_from_bus
-            inserted = True
+def _set_value_conversion(entry: dict, formula_to_bus, formula_from_bus) -> dict:
+    updated = dict(entry)
+    updated.pop("formula_to_bus", None)
+    updated.pop("formula_from_bus", None)
 
-    if not inserted:
-        updated["formula_to_bus"] = formula_to_bus
-        updated["formula_from_bus"] = formula_from_bus
+    value_conversion = updated.get("value_conversion")
+    if not isinstance(value_conversion, dict):
+        value_conversion = {}
+    else:
+        value_conversion = dict(value_conversion)
 
+    value_conversion["formula_to_bus"] = formula_to_bus
+    value_conversion["formula_from_bus"] = formula_from_bus
+    updated["value_conversion"] = value_conversion
     return updated
 
 
@@ -1174,7 +1172,7 @@ def apply_bidirectional_transformers(data: list[dict]) -> list[dict]:
     updated_entries = []
     for entry in data:
         formula_to_bus, formula_from_bus, note = _resolve_formulas(entry)
-        updated_entry = _insert_formula_fields(entry, formula_to_bus, formula_from_bus)
+        updated_entry = _set_value_conversion(entry, formula_to_bus, formula_from_bus)
         if note:
             updated_entry["notes"] = _append_note(updated_entry.get("notes"), note)
         updated_entries.append(updated_entry)

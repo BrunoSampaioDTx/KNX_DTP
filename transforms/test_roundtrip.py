@@ -181,12 +181,15 @@ def main():
         data = json.loads(path.read_text(encoding="utf-8"))
         if not isinstance(data, list):
             continue
-        if not data or "formula_to_bus" not in data[0] or "formula_from_bus" not in data[0]:
+        if not data or "value_conversion" not in data[0]:
             continue
 
         for entry in data:
-            formula_to_bus = entry.get("formula_to_bus")
-            formula_from_bus = entry.get("formula_from_bus")
+            value_conversion = entry.get("value_conversion") or {}
+            if not isinstance(value_conversion, dict):
+                continue
+            formula_to_bus = value_conversion.get("formula_to_bus")
+            formula_from_bus = value_conversion.get("formula_from_bus")
             if formula_to_bus is None or formula_from_bus is None:
                 continue
 

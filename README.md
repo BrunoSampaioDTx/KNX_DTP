@@ -81,20 +81,25 @@ python transforms/test_roundtrip.py  # Bidirectional formula roundtrip validatio
 
 ## Bidirectional value transformers
 
-Each DPT JSON entry now carries:
+Each DPT JSON entry now carries formulas inside `value_conversion`:
 
-- `formula_to_bus`: Python expression that encodes UI/engineering input using `ui_value`
-- `formula_from_bus`: Python expression that decodes KNX raw input using `raw_value`
+- `value_conversion.formula_to_bus`: Python expression that encodes UI/engineering input using `ui_value`
+- `value_conversion.formula_from_bus`: Python expression that decodes KNX raw input using `raw_value`
 
 The variable names are standardized: use only `ui_value` for encode and `raw_value` for decode.
 
 Python evaluation example:
 
 ```python
-result = eval(
-    formula,
+to_bus = eval(
+    entry["value_conversion"]["formula_to_bus"],
     {"__builtins__": {}},
-    {"raw_value": 128, "ui_value": 50, "dpt9_decode": dpt9_decode, "dpt9_encode": dpt9_encode, "f32_decode": f32_decode, "f32_encode": f32_encode},
+    {"ui_value": 50, "dpt9_encode": dpt9_encode, "f32_encode": f32_encode},
+)
+from_bus = eval(
+    entry["value_conversion"]["formula_from_bus"],
+    {"__builtins__": {}},
+    {"raw_value": 128, "dpt9_decode": dpt9_decode, "f32_decode": f32_decode},
 )
 ```
 

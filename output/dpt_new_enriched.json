@@ -24,8 +24,10 @@
     "notes": null,
     "sparkplug_data_type": "Boolean",
     "sparkplug_data_type_value": 11,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "1.002",
@@ -52,8 +54,10 @@
     "notes": null,
     "sparkplug_data_type": "Boolean",
     "sparkplug_data_type_value": 11,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "1.003",
@@ -80,8 +84,10 @@
     "notes": null,
     "sparkplug_data_type": "Boolean",
     "sparkplug_data_type_value": 11,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "1.004",
@@ -108,8 +114,10 @@
     "notes": null,
     "sparkplug_data_type": "Boolean",
     "sparkplug_data_type_value": 11,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "1.005",
@@ -136,8 +144,10 @@
     "notes": null,
     "sparkplug_data_type": "Boolean",
     "sparkplug_data_type_value": 11,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "1.006",
@@ -164,8 +174,10 @@
     "notes": null,
     "sparkplug_data_type": "Boolean",
     "sparkplug_data_type_value": 11,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "1.007",
@@ -192,8 +204,10 @@
     "notes": "Application-specific: in Shutters/Blinds FB, decrease=step-down, increase=step-up",
     "sparkplug_data_type": "Boolean",
     "sparkplug_data_type_value": 11,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "1.008",
@@ -220,8 +234,10 @@
     "notes": null,
     "sparkplug_data_type": "Boolean",
     "sparkplug_data_type_value": 11,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "1.009",
@@ -248,8 +264,10 @@
     "notes": "Also used for mechanical normally-open push button interface and binary valve state",
     "sparkplug_data_type": "Boolean",
     "sparkplug_data_type_value": 11,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "1.010",
@@ -276,8 +294,10 @@
     "notes": null,
     "sparkplug_data_type": "Boolean",
     "sparkplug_data_type_value": 11,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "1.011",
@@ -304,8 +324,10 @@
     "notes": null,
     "sparkplug_data_type": "Boolean",
     "sparkplug_data_type_value": 11,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "1.012",
@@ -332,8 +354,10 @@
     "notes": null,
     "sparkplug_data_type": "Boolean",
     "sparkplug_data_type_value": 11,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "1.013",
@@ -360,8 +384,10 @@
     "notes": null,
     "sparkplug_data_type": "Boolean",
     "sparkplug_data_type_value": 11,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "1.014",
@@ -388,8 +414,10 @@
     "notes": null,
     "sparkplug_data_type": "Boolean",
     "sparkplug_data_type_value": 11,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "1.015",
@@ -416,8 +444,10 @@
     "notes": null,
     "sparkplug_data_type": "Boolean",
     "sparkplug_data_type_value": 11,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "1.016",
@@ -444,8 +474,10 @@
     "notes": "Used for alarming acknowledgement",
     "sparkplug_data_type": "Boolean",
     "sparkplug_data_type_value": 11,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "1.017",
@@ -472,8 +504,10 @@
     "notes": "Both values 0 and 1 shall have the same effect (trigger on any transition)",
     "sparkplug_data_type": "Boolean",
     "sparkplug_data_type_value": 11,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "1.018",
@@ -500,8 +534,10 @@
     "notes": null,
     "sparkplug_data_type": "Boolean",
     "sparkplug_data_type_value": 11,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "1.019",
@@ -528,8 +564,10 @@
     "notes": "Also used for binary valve state",
     "sparkplug_data_type": "Boolean",
     "sparkplug_data_type_value": 11,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "1.021",
@@ -556,8 +594,10 @@
     "notes": null,
     "sparkplug_data_type": "Boolean",
     "sparkplug_data_type_value": 11,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "1.022",
@@ -584,8 +624,10 @@
     "notes": "Recommended to display as 1 and 2 with offset of 1",
     "sparkplug_data_type": "Boolean",
     "sparkplug_data_type_value": 11,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "1.023",
@@ -612,8 +654,10 @@
     "notes": null,
     "sparkplug_data_type": "Boolean",
     "sparkplug_data_type_value": 11,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "1.024",
@@ -640,8 +684,10 @@
     "notes": null,
     "sparkplug_data_type": "Boolean",
     "sparkplug_data_type_value": 11,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "1.100",
@@ -668,8 +714,10 @@
     "notes": null,
     "sparkplug_data_type": "Boolean",
     "sparkplug_data_type_value": 11,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "1.1200",
@@ -696,8 +744,10 @@
     "notes": null,
     "sparkplug_data_type": "Boolean",
     "sparkplug_data_type_value": 11,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "1.1201",
@@ -724,8 +774,10 @@
     "notes": null,
     "sparkplug_data_type": "Boolean",
     "sparkplug_data_type_value": 11,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "2.001",
@@ -754,8 +806,10 @@
     "notes": "c=0: no control (value only), c=1: override/priority control Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "2.002",
@@ -784,8 +838,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "2.003",
@@ -814,8 +870,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "2.004",
@@ -844,8 +902,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "2.005",
@@ -874,8 +934,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "2.006",
@@ -904,8 +966,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "2.007",
@@ -934,8 +998,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "2.008",
@@ -964,8 +1030,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "2.009",
@@ -994,8 +1062,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "2.010",
@@ -1024,8 +1094,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "2.011",
@@ -1054,8 +1126,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "2.012",
@@ -1084,8 +1158,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "3.007",
@@ -1109,8 +1185,10 @@
     "notes": "StepCode 000b=break (stop dimming). Steps subdivide 0-100% range. Used for lighting dimming. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "3.008",
@@ -1134,8 +1212,10 @@
     "notes": "Used for both vertical position and slat angle relative positioning. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "4.001",
@@ -1159,8 +1239,10 @@
     "notes": null,
     "sparkplug_data_type": "String",
     "sparkplug_data_type_value": 12,
-    "formula_to_bus": "ord(ui_value)",
-    "formula_from_bus": "chr(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "ord(ui_value)",
+      "formula_from_bus": "chr(raw_value)"
+    }
   },
   {
     "dpt_id": "4.002",
@@ -1184,8 +1266,10 @@
     "notes": null,
     "sparkplug_data_type": "String",
     "sparkplug_data_type_value": 12,
-    "formula_to_bus": "ord(ui_value)",
-    "formula_from_bus": "chr(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "ord(ui_value)",
+      "formula_from_bus": "chr(raw_value)"
+    }
   },
   {
     "dpt_id": "5.001",
@@ -1209,8 +1293,10 @@
     "notes": "Value = raw * 100/255 ≈ 0.4% resolution per step",
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "round(ui_value * 255 / 100)",
-    "formula_from_bus": "raw_value * 100 / 255"
+    "value_conversion": {
+      "formula_to_bus": "round(ui_value * 255 / 100)",
+      "formula_from_bus": "raw_value * 100 / 255"
+    }
   },
   {
     "dpt_id": "5.003",
@@ -1234,8 +1320,10 @@
     "notes": "Value = raw * 360/255 ≈ 1.4° resolution per step",
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "round(ui_value * 255 / 360)",
-    "formula_from_bus": "raw_value * 360 / 255"
+    "value_conversion": {
+      "formula_to_bus": "round(ui_value * 255 / 360)",
+      "formula_from_bus": "raw_value * 360 / 255"
+    }
   },
   {
     "dpt_id": "5.004",
@@ -1259,8 +1347,10 @@
     "notes": "Previously named DPT_RelPos_Valve",
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "5.005",
@@ -1284,8 +1374,10 @@
     "notes": "Multiplication factor; interpretation depends on context",
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "5.006",
@@ -1309,8 +1401,10 @@
     "notes": "Value 255 reserved, shall not be used. Tariff mapping is country/supplier specific.",
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "5.010",
@@ -1334,8 +1428,10 @@
     "notes": "Shall be used for counting discrete events only. Not for bit fields or enumerations.",
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "6.001",
@@ -1359,8 +1455,10 @@
     "notes": null,
     "sparkplug_data_type": "Int8",
     "sparkplug_data_type_value": 1,
-    "formula_to_bus": "v8_encode(ui_value)",
-    "formula_from_bus": "v8_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "v8_encode(ui_value)",
+      "formula_from_bus": "v8_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "6.010",
@@ -1384,8 +1482,10 @@
     "notes": "Shall be used for counting discrete events only.",
     "sparkplug_data_type": "Int8",
     "sparkplug_data_type_value": 1,
-    "formula_to_bus": "v8_encode(ui_value)",
-    "formula_from_bus": "v8_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "v8_encode(ui_value)",
+      "formula_from_bus": "v8_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "6.020",
@@ -1409,8 +1509,10 @@
     "notes": "Composite: 5 boolean status bits + 3-bit mode selector Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "7.001",
@@ -1434,8 +1536,10 @@
     "notes": "For counting discrete events. See General Requirement 01.",
     "sparkplug_data_type": "UInt16",
     "sparkplug_data_type_value": 6,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "7.002",
@@ -1459,8 +1563,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt16",
     "sparkplug_data_type_value": 6,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "7.003",
@@ -1484,8 +1590,10 @@
     "notes": "Raw range 0-65535 represents 0-655350 ms (≈655 s)",
     "sparkplug_data_type": "UInt16",
     "sparkplug_data_type_value": 6,
-    "formula_to_bus": "round(ui_value / 10)",
-    "formula_from_bus": "raw_value * 10"
+    "value_conversion": {
+      "formula_to_bus": "round(ui_value / 10)",
+      "formula_from_bus": "raw_value * 10"
+    }
   },
   {
     "dpt_id": "7.004",
@@ -1509,8 +1617,10 @@
     "notes": "Raw range 0-65535 represents 0-6553500 ms (≈6554 s)",
     "sparkplug_data_type": "UInt16",
     "sparkplug_data_type_value": 6,
-    "formula_to_bus": "round(ui_value / 100)",
-    "formula_from_bus": "raw_value * 100"
+    "value_conversion": {
+      "formula_to_bus": "round(ui_value / 100)",
+      "formula_from_bus": "raw_value * 100"
+    }
   },
   {
     "dpt_id": "7.005",
@@ -1534,8 +1644,10 @@
     "notes": "Max ≈ 18.2 hours",
     "sparkplug_data_type": "UInt16",
     "sparkplug_data_type_value": 6,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "7.006",
@@ -1559,8 +1671,10 @@
     "notes": "Max ≈ 45.5 days",
     "sparkplug_data_type": "UInt16",
     "sparkplug_data_type_value": 6,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "7.007",
@@ -1584,8 +1698,10 @@
     "notes": "Max ≈ 7.4 years",
     "sparkplug_data_type": "UInt16",
     "sparkplug_data_type_value": 6,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "7.010",
@@ -1609,8 +1725,10 @@
     "notes": "Identifier for Interface Object Property data types. No physical unit.",
     "sparkplug_data_type": "UInt16",
     "sparkplug_data_type_value": 6,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "7.011",
@@ -1634,8 +1752,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt16",
     "sparkplug_data_type_value": 6,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "7.012",
@@ -1659,8 +1779,10 @@
     "notes": "Value 0 means 'no bus power supply'. Values 1-65535 = current in mA.",
     "sparkplug_data_type": "UInt16",
     "sparkplug_data_type_value": 6,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "7.013",
@@ -1684,8 +1806,10 @@
     "notes": "E-Mode parameters only; for runtime use DPT_Value_Lux (9.004)",
     "sparkplug_data_type": "UInt16",
     "sparkplug_data_type_value": 6,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "7.600",
@@ -1709,8 +1833,10 @@
     "notes": "Used for lighting colour temperature control (warm white ~2700K to cool white ~6500K)",
     "sparkplug_data_type": "UInt16",
     "sparkplug_data_type_value": 6,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "8.001",
@@ -1734,8 +1860,10 @@
     "notes": "For counting discrete events. See General Requirement 01.",
     "sparkplug_data_type": "Int16",
     "sparkplug_data_type_value": 2,
-    "formula_to_bus": "v16_encode(ui_value)",
-    "formula_from_bus": "v16_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "v16_encode(ui_value)",
+      "formula_from_bus": "v16_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "8.002",
@@ -1759,8 +1887,10 @@
     "notes": null,
     "sparkplug_data_type": "Int16",
     "sparkplug_data_type_value": 2,
-    "formula_to_bus": "v16_encode(ui_value)",
-    "formula_from_bus": "v16_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "v16_encode(ui_value)",
+      "formula_from_bus": "v16_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "8.003",
@@ -1784,8 +1914,10 @@
     "notes": "Raw -32768..32767 → -327680..327670 ms (≈±328 s)",
     "sparkplug_data_type": "Int16",
     "sparkplug_data_type_value": 2,
-    "formula_to_bus": "v16_encode(round(ui_value / 10))",
-    "formula_from_bus": "v16_decode(raw_value) * 10"
+    "value_conversion": {
+      "formula_to_bus": "v16_encode(round(ui_value / 10))",
+      "formula_from_bus": "v16_decode(raw_value) * 10"
+    }
   },
   {
     "dpt_id": "8.004",
@@ -1809,8 +1941,10 @@
     "notes": "Raw -32768..32767 → -3276800..3276700 ms (≈±3277 s)",
     "sparkplug_data_type": "Int16",
     "sparkplug_data_type_value": 2,
-    "formula_to_bus": "v16_encode(round(ui_value / 100))",
-    "formula_from_bus": "v16_decode(raw_value) * 100"
+    "value_conversion": {
+      "formula_to_bus": "v16_encode(round(ui_value / 100))",
+      "formula_from_bus": "v16_decode(raw_value) * 100"
+    }
   },
   {
     "dpt_id": "8.005",
@@ -1834,8 +1968,10 @@
     "notes": "Range ≈ ±9.1 hours",
     "sparkplug_data_type": "Int16",
     "sparkplug_data_type_value": 2,
-    "formula_to_bus": "v16_encode(ui_value)",
-    "formula_from_bus": "v16_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "v16_encode(ui_value)",
+      "formula_from_bus": "v16_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "8.006",
@@ -1859,8 +1995,10 @@
     "notes": "Range ≈ ±22.7 days",
     "sparkplug_data_type": "Int16",
     "sparkplug_data_type_value": 2,
-    "formula_to_bus": "v16_encode(ui_value)",
-    "formula_from_bus": "v16_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "v16_encode(ui_value)",
+      "formula_from_bus": "v16_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "8.007",
@@ -1884,8 +2022,10 @@
     "notes": "Range ≈ ±3.7 years",
     "sparkplug_data_type": "Int16",
     "sparkplug_data_type_value": 2,
-    "formula_to_bus": "v16_encode(ui_value)",
-    "formula_from_bus": "v16_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "v16_encode(ui_value)",
+      "formula_from_bus": "v16_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "8.010",
@@ -1909,8 +2049,10 @@
     "notes": "7FFFh = invalid data",
     "sparkplug_data_type": "Int16",
     "sparkplug_data_type_value": 2,
-    "formula_to_bus": "v16_encode(round(ui_value / 0.01))",
-    "formula_from_bus": "v16_decode(raw_value) * 0.01"
+    "value_conversion": {
+      "formula_to_bus": "v16_encode(round(ui_value / 0.01))",
+      "formula_from_bus": "v16_decode(raw_value) * 0.01"
+    }
   },
   {
     "dpt_id": "8.011",
@@ -1934,8 +2076,10 @@
     "notes": "Used for slats positioning in degrees",
     "sparkplug_data_type": "Int16",
     "sparkplug_data_type_value": 2,
-    "formula_to_bus": "v16_encode(ui_value)",
-    "formula_from_bus": "v16_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "v16_encode(ui_value)",
+      "formula_from_bus": "v16_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "8.012",
@@ -1959,8 +2103,10 @@
     "notes": null,
     "sparkplug_data_type": "Int16",
     "sparkplug_data_type_value": 2,
-    "formula_to_bus": "v16_encode(ui_value)",
-    "formula_from_bus": "v16_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "v16_encode(ui_value)",
+      "formula_from_bus": "v16_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "9.001",
@@ -1984,8 +2130,10 @@
     "notes": "Lower limit -273°C = absolute zero. KNX F16 encoding: F = (0.01*M)*2^E",
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "dpt9_encode(ui_value)",
-    "formula_from_bus": "dpt9_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "dpt9_encode(ui_value)",
+      "formula_from_bus": "dpt9_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "9.002",
@@ -2009,8 +2157,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "dpt9_encode(ui_value)",
-    "formula_from_bus": "dpt9_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "dpt9_encode(ui_value)",
+      "formula_from_bus": "dpt9_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "9.003",
@@ -2034,8 +2184,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "dpt9_encode(ui_value)",
-    "formula_from_bus": "dpt9_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "dpt9_encode(ui_value)",
+      "formula_from_bus": "dpt9_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "9.004",
@@ -2059,8 +2211,10 @@
     "notes": "Typical indoor: 300-500 lux, outdoor direct sunlight: up to 100000 lux",
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "dpt9_encode(ui_value)",
-    "formula_from_bus": "dpt9_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "dpt9_encode(ui_value)",
+      "formula_from_bus": "dpt9_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "9.005",
@@ -2084,8 +2238,10 @@
     "notes": "See also 9.028 (km/h) and 20.014 (Beaufort scale)",
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "dpt9_encode(ui_value)",
-    "formula_from_bus": "dpt9_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "dpt9_encode(ui_value)",
+      "formula_from_bus": "dpt9_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "9.006",
@@ -2109,8 +2265,10 @@
     "notes": "Standard atmospheric pressure ≈ 101325 Pa",
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "dpt9_encode(ui_value)",
-    "formula_from_bus": "dpt9_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "dpt9_encode(ui_value)",
+      "formula_from_bus": "dpt9_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "9.007",
@@ -2134,8 +2292,10 @@
     "notes": "Typical valid range 0-100%. Values above 100% technically possible but not physically meaningful.",
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "dpt9_encode(ui_value)",
-    "formula_from_bus": "dpt9_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "dpt9_encode(ui_value)",
+      "formula_from_bus": "dpt9_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "9.008",
@@ -2159,8 +2319,10 @@
     "notes": "For environmental sensors: ozone, CO₂, VOC. Indoor CO₂ typically 400-2000 ppm.",
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "dpt9_encode(ui_value)",
-    "formula_from_bus": "dpt9_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "dpt9_encode(ui_value)",
+      "formula_from_bus": "dpt9_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "9.009",
@@ -2184,8 +2346,10 @@
     "notes": "For higher precision use DPT 14.077 (F32). Signed: positive=supply, negative=exhaust.",
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "dpt9_encode(ui_value)",
-    "formula_from_bus": "dpt9_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "dpt9_encode(ui_value)",
+      "formula_from_bus": "dpt9_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "9.010",
@@ -2209,8 +2373,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "dpt9_encode(ui_value)",
-    "formula_from_bus": "dpt9_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "dpt9_encode(ui_value)",
+      "formula_from_bus": "dpt9_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "9.011",
@@ -2234,8 +2400,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "dpt9_encode(ui_value)",
-    "formula_from_bus": "dpt9_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "dpt9_encode(ui_value)",
+      "formula_from_bus": "dpt9_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "9.020",
@@ -2259,8 +2427,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "dpt9_encode(ui_value)",
-    "formula_from_bus": "dpt9_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "dpt9_encode(ui_value)",
+      "formula_from_bus": "dpt9_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "9.021",
@@ -2284,8 +2454,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "dpt9_encode(ui_value)",
-    "formula_from_bus": "dpt9_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "dpt9_encode(ui_value)",
+      "formula_from_bus": "dpt9_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "9.022",
@@ -2309,8 +2481,10 @@
     "notes": "Solar irradiance on clear day ≈ 1000 W/m²",
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "dpt9_encode(ui_value)",
-    "formula_from_bus": "dpt9_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "dpt9_encode(ui_value)",
+      "formula_from_bus": "dpt9_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "9.023",
@@ -2334,8 +2508,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "dpt9_encode(ui_value)",
-    "formula_from_bus": "dpt9_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "dpt9_encode(ui_value)",
+      "formula_from_bus": "dpt9_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "9.024",
@@ -2359,8 +2535,10 @@
     "notes": "See also 14.056 (DPT_Value_Power, F32 in Watts) for higher precision",
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "dpt9_encode(ui_value)",
-    "formula_from_bus": "dpt9_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "dpt9_encode(ui_value)",
+      "formula_from_bus": "dpt9_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "9.025",
@@ -2384,8 +2562,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "dpt9_encode(ui_value)",
-    "formula_from_bus": "dpt9_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "dpt9_encode(ui_value)",
+      "formula_from_bus": "dpt9_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "9.026",
@@ -2409,8 +2589,10 @@
     "notes": "For rain gauge / pluviometer sensors",
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "dpt9_encode(ui_value)",
-    "formula_from_bus": "dpt9_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "dpt9_encode(ui_value)",
+      "formula_from_bus": "dpt9_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "9.027",
@@ -2434,8 +2616,10 @@
     "notes": "Shall be implemented only as extra DP alongside DPT_Value_Temp (9.001). Default must be 9.001.",
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "dpt9_encode(ui_value)",
-    "formula_from_bus": "dpt9_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "dpt9_encode(ui_value)",
+      "formula_from_bus": "dpt9_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "9.028",
@@ -2459,8 +2643,10 @@
     "notes": "Shall be implemented only as extra DP alongside DPT_Value_Wsp (9.005). Default must be 9.005.",
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "dpt9_encode(ui_value)",
-    "formula_from_bus": "dpt9_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "dpt9_encode(ui_value)",
+      "formula_from_bus": "dpt9_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "9.029",
@@ -2484,8 +2670,10 @@
     "notes": "Absolute air humidity. General use.",
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "dpt9_encode(ui_value)",
-    "formula_from_bus": "dpt9_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "dpt9_encode(ui_value)",
+      "formula_from_bus": "dpt9_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "10.001",
@@ -2509,8 +2697,10 @@
     "notes": "Day 0=no day. Binary encoded fields. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "DateTime",
     "sparkplug_data_type_value": 13,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "11.001",
@@ -2534,8 +2724,10 @@
     "notes": "Year ≥90 → 19xx (20th century), Year <90 → 20xx (21st century). Range 1990-2089. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "DateTime",
     "sparkplug_data_type_value": 13,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "12.001",
@@ -2559,8 +2751,10 @@
     "notes": "For counting discrete events. See General Requirement 01.",
     "sparkplug_data_type": "UInt32",
     "sparkplug_data_type_value": 7,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "12.100",
@@ -2584,8 +2778,10 @@
     "notes": "Max ≈ 136 years. Use with DPT_LongDeltaTimeSec (13.100).",
     "sparkplug_data_type": "UInt32",
     "sparkplug_data_type_value": 7,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "12.101",
@@ -2609,8 +2805,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt32",
     "sparkplug_data_type_value": 7,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "12.102",
@@ -2634,8 +2832,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt32",
     "sparkplug_data_type_value": 7,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "12.1200",
@@ -2659,8 +2859,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt32",
     "sparkplug_data_type_value": 7,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "12.1201",
@@ -2684,8 +2886,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt32",
     "sparkplug_data_type_value": 7,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "13.001",
@@ -2709,8 +2913,10 @@
     "notes": null,
     "sparkplug_data_type": "Int32",
     "sparkplug_data_type_value": 3,
-    "formula_to_bus": "v32_encode(ui_value)",
-    "formula_from_bus": "v32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "v32_encode(ui_value)",
+      "formula_from_bus": "v32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "13.002",
@@ -2734,8 +2940,10 @@
     "notes": null,
     "sparkplug_data_type": "Int32",
     "sparkplug_data_type_value": 3,
-    "formula_to_bus": "v32_encode(round(ui_value / 0.0001))",
-    "formula_from_bus": "v32_decode(raw_value) * 0.0001"
+    "value_conversion": {
+      "formula_to_bus": "v32_encode(round(ui_value / 0.0001))",
+      "formula_from_bus": "v32_decode(raw_value) * 0.0001"
+    }
   },
   {
     "dpt_id": "13.010",
@@ -2759,8 +2967,10 @@
     "notes": "Positive = energy consumed, negative = energy produced",
     "sparkplug_data_type": "Int32",
     "sparkplug_data_type_value": 3,
-    "formula_to_bus": "v32_encode(ui_value)",
-    "formula_from_bus": "v32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "v32_encode(ui_value)",
+      "formula_from_bus": "v32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "13.011",
@@ -2784,8 +2994,10 @@
     "notes": null,
     "sparkplug_data_type": "Int32",
     "sparkplug_data_type_value": 3,
-    "formula_to_bus": "v32_encode(ui_value)",
-    "formula_from_bus": "v32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "v32_encode(ui_value)",
+      "formula_from_bus": "v32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "13.012",
@@ -2809,8 +3021,10 @@
     "notes": null,
     "sparkplug_data_type": "Int32",
     "sparkplug_data_type_value": 3,
-    "formula_to_bus": "v32_encode(ui_value)",
-    "formula_from_bus": "v32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "v32_encode(ui_value)",
+      "formula_from_bus": "v32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "13.013",
@@ -2834,8 +3048,10 @@
     "notes": null,
     "sparkplug_data_type": "Int32",
     "sparkplug_data_type_value": 3,
-    "formula_to_bus": "v32_encode(ui_value)",
-    "formula_from_bus": "v32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "v32_encode(ui_value)",
+      "formula_from_bus": "v32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "13.014",
@@ -2859,8 +3075,10 @@
     "notes": null,
     "sparkplug_data_type": "Int32",
     "sparkplug_data_type_value": 3,
-    "formula_to_bus": "v32_encode(ui_value)",
-    "formula_from_bus": "v32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "v32_encode(ui_value)",
+      "formula_from_bus": "v32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "13.015",
@@ -2884,8 +3102,10 @@
     "notes": null,
     "sparkplug_data_type": "Int32",
     "sparkplug_data_type_value": 3,
-    "formula_to_bus": "v32_encode(ui_value)",
-    "formula_from_bus": "v32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "v32_encode(ui_value)",
+      "formula_from_bus": "v32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "13.016",
@@ -2909,8 +3129,10 @@
     "notes": null,
     "sparkplug_data_type": "Int32",
     "sparkplug_data_type_value": 3,
-    "formula_to_bus": "v32_encode(ui_value)",
-    "formula_from_bus": "v32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "v32_encode(ui_value)",
+      "formula_from_bus": "v32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "13.100",
@@ -2934,8 +3156,10 @@
     "notes": null,
     "sparkplug_data_type": "Int32",
     "sparkplug_data_type_value": 3,
-    "formula_to_bus": "v32_encode(ui_value)",
-    "formula_from_bus": "v32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "v32_encode(ui_value)",
+      "formula_from_bus": "v32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "13.1200",
@@ -2959,8 +3183,10 @@
     "notes": null,
     "sparkplug_data_type": "Int32",
     "sparkplug_data_type_value": 3,
-    "formula_to_bus": "v32_encode(ui_value)",
-    "formula_from_bus": "v32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "v32_encode(ui_value)",
+      "formula_from_bus": "v32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "13.1201",
@@ -2984,8 +3210,10 @@
     "notes": null,
     "sparkplug_data_type": "Int32",
     "sparkplug_data_type_value": 3,
-    "formula_to_bus": "v32_encode(ui_value)",
-    "formula_from_bus": "v32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "v32_encode(ui_value)",
+      "formula_from_bus": "v32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.000",
@@ -3009,8 +3237,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.001",
@@ -3034,8 +3264,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.002",
@@ -3059,8 +3291,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.003",
@@ -3084,8 +3318,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.004",
@@ -3109,8 +3345,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.005",
@@ -3134,8 +3372,10 @@
     "notes": "Dimensionless amplitude value",
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.006",
@@ -3159,8 +3399,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.007",
@@ -3184,8 +3426,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.008",
@@ -3209,8 +3453,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.009",
@@ -3234,8 +3480,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.010",
@@ -3259,8 +3507,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.011",
@@ -3284,8 +3534,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.012",
@@ -3309,8 +3561,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.013",
@@ -3334,8 +3588,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.014",
@@ -3359,8 +3615,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.015",
@@ -3384,8 +3642,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.016",
@@ -3409,8 +3669,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.017",
@@ -3434,8 +3696,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.018",
@@ -3459,8 +3723,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.019",
@@ -3484,8 +3750,10 @@
     "notes": "See also 9.021 (mA, F16) for lower-precision milliamp readings",
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.020",
@@ -3509,8 +3777,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.021",
@@ -3534,8 +3804,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.022",
@@ -3559,8 +3831,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.023",
@@ -3584,8 +3858,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.024",
@@ -3609,8 +3885,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.025",
@@ -3634,8 +3912,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.026",
@@ -3659,8 +3939,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.027",
@@ -3684,8 +3966,10 @@
     "notes": "Main voltage measurement DPT. See also 9.020 (mV, F16).",
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.028",
@@ -3709,8 +3993,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.029",
@@ -3734,8 +4020,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.030",
@@ -3759,8 +4047,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.031",
@@ -3784,8 +4074,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.032",
@@ -3809,8 +4101,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.033",
@@ -3834,8 +4128,10 @@
     "notes": "Hz = s⁻¹",
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.034",
@@ -3859,8 +4155,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.035",
@@ -3884,8 +4182,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.036",
@@ -3909,8 +4209,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.037",
@@ -3934,8 +4236,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.038",
@@ -3959,8 +4263,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.039",
@@ -3984,8 +4290,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.040",
@@ -4009,8 +4317,10 @@
     "notes": "Also expressible as J (Joule)",
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.041",
@@ -4034,8 +4344,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.042",
@@ -4059,8 +4371,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.043",
@@ -4084,8 +4398,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.044",
@@ -4109,8 +4425,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.045",
@@ -4134,8 +4452,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.046",
@@ -4159,8 +4479,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.047",
@@ -4184,8 +4506,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.048",
@@ -4209,8 +4533,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.049",
@@ -4234,8 +4560,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.050",
@@ -4259,8 +4587,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.051",
@@ -4284,8 +4614,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.052",
@@ -4309,8 +4641,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.053",
@@ -4334,8 +4668,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.054",
@@ -4359,8 +4695,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.055",
@@ -4384,8 +4722,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.056",
@@ -4409,8 +4749,10 @@
     "notes": "F32 precision. See also 9.024 (kW, F16) for lower-precision. Resolution 1W vs 0.01kW.",
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.057",
@@ -4434,8 +4776,10 @@
     "notes": "Dimensionless ratio, typically 0.0 to 1.0. cos(φ) of phase angle between voltage and current.",
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.058",
@@ -4459,8 +4803,10 @@
     "notes": "Pa = N/m²",
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.059",
@@ -4484,8 +4830,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.060",
@@ -4509,8 +4857,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.061",
@@ -4534,8 +4884,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.062",
@@ -4559,8 +4911,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.063",
@@ -4584,8 +4938,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.064",
@@ -4609,8 +4965,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.065",
@@ -4634,8 +4992,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.066",
@@ -4659,8 +5019,10 @@
     "notes": "Pa = N/m²",
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.067",
@@ -4684,8 +5046,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.068",
@@ -4709,8 +5073,10 @@
     "notes": "F32 precision. See also 9.001 (F16) for lower-precision temperature.",
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.069",
@@ -4734,8 +5100,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.070",
@@ -4759,8 +5127,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.071",
@@ -4784,8 +5154,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.072",
@@ -4809,8 +5181,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.073",
@@ -4834,8 +5208,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.074",
@@ -4859,8 +5235,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.075",
@@ -4884,8 +5262,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.076",
@@ -4909,8 +5289,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.077",
@@ -4934,8 +5316,10 @@
     "notes": "High-precision alternative to 9.009 (m³/h, F16)",
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.078",
@@ -4959,8 +5343,10 @@
     "notes": "Weight = mass × gravity",
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.079",
@@ -4984,8 +5370,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.080",
@@ -5009,8 +5397,10 @@
     "notes": "VA = V × A. See also real power (14.056, W) and reactive power.",
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.1200",
@@ -5034,8 +5424,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.1201",
@@ -5059,8 +5451,10 @@
     "notes": null,
     "sparkplug_data_type": "Float",
     "sparkplug_data_type_value": 9,
-    "formula_to_bus": "f32_encode(ui_value)",
-    "formula_from_bus": "f32_decode(raw_value)"
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "15.000",
@@ -5084,8 +5478,10 @@
     "notes": "D=read direction, E=error, P=permission, C=encryption. Index for future use. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "16.000",
@@ -5109,8 +5505,10 @@
     "notes": "Fixed 14 octets. Unused trailing characters shall be filled with 00h (NULL). Structured/text DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "String",
     "sparkplug_data_type_value": 12,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "16.001",
@@ -5134,8 +5532,10 @@
     "notes": "Structured/text DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "String",
     "sparkplug_data_type_value": 12,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "17.001",
@@ -5159,8 +5559,10 @@
     "notes": "ETS displays scene number +1 (i.e., 1-64)",
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "18.001",
@@ -5184,8 +5586,10 @@
     "notes": "Combines control action (activate/learn) with scene number Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "19.001",
@@ -5209,8 +5613,10 @@
     "notes": "Year range 1900-2155. Hour 0-24 (24:00:00 for end-of-day). Flag bits indicate invalid fields. CLQ=clock quality, SUTI=summer time. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "DateTime",
     "sparkplug_data_type_value": 13,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "20.001",
@@ -5238,8 +5644,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "20.002",
@@ -5267,8 +5675,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "20.003",
@@ -5296,8 +5706,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "20.004",
@@ -5326,8 +5738,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "20.005",
@@ -5355,8 +5769,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "20.006",
@@ -5392,8 +5808,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "20.007",
@@ -5421,8 +5839,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "20.008",
@@ -5450,8 +5870,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "20.011",
@@ -5495,8 +5917,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "20.012",
@@ -5526,8 +5950,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "20.013",
@@ -5578,8 +6004,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "20.014",
@@ -5617,8 +6045,10 @@
     "notes": "See also 9.005 (m/s) and 9.028 (km/h) for continuous wind speed",
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "20.017",
@@ -5647,8 +6077,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "20.020",
@@ -5675,8 +6107,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "20.021",
@@ -5711,8 +6145,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "20.022",
@@ -5740,8 +6176,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "20.100",
@@ -5770,8 +6208,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "20.101",
@@ -5799,8 +6239,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "20.102",
@@ -5830,8 +6272,10 @@
     "notes": "Central HVAC mode selector. Used by room thermostats, valves, etc.",
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "20.103",
@@ -5861,8 +6305,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "20.104",
@@ -5890,8 +6336,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "20.105",
@@ -5935,8 +6383,10 @@
     "notes": "Values 0..17 and 20",
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "20.106",
@@ -5967,8 +6417,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "20.107",
@@ -5996,8 +6448,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "20.108",
@@ -6029,8 +6483,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "20.109",
@@ -6059,8 +6515,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "20.110",
@@ -6088,8 +6546,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "20.111",
@@ -6117,8 +6577,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "20.112",
@@ -6146,8 +6608,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "20.113",
@@ -6175,8 +6639,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "20.114",
@@ -6217,8 +6683,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "20.115",
@@ -6246,8 +6714,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "20.120",
@@ -6275,8 +6745,10 @@
     "notes": "field1=ADAType. Values 3-255 reserved.",
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "20.121",
@@ -6303,8 +6775,10 @@
     "notes": "field1=BackupMode. Values 2-255 reserved.",
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "20.122",
@@ -6331,8 +6805,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "20.600",
@@ -6362,8 +6838,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "20.601",
@@ -6393,8 +6871,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "20.602",
@@ -6435,8 +6915,10 @@
     "notes": "DALI standard fade times. Each step ≈ √2 × previous.",
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "20.603",
@@ -6464,8 +6946,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "20.604",
@@ -6492,8 +6976,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "20.605",
@@ -6520,8 +7006,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "20.606",
@@ -6550,8 +7038,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "20.607",
@@ -6578,8 +7068,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "20.608",
@@ -6607,8 +7099,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "20.609",
@@ -6637,8 +7131,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "20.610",
@@ -6667,8 +7163,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "20.611",
@@ -6699,8 +7197,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "20.612",
@@ -6730,8 +7230,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "20.613",
@@ -6764,8 +7266,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "20.801",
@@ -6794,8 +7298,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "20.802",
@@ -6826,8 +7332,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "20.803",
@@ -6854,8 +7362,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "20.804",
@@ -6882,8 +7392,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "20.1000",
@@ -6907,8 +7419,10 @@
     "notes": "Encoding as specified in PID_COMM_MODE in 3/6/3",
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "20.1001",
@@ -6934,8 +7448,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "20.1002",
@@ -6963,8 +7479,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "20.1003",
@@ -6991,8 +7509,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "20.1004",
@@ -7021,8 +7541,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "20.1005",
@@ -7070,8 +7592,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "20.1200",
@@ -7100,8 +7624,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "20.1202",
@@ -7130,8 +7656,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "20.1203",
@@ -7161,8 +7689,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "20.1204",
@@ -7190,8 +7720,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "20.1205",
@@ -7219,8 +7751,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "20.1206",
@@ -7244,8 +7778,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "20.1207",
@@ -7269,8 +7805,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "20.1208",
@@ -7297,8 +7835,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "20.1209",
@@ -7328,8 +7868,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "21.001",
@@ -7353,8 +7895,10 @@
     "notes": "Standard KNX status byte (Z8). Referenced by many _Z composite DPTs.",
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "21.002",
@@ -7378,8 +7922,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "21.100",
@@ -7403,8 +7949,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "21.101",
@@ -7428,8 +7976,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "21.102",
@@ -7453,8 +8003,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "21.103",
@@ -7478,8 +8030,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "21.104",
@@ -7503,8 +8057,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "21.105",
@@ -7528,8 +8084,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "21.106",
@@ -7553,8 +8111,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "21.601",
@@ -7578,8 +8138,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "21.1000",
@@ -7603,8 +8165,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "21.1001",
@@ -7628,8 +8192,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "21.1002",
@@ -7653,8 +8219,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "21.1010",
@@ -7678,8 +8246,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "21.1200",
@@ -7706,8 +8276,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "21.1201",
@@ -7734,8 +8306,10 @@
     "notes": "For 3-phase power monitoring",
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "22.100",
@@ -7759,8 +8333,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt16",
     "sparkplug_data_type_value": 6,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "22.101",
@@ -7784,8 +8360,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt16",
     "sparkplug_data_type_value": 6,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "22.1000",
@@ -7809,8 +8387,10 @@
     "notes": "Removed TP0 and PL132 from specification",
     "sparkplug_data_type": "UInt16",
     "sparkplug_data_type_value": 6,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "22.1010",
@@ -7834,8 +8414,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt16",
     "sparkplug_data_type_value": 6,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "23.001",
@@ -7864,8 +8446,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "23.002",
@@ -7894,8 +8478,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "23.003",
@@ -7924,8 +8510,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "23.102",
@@ -7953,8 +8541,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "24.001",
@@ -7978,8 +8568,10 @@
     "notes": "Terminated by 00h NULL character Structured/text DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "String",
     "sparkplug_data_type_value": 12,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "25.1000",
@@ -8003,8 +8595,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "26.001",
@@ -8028,8 +8622,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "27.001",
@@ -8053,8 +8649,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt32",
     "sparkplug_data_type_value": 7,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "28.001",
@@ -8078,8 +8676,10 @@
     "notes": "Full Unicode support. Terminated by 00h NULL character. Structured/text DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "String",
     "sparkplug_data_type_value": 12,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "29.010",
@@ -8103,8 +8703,10 @@
     "notes": "High-capacity energy counter. Range ≈ ±9.2×10¹⁸ Wh",
     "sparkplug_data_type": "Int64",
     "sparkplug_data_type_value": 4,
-    "formula_to_bus": "ui_value if ui_value >= 0 else ui_value + 2**64",
-    "formula_from_bus": "raw_value if raw_value < 2**63 else raw_value - 2**64"
+    "value_conversion": {
+      "formula_to_bus": "ui_value if ui_value >= 0 else ui_value + 2**64",
+      "formula_from_bus": "raw_value if raw_value < 2**63 else raw_value - 2**64"
+    }
   },
   {
     "dpt_id": "29.011",
@@ -8128,8 +8730,10 @@
     "notes": null,
     "sparkplug_data_type": "Int64",
     "sparkplug_data_type_value": 4,
-    "formula_to_bus": "ui_value if ui_value >= 0 else ui_value + 2**64",
-    "formula_from_bus": "raw_value if raw_value < 2**63 else raw_value - 2**64"
+    "value_conversion": {
+      "formula_to_bus": "ui_value if ui_value >= 0 else ui_value + 2**64",
+      "formula_from_bus": "raw_value if raw_value < 2**63 else raw_value - 2**64"
+    }
   },
   {
     "dpt_id": "29.012",
@@ -8153,8 +8757,10 @@
     "notes": null,
     "sparkplug_data_type": "Int64",
     "sparkplug_data_type_value": 4,
-    "formula_to_bus": "ui_value if ui_value >= 0 else ui_value + 2**64",
-    "formula_from_bus": "raw_value if raw_value < 2**63 else raw_value - 2**64"
+    "value_conversion": {
+      "formula_to_bus": "ui_value if ui_value >= 0 else ui_value + 2**64",
+      "formula_from_bus": "raw_value if raw_value < 2**63 else raw_value - 2**64"
+    }
   },
   {
     "dpt_id": "30.1010",
@@ -8178,8 +8784,10 @@
     "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "31.101",
@@ -8203,8 +8811,10 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "formula_to_bus": "ui_value",
-    "formula_from_bus": "raw_value"
+    "value_conversion": {
+      "formula_to_bus": "ui_value",
+      "formula_from_bus": "raw_value"
+    }
   },
   {
     "dpt_id": "200.100",
@@ -8231,8 +8841,10 @@
     "notes": "Composite: DPT 1.100 value + Z8 status/command byte Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "200.101",
@@ -8259,8 +8871,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "201.100",
@@ -8290,8 +8904,10 @@
     "notes": "Composite: DPT 20.102 HVAC mode + Z8 status byte Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "201.102",
@@ -8321,8 +8937,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "201.104",
@@ -8366,8 +8984,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "201.105",
@@ -8396,8 +9016,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "201.107",
@@ -8425,8 +9047,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "201.108",
@@ -8454,8 +9078,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "201.109",
@@ -8479,8 +9105,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "202.001",
@@ -8504,8 +9132,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "202.002",
@@ -8529,8 +9159,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "203.002",
@@ -8554,8 +9186,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "203.003",
@@ -8579,8 +9213,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "203.004",
@@ -8604,8 +9240,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "203.005",
@@ -8629,8 +9267,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "203.006",
@@ -8654,8 +9294,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "203.007",
@@ -8679,8 +9321,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "203.011",
@@ -8704,8 +9348,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "203.012",
@@ -8729,8 +9375,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "203.014",
@@ -8754,8 +9402,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "203.015",
@@ -8779,8 +9429,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "203.017",
@@ -8804,8 +9456,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "203.100",
@@ -8829,8 +9483,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "203.101",
@@ -8854,8 +9510,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "203.102",
@@ -8879,8 +9537,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "203.104",
@@ -8904,8 +9564,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "204.001",
@@ -8929,8 +9591,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "205.002",
@@ -8954,8 +9618,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "205.003",
@@ -8979,8 +9645,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "205.004",
@@ -9004,8 +9672,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "205.005",
@@ -9029,8 +9699,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "205.006",
@@ -9054,8 +9726,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "205.007",
@@ -9079,8 +9753,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "205.017",
@@ -9104,8 +9780,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "205.100",
@@ -9129,8 +9807,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "205.101",
@@ -9154,8 +9834,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "205.102",
@@ -9179,8 +9861,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "205.103",
@@ -9204,8 +9888,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "206.100",
@@ -9229,8 +9915,10 @@
     "notes": "U16=time delay (minutes), N8=next HVAC operating mode Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "206.102",
@@ -9254,8 +9942,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "206.104",
@@ -9279,8 +9969,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "206.105",
@@ -9304,8 +9996,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "207.100",
@@ -9329,8 +10023,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "207.101",
@@ -9354,8 +10050,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "207.102",
@@ -9379,8 +10077,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "207.104",
@@ -9404,8 +10104,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "207.105",
@@ -9429,8 +10131,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "207.600",
@@ -9454,8 +10158,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "209.100",
@@ -9479,8 +10185,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "209.101",
@@ -9504,8 +10212,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "209.102",
@@ -9529,8 +10239,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "209.103",
@@ -9554,8 +10266,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "210.100",
@@ -9579,8 +10293,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "211.100",
@@ -9604,8 +10320,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "214.100",
@@ -9629,8 +10347,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "214.101",
@@ -9654,8 +10374,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "215.100",
@@ -9679,8 +10401,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "215.101",
@@ -9704,8 +10428,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "216.100",
@@ -9729,8 +10455,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "217.001",
@@ -9754,8 +10482,10 @@
     "notes": "Main version (0-31), Sub version (0-31), Revision (0-63) Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "218.001",
@@ -9779,8 +10509,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "218.002",
@@ -9804,8 +10536,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "219.001",
@@ -9829,8 +10563,10 @@
     "notes": "LogNumber(U8), AlarmPriority(N8:0-2,3=void), ApplicationArea(N8), ErrorClass(N8), Attributes(B8), AlarmStatus(B8) Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "220.100",
@@ -9854,8 +10590,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "221.001",
@@ -9879,8 +10617,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "223.100",
@@ -9904,8 +10644,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "224.100",
@@ -9929,8 +10671,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "225.001",
@@ -9954,8 +10698,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "225.002",
@@ -9979,8 +10725,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "225.003",
@@ -10004,8 +10752,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "229.001",
@@ -10029,8 +10779,10 @@
     "notes": "Energy/volume metering. V32=value, N8=metering unit enum, Z8=status/command Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "230.1000",
@@ -10054,8 +10806,10 @@
     "notes": "DeviceType(U16), SerialNumber(U32), Version(U8), Medium(N8) Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "231.001",
@@ -10079,8 +10833,10 @@
     "notes": "Language (2 ASCII chars) + Region (2 ASCII chars), e.g. 'deDE' Structured/text DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "String",
     "sparkplug_data_type_value": 12,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "232.600",
@@ -10104,8 +10860,10 @@
     "notes": "Red(0-255), Green(0-255), Blue(0-255). Common in lighting control. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "234.001",
@@ -10129,8 +10887,10 @@
     "notes": "Structured/text DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "String",
     "sparkplug_data_type_value": 12,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "234.002",
@@ -10154,8 +10914,10 @@
     "notes": "Structured/text DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "String",
     "sparkplug_data_type_value": 12,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "235.001",
@@ -10179,8 +10941,10 @@
     "notes": "Energy(V32 Wh), Tariff(U8 0-255), Validity(B8) Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "236.001",
@@ -10204,8 +10968,10 @@
     "notes": "Valid(B1), Priority(N3:0-7), Mode(N4:0-15). 1 octet. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "237.600",
@@ -10229,8 +10995,10 @@
     "notes": "Lamp/ballast/converter failure flags + device address (U6: 0-63) Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "238.001",
@@ -10254,8 +11022,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "238.600",
@@ -10279,8 +11049,10 @@
     "notes": "LampFailure(b6), BallastFailure(b7), DeviceAddress(U6:0-63) Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "239.001",
@@ -10304,8 +11076,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "240.800",
@@ -10329,8 +11103,10 @@
     "notes": "Position(U8:0-100%), Angle(U8:0-100%), Status(B8). For shutters/blinds. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "241.800",
@@ -10354,8 +11130,10 @@
     "notes": "Position, angle, and 16-bit status flags Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "242.600",
@@ -10379,8 +11157,10 @@
     "notes": "x(U16:0-65535->0.0-1.0), y(U16), Brightness(U8:0-100%), C/B validity bits Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "243.600",
@@ -10404,8 +11184,10 @@
     "notes": "x, y, TransitionTime(U16:100ms units, 0-6553.5s), Brightness, validity bits Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "244.600",
@@ -10429,8 +11211,10 @@
     "notes": "ConverterMode(N4:0-7), HardwareStatus(B4), test pending flags, converter failure Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "245.600",
@@ -10454,8 +11238,10 @@
     "notes": "Last test results (FT/DT/PDT), start methods, battery discharge time, charge level Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "246.600",
@@ -10479,8 +11265,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "248.600",
@@ -10504,8 +11292,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "250.600",
@@ -10529,8 +11319,10 @@
     "notes": "Step-based brightness and CCT control with mask bits Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "251.600",
@@ -10554,8 +11346,10 @@
     "notes": "4-channel color: Red, Green, Blue, White. Common in LED strip control. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "252.600",
@@ -10579,8 +11373,10 @@
     "notes": "4x step codes for R/G/B/W channels + mask byte Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "253.600",
@@ -10604,8 +11400,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "254.600",
@@ -10629,8 +11427,10 @@
     "notes": "3x step codes for R/G/B channels (no white) Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "255.001",
@@ -10654,8 +11454,10 @@
     "notes": "Longitude(F32 deg), Latitude(F32 deg), Altitude(U8). 9 octets. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "256.001",
@@ -10679,8 +11481,10 @@
     "notes": "DateTime with period information for scheduler/timer use Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "257.1200",
@@ -10704,8 +11508,10 @@
     "notes": "24 octets. For 3-phase power monitoring. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "257.1201",
@@ -10729,8 +11535,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "257.1202",
@@ -10754,8 +11562,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "265.001",
@@ -10779,8 +11589,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "265.005",
@@ -10804,8 +11616,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "265.009",
@@ -10829,8 +11643,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "265.011",
@@ -10854,8 +11670,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "265.012",
@@ -10879,8 +11697,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "265.1200",
@@ -10904,8 +11724,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "265.1201",
@@ -10929,8 +11751,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "266.027",
@@ -10954,8 +11778,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "266.056",
@@ -10979,8 +11805,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "266.080",
@@ -11004,8 +11832,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "267.001",
@@ -11029,8 +11859,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "268.1203",
@@ -11054,8 +11886,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "268.1205",
@@ -11079,8 +11913,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "268.1206",
@@ -11104,8 +11940,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "269.1200",
@@ -11129,8 +11967,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "270.1200",
@@ -11154,8 +11994,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "270.1201",
@@ -11179,8 +12021,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "270.1202",
@@ -11204,8 +12048,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "271.1200",
@@ -11229,8 +12075,10 @@
     "notes": "Structured tariff schedule with time/rate fields Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "272.600",
@@ -11254,8 +12102,10 @@
     "notes": "Status, levels, rated duration for emergency lighting Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "273.001",
@@ -11279,8 +12129,10 @@
     "notes": "Validity(B8), Date(U16), Time(U8), MinTemp(F16), MaxTemp(F16). 7 octets. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "273.002",
@@ -11304,8 +12156,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "273.003",
@@ -11329,8 +12183,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "273.004",
@@ -11354,8 +12210,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "273.005",
@@ -11379,8 +12237,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "273.006",
@@ -11404,8 +12264,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "273.007",
@@ -11429,8 +12291,10 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "274.001",
@@ -11454,8 +12318,10 @@
     "notes": "Validity, date, time, main direction, secondary direction. 6 octets. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "276.1200",
@@ -11479,8 +12345,10 @@
     "notes": "Battery/charging state + status bits. 4 octets. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "277.1200",
@@ -11504,8 +12372,10 @@
     "notes": "4x (Energy V32 Wh + Tariff U8 + Status B8). 20 octets total. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "278.1200",
@@ -11529,8 +12399,10 @@
     "notes": "25 octets total. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "279.1200",
@@ -11554,8 +12426,10 @@
     "notes": "30 octets total. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "280.1200",
@@ -11579,8 +12453,10 @@
     "notes": "55 octets. Most complete metering. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "281.1200",
@@ -11604,8 +12480,10 @@
     "notes": "24 octets. Timestamped metering data. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "282.1200",
@@ -11629,8 +12507,10 @@
     "notes": "29 octets. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "283.1200",
@@ -11654,8 +12534,10 @@
     "notes": "34 octets. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   },
   {
     "dpt_id": "284.1200",
@@ -11679,7 +12561,9 @@
     "notes": "59 octets. Complete timestamped metering. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "formula_to_bus": null,
-    "formula_from_bus": null
+    "value_conversion": {
+      "formula_to_bus": null,
+      "formula_from_bus": null
+    }
   }
 ]
