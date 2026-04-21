@@ -25,10 +25,7 @@
     "notes": null,
     "sparkplug_data_type": "Boolean",
     "sparkplug_data_type_value": 11,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "1.002",
@@ -56,10 +53,7 @@
     "notes": null,
     "sparkplug_data_type": "Boolean",
     "sparkplug_data_type_value": 11,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "1.003",
@@ -87,10 +81,7 @@
     "notes": null,
     "sparkplug_data_type": "Boolean",
     "sparkplug_data_type_value": 11,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "1.004",
@@ -118,10 +109,7 @@
     "notes": null,
     "sparkplug_data_type": "Boolean",
     "sparkplug_data_type_value": 11,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "1.005",
@@ -149,10 +137,7 @@
     "notes": null,
     "sparkplug_data_type": "Boolean",
     "sparkplug_data_type_value": 11,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "1.006",
@@ -180,10 +165,7 @@
     "notes": null,
     "sparkplug_data_type": "Boolean",
     "sparkplug_data_type_value": 11,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "1.007",
@@ -211,10 +193,7 @@
     "notes": "Application-specific: in Shutters/Blinds FB, decrease=step-down, increase=step-up",
     "sparkplug_data_type": "Boolean",
     "sparkplug_data_type_value": 11,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "1.008",
@@ -242,10 +221,7 @@
     "notes": null,
     "sparkplug_data_type": "Boolean",
     "sparkplug_data_type_value": 11,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "1.009",
@@ -273,10 +249,7 @@
     "notes": "Also used for mechanical normally-open push button interface and binary valve state",
     "sparkplug_data_type": "Boolean",
     "sparkplug_data_type_value": 11,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "1.010",
@@ -304,10 +277,7 @@
     "notes": null,
     "sparkplug_data_type": "Boolean",
     "sparkplug_data_type_value": 11,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "1.011",
@@ -335,10 +305,7 @@
     "notes": null,
     "sparkplug_data_type": "Boolean",
     "sparkplug_data_type_value": 11,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "1.012",
@@ -366,10 +333,7 @@
     "notes": null,
     "sparkplug_data_type": "Boolean",
     "sparkplug_data_type_value": 11,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "1.013",
@@ -397,10 +361,7 @@
     "notes": null,
     "sparkplug_data_type": "Boolean",
     "sparkplug_data_type_value": 11,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "1.014",
@@ -428,10 +389,7 @@
     "notes": null,
     "sparkplug_data_type": "Boolean",
     "sparkplug_data_type_value": 11,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "1.015",
@@ -459,10 +417,7 @@
     "notes": null,
     "sparkplug_data_type": "Boolean",
     "sparkplug_data_type_value": 11,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "1.016",
@@ -490,10 +445,7 @@
     "notes": "Used for alarming acknowledgement",
     "sparkplug_data_type": "Boolean",
     "sparkplug_data_type_value": 11,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "1.017",
@@ -521,10 +473,7 @@
     "notes": "Both values 0 and 1 shall have the same effect (trigger on any transition)",
     "sparkplug_data_type": "Boolean",
     "sparkplug_data_type_value": 11,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "1.018",
@@ -552,10 +501,7 @@
     "notes": null,
     "sparkplug_data_type": "Boolean",
     "sparkplug_data_type_value": 11,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "1.019",
@@ -583,10 +529,7 @@
     "notes": "Also used for binary valve state",
     "sparkplug_data_type": "Boolean",
     "sparkplug_data_type_value": 11,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "1.021",
@@ -614,10 +557,7 @@
     "notes": null,
     "sparkplug_data_type": "Boolean",
     "sparkplug_data_type_value": 11,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "1.022",
@@ -645,10 +585,7 @@
     "notes": "Recommended to display as 1 and 2 with offset of 1",
     "sparkplug_data_type": "Boolean",
     "sparkplug_data_type_value": 11,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "1.023",
@@ -676,10 +613,7 @@
     "notes": null,
     "sparkplug_data_type": "Boolean",
     "sparkplug_data_type_value": 11,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "1.024",
@@ -707,10 +641,7 @@
     "notes": "Day/night switching indication; 0=Day (default), 1=Night",
     "sparkplug_data_type": "Boolean",
     "sparkplug_data_type_value": 11,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "1.100",
@@ -738,10 +669,7 @@
     "notes": null,
     "sparkplug_data_type": "Boolean",
     "sparkplug_data_type_value": 11,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "1.1200",
@@ -769,10 +697,7 @@
     "notes": null,
     "sparkplug_data_type": "Boolean",
     "sparkplug_data_type_value": 11,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "1.1201",
@@ -800,10 +725,7 @@
     "notes": null,
     "sparkplug_data_type": "Boolean",
     "sparkplug_data_type_value": 11,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "2.001",
@@ -1392,10 +1314,7 @@
     "notes": "Previously named DPT_RelPos_Valve",
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "5.005",
@@ -1420,10 +1339,7 @@
     "notes": "Multiplication factor; interpretation depends on context",
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "5.006",
@@ -1448,10 +1364,7 @@
     "notes": "Value 255 reserved, shall not be used. Tariff mapping is country/supplier specific.",
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "5.010",
@@ -1476,10 +1389,7 @@
     "notes": "Shall be used for counting discrete events only. Not for bit fields or enumerations.",
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "6.001",
@@ -1588,10 +1498,7 @@
     "notes": "General-purpose 2-byte unsigned counter value; unit depends on application",
     "sparkplug_data_type": "UInt16",
     "sparkplug_data_type_value": 6,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "7.002",
@@ -1700,10 +1607,7 @@
     "notes": "Max ≈ 18.2 hours",
     "sparkplug_data_type": "UInt16",
     "sparkplug_data_type_value": 6,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "7.006",
@@ -1728,10 +1632,7 @@
     "notes": "Max ≈ 45.5 days",
     "sparkplug_data_type": "UInt16",
     "sparkplug_data_type_value": 6,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "7.007",
@@ -1756,10 +1657,7 @@
     "notes": "Max ≈ 7.4 years",
     "sparkplug_data_type": "UInt16",
     "sparkplug_data_type_value": 6,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "7.010",
@@ -1784,10 +1682,7 @@
     "notes": "Identifier for Interface Object Property data types. No physical unit.",
     "sparkplug_data_type": "UInt16",
     "sparkplug_data_type_value": 6,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "7.011",
@@ -1812,10 +1707,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt16",
     "sparkplug_data_type_value": 6,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "7.012",
@@ -1840,10 +1732,7 @@
     "notes": "Value 0 means 'no bus power supply'. Values 1-65535 = current in mA.",
     "sparkplug_data_type": "UInt16",
     "sparkplug_data_type_value": 6,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "7.013",
@@ -1868,10 +1757,7 @@
     "notes": "E-Mode parameters only; for runtime use DPT_Value_Lux (9.004)",
     "sparkplug_data_type": "UInt16",
     "sparkplug_data_type_value": 6,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "7.600",
@@ -1896,10 +1782,7 @@
     "notes": "Used for lighting colour temperature control (warm white ~2700K to cool white ~6500K)",
     "sparkplug_data_type": "UInt16",
     "sparkplug_data_type_value": 6,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "8.001",
@@ -2879,10 +2762,7 @@
     "notes": "For counting discrete events. See General Requirement 01.",
     "sparkplug_data_type": "UInt32",
     "sparkplug_data_type_value": 7,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "12.100",
@@ -2907,10 +2787,7 @@
     "notes": "Max ≈ 136 years. Use with DPT_LongDeltaTimeSec (13.100).",
     "sparkplug_data_type": "UInt32",
     "sparkplug_data_type_value": 7,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "12.101",
@@ -2935,10 +2812,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt32",
     "sparkplug_data_type_value": 7,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "12.102",
@@ -2963,10 +2837,7 @@
     "notes": "Long-duration period expressed in full hours; range 0..4294967295 h",
     "sparkplug_data_type": "UInt32",
     "sparkplug_data_type_value": 7,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "12.1200",
@@ -3019,10 +2890,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt32",
     "sparkplug_data_type_value": 7,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "13.001",
@@ -5791,10 +5659,7 @@
     "notes": "ETS displays scene number +1 (i.e., 1-64)",
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "18.001",
@@ -5914,10 +5779,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.003",
@@ -6011,10 +5873,7 @@
     "notes": "Light application mode enumeration; 0=Normal, 1=Presence simulation, 2=Night round",
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.006",
@@ -6051,10 +5910,7 @@
     "notes": "Application area enumeration for fault reporting; 0=No fault, 1=System, 10=HVAC general, 20=Lighting, 30=Security, 40=Load Management, 50=Shutters/blinds",
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.007",
@@ -6083,10 +5939,7 @@
     "notes": "Alarm class type enumeration; 1=Simple alarm, 2=Basic alarm, 3=Extended alarm",
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.008",
@@ -6115,10 +5968,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.011",
@@ -6163,10 +6013,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.012",
@@ -6197,10 +6044,7 @@
     "notes": "HVAC error class enumeration; 0=No fault, 1=Sensor fault, 2=Process fault/controller, 3=Actuator fault, 4=Other fault",
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.013",
@@ -6252,10 +6096,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.014",
@@ -6294,10 +6135,7 @@
     "notes": "See also 9.005 (m/s) and 9.028 (km/h) for continuous wind speed",
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.017",
@@ -6328,10 +6166,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.020",
@@ -6359,10 +6194,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.021",
@@ -6398,10 +6230,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.022",
@@ -6429,10 +6258,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.100",
@@ -6462,10 +6288,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.101",
@@ -6494,10 +6317,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.102",
@@ -6528,10 +6348,7 @@
     "notes": "Central HVAC mode selector. Used by room thermostats, valves, etc.",
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.103",
@@ -6562,10 +6379,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.104",
@@ -6594,10 +6408,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.105",
@@ -6642,10 +6453,7 @@
     "notes": "Values 0..17 and 20",
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.106",
@@ -6677,10 +6485,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.107",
@@ -6709,10 +6514,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.108",
@@ -6745,10 +6547,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.109",
@@ -6778,10 +6577,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.110",
@@ -6810,10 +6606,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.111",
@@ -6842,10 +6635,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.112",
@@ -6874,10 +6664,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.113",
@@ -6906,10 +6693,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.114",
@@ -6951,10 +6735,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.115",
@@ -6983,10 +6764,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.120",
@@ -7015,10 +6793,7 @@
     "notes": "field1=ADAType. Values 3-255 reserved.",
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.121",
@@ -7046,10 +6821,7 @@
     "notes": "field1=BackupMode. Values 2-255 reserved.",
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.122",
@@ -7077,10 +6849,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.600",
@@ -7111,10 +6880,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.601",
@@ -7145,10 +6911,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.602",
@@ -7190,10 +6953,7 @@
     "notes": "DALI standard fade times. Each step ≈ √2 × previous.",
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.603",
@@ -7222,10 +6982,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.604",
@@ -7253,10 +7010,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.605",
@@ -7284,10 +7038,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.606",
@@ -7317,10 +7068,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.607",
@@ -7348,10 +7096,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.608",
@@ -7380,10 +7125,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.609",
@@ -7416,10 +7158,7 @@
     "notes": "Load type setting for dimmer/actuator; 0=Automatic, 1=Leading edge, 2=Trailing edge, 3=Switch mode only, 4=Automatic once, 7=LED leading, 8=LED trailing; lighting application",
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.610",
@@ -7449,10 +7188,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.611",
@@ -7484,10 +7220,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.612",
@@ -7517,10 +7250,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.613",
@@ -7554,10 +7284,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.801",
@@ -7587,10 +7314,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.802",
@@ -7622,10 +7346,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.803",
@@ -7653,10 +7374,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.804",
@@ -7684,10 +7402,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.1000",
@@ -7712,10 +7427,7 @@
     "notes": "Communication mode enumeration for M-Bus/metering devices; system application domain",
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.1001",
@@ -7742,10 +7454,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.1002",
@@ -7774,10 +7483,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.1003",
@@ -7805,10 +7511,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.1004",
@@ -7838,10 +7541,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.1005",
@@ -7889,10 +7589,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.1200",
@@ -7922,10 +7619,7 @@
     "notes": "M-Bus breaker/valve state enumeration; 0=Closed, 1=Open, 2=Released, 255=Invalid; metering application",
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.1202",
@@ -7955,10 +7649,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.1203",
@@ -7989,10 +7680,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.1204",
@@ -8021,10 +7709,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.1205",
@@ -8053,10 +7738,7 @@
     "notes": "PLC status enumeration for S-FSK pairing; 0=New/Unlock, 1=New/Lock, 2=Registered; metering application",
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.1206",
@@ -8086,10 +7768,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.1207",
@@ -8119,10 +7798,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.1208",
@@ -8150,10 +7826,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.1209",
@@ -8184,10 +7857,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "21.001",
@@ -8212,10 +7882,7 @@
     "notes": "Standard KNX status byte (Z8). Referenced by many _Z composite DPTs.",
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "21.002",
@@ -8240,10 +7907,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "21.100",
@@ -8268,10 +7932,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "21.101",
@@ -8296,10 +7957,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "21.102",
@@ -8324,10 +7982,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "21.103",
@@ -8352,10 +8007,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "21.104",
@@ -8380,10 +8032,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "21.105",
@@ -8408,10 +8057,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "21.106",
@@ -8436,10 +8082,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "21.601",
@@ -8464,10 +8107,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "21.1000",
@@ -8492,10 +8132,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "21.1001",
@@ -8520,10 +8157,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "21.1002",
@@ -8548,10 +8182,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "21.1010",
@@ -8576,10 +8207,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "21.1200",
@@ -8604,10 +8232,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "21.1201",
@@ -8635,10 +8260,7 @@
     "notes": "For 3-phase power monitoring",
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "22.100",
@@ -8663,10 +8285,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt16",
     "sparkplug_data_type_value": 6,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "22.101",
@@ -8691,10 +8310,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt16",
     "sparkplug_data_type_value": 6,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "22.1000",
@@ -8719,10 +8335,7 @@
     "notes": "Removed TP0 and PL132 from specification",
     "sparkplug_data_type": "UInt16",
     "sparkplug_data_type_value": 6,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "22.1010",
@@ -8747,10 +8360,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt16",
     "sparkplug_data_type_value": 6,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "23.001",
@@ -8780,10 +8390,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "23.002",
@@ -8813,10 +8420,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "23.003",
@@ -8846,10 +8450,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "23.102",
@@ -8878,10 +8479,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "24.001",
@@ -8993,10 +8591,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt32",
     "sparkplug_data_type_value": 7,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "28.001",
@@ -9133,10 +8728,7 @@
     "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "31.101",
@@ -9161,10 +8753,7 @@
     "notes": null,
     "sparkplug_data_type": "UInt8",
     "sparkplug_data_type_value": 5,
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "200.100",

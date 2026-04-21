@@ -1156,6 +1156,13 @@ def _set_value_conversion(entry: dict, formula_to_bus, formula_from_bus) -> dict
     updated.pop("formula_to_bus", None)
     updated.pop("formula_from_bus", None)
 
+    # Identity transforms (passthrough) carry no real conversion semantics, so
+    # represent them as a null value_conversion to match the original payload
+    # convention.
+    if formula_to_bus == "ui_value" and formula_from_bus == "raw_value":
+        updated["value_conversion"] = None
+        return updated
+
     value_conversion = updated.get("value_conversion")
     if not isinstance(value_conversion, dict):
         value_conversion = {}

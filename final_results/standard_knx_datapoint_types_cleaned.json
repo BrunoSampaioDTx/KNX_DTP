@@ -27,10 +27,7 @@
     "sparkplug_data_type_value": 11,
     "permission": "read-write",
     "display_name": "Switch",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "1.002",
@@ -60,10 +57,7 @@
     "sparkplug_data_type_value": 11,
     "permission": "read-write",
     "display_name": "Bool",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "1.003",
@@ -93,10 +87,7 @@
     "sparkplug_data_type_value": 11,
     "permission": "read-write",
     "display_name": "Enable",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "1.004",
@@ -126,10 +117,7 @@
     "sparkplug_data_type_value": 11,
     "permission": "read-write",
     "display_name": "Ramp",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "1.005",
@@ -159,10 +147,7 @@
     "sparkplug_data_type_value": 11,
     "permission": "read-only",
     "display_name": "Alarm",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "1.006",
@@ -192,10 +177,7 @@
     "sparkplug_data_type_value": 11,
     "permission": "read-write",
     "display_name": "BinaryValue",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "1.007",
@@ -225,10 +207,7 @@
     "sparkplug_data_type_value": 11,
     "permission": "read-write",
     "display_name": "Step",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "1.008",
@@ -258,10 +237,7 @@
     "sparkplug_data_type_value": 11,
     "permission": "read-write",
     "display_name": "UpDown",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "1.009",
@@ -291,10 +267,7 @@
     "sparkplug_data_type_value": 11,
     "permission": "read-write",
     "display_name": "OpenClose",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "1.010",
@@ -324,10 +297,7 @@
     "sparkplug_data_type_value": 11,
     "permission": "read-write",
     "display_name": "Start",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "1.011",
@@ -357,10 +327,7 @@
     "sparkplug_data_type_value": 11,
     "permission": "read-only",
     "display_name": "State",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "1.012",
@@ -390,10 +357,7 @@
     "sparkplug_data_type_value": 11,
     "permission": "read-write",
     "display_name": "Invert",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "1.013",
@@ -423,10 +387,7 @@
     "sparkplug_data_type_value": 11,
     "permission": "read-write",
     "display_name": "DimSendStyle",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "1.014",
@@ -456,10 +417,7 @@
     "sparkplug_data_type_value": 11,
     "permission": "read-write",
     "display_name": "InputSource",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "1.015",
@@ -489,10 +447,7 @@
     "sparkplug_data_type_value": 11,
     "permission": "read-write",
     "display_name": "Reset",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "1.016",
@@ -522,10 +477,7 @@
     "sparkplug_data_type_value": 11,
     "permission": "read-write",
     "display_name": "Ack",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "1.017",
@@ -555,10 +507,7 @@
     "sparkplug_data_type_value": 11,
     "permission": "read-write",
     "display_name": "Trigger",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "1.018",
@@ -588,10 +537,7 @@
     "sparkplug_data_type_value": 11,
     "permission": "read-only",
     "display_name": "Occupancy",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "1.019",
@@ -621,10 +567,7 @@
     "sparkplug_data_type_value": 11,
     "permission": "read-only",
     "display_name": "Window Door",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "1.021",
@@ -654,10 +597,7 @@
     "sparkplug_data_type_value": 11,
     "permission": "read-write",
     "display_name": "LogicalFunction",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "1.022",
@@ -687,10 +627,7 @@
     "sparkplug_data_type_value": 11,
     "permission": "read-write",
     "display_name": "Scene AB",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "1.023",
@@ -720,10 +657,7 @@
     "sparkplug_data_type_value": 11,
     "permission": "read-write",
     "display_name": "ShutterBlinds Mode",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "1.024",
@@ -753,10 +687,7 @@
     "sparkplug_data_type_value": 11,
     "permission": "read-only",
     "display_name": "DayNight",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "1.100",
@@ -786,10 +717,7 @@
     "sparkplug_data_type_value": 11,
     "permission": "read-write",
     "display_name": "Heat/Cool",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "1.1200",
@@ -819,10 +747,7 @@
     "sparkplug_data_type_value": 11,
     "permission": "read-only",
     "display_name": "ConsumerProducer",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "1.1201",
@@ -852,10 +777,7 @@
     "sparkplug_data_type_value": 11,
     "permission": "read-only",
     "display_name": "EnergyDirection",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "2.001",
@@ -1488,10 +1410,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "Percent U8",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "5.005",
@@ -1518,10 +1437,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "DecimalFactor",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "5.006",
@@ -1548,10 +1464,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "Tariff",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "5.010",
@@ -1578,10 +1491,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "Value 1 Ucount",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "6.001",
@@ -1698,10 +1608,7 @@
     "sparkplug_data_type_value": 6,
     "permission": "read-write",
     "display_name": "Value 2 Ucount",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "7.002",
@@ -1824,10 +1731,7 @@
     "sparkplug_data_type_value": 6,
     "permission": "read-write",
     "display_name": "TimePeriodSec",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "7.006",
@@ -1854,10 +1758,7 @@
     "sparkplug_data_type_value": 6,
     "permission": "read-write",
     "display_name": "TimePeriodMin",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "7.007",
@@ -1884,10 +1785,7 @@
     "sparkplug_data_type_value": 6,
     "permission": "read-write",
     "display_name": "TimePeriodHrs",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "7.010",
@@ -1914,10 +1812,7 @@
     "sparkplug_data_type_value": 6,
     "permission": "read-write",
     "display_name": "PropDataType",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "7.011",
@@ -1944,10 +1839,7 @@
     "sparkplug_data_type_value": 6,
     "permission": "read-write",
     "display_name": "Length mm",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "7.012",
@@ -1974,10 +1866,7 @@
     "sparkplug_data_type_value": 6,
     "permission": "read-write",
     "display_name": "UElCurrentmA",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "7.013",
@@ -2004,10 +1893,7 @@
     "sparkplug_data_type_value": 6,
     "permission": "read-write",
     "display_name": "Brightness",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "7.600",
@@ -2034,10 +1920,7 @@
     "sparkplug_data_type_value": 6,
     "permission": "read-write",
     "display_name": "Absolute Colour Temperature",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "8.001",
@@ -3162,10 +3045,7 @@
     "sparkplug_data_type_value": 7,
     "permission": "read-write",
     "display_name": "Value 4 Ucount",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "12.100",
@@ -3192,10 +3072,7 @@
     "sparkplug_data_type_value": 7,
     "permission": "read-write",
     "display_name": "LongTimePeriod Sec",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "12.101",
@@ -3222,10 +3099,7 @@
     "sparkplug_data_type_value": 7,
     "permission": "read-write",
     "display_name": "LongTimePeriod Min",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "12.102",
@@ -3252,10 +3126,7 @@
     "sparkplug_data_type_value": 7,
     "permission": "read-write",
     "display_name": "LongTimePeriod Hrs",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "12.1200",
@@ -3312,10 +3183,7 @@
     "sparkplug_data_type_value": 7,
     "permission": "read-write",
     "display_name": "Volume m3",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "13.001",
@@ -6285,10 +6153,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "SceneNumber",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "18.001",
@@ -6416,10 +6281,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "BuildingMode",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.003",
@@ -6519,10 +6381,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "LightApplicationMode",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.006",
@@ -6561,10 +6420,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "ApplicationArea",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.007",
@@ -6595,10 +6451,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "AlarmClassType",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.008",
@@ -6629,10 +6482,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "PSUMode",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.011",
@@ -6679,10 +6529,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "ErrorClass System",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.012",
@@ -6715,10 +6562,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "ErrorClass HVAC",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.013",
@@ -6772,10 +6616,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "Time Delay",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.014",
@@ -6816,10 +6657,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "Beaufort Wind Force Scale",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.017",
@@ -6852,10 +6690,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "SensorSelect",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.020",
@@ -6885,10 +6720,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "ActuatorConnectType",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.021",
@@ -6926,10 +6758,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "Cloud Cover",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.022",
@@ -6959,10 +6788,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "PowerReturnMode",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.100",
@@ -6994,10 +6820,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "FuelType",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.101",
@@ -7028,10 +6851,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "BurnerType",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.102",
@@ -7064,10 +6884,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "HVACMode",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.103",
@@ -7100,10 +6917,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "DHWMode",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.104",
@@ -7134,10 +6948,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "LoadPriority",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.105",
@@ -7184,10 +6995,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "HVACContrMode",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.106",
@@ -7221,10 +7029,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "HVACEmergMode",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.107",
@@ -7255,10 +7060,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "ChangeoverMode",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.108",
@@ -7293,10 +7095,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "ValveMode",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.109",
@@ -7328,10 +7127,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "DamperMode",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.110",
@@ -7362,10 +7158,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "HeaterMode",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.111",
@@ -7396,10 +7189,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "FanMode",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.112",
@@ -7430,10 +7220,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "MasterSlaveMode",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.113",
@@ -7464,10 +7251,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "StatusRoomSetp",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.114",
@@ -7511,10 +7295,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "Metering DeviceType",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.115",
@@ -7545,10 +7326,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "HumDehumMode",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.120",
@@ -7579,10 +7357,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "ADAType",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.121",
@@ -7612,10 +7387,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "BackupMode",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.122",
@@ -7645,10 +7417,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "StartSynchronization",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.600",
@@ -7681,10 +7450,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "Behaviour Lock Unlock",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.601",
@@ -7717,10 +7483,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "Behaviour Bus Power Up Down",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.602",
@@ -7764,10 +7527,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "DALI Fade Time",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.603",
@@ -7798,10 +7558,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "BlinkingMode",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.604",
@@ -7831,10 +7588,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "LightControlMode",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.605",
@@ -7864,10 +7618,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "SwitchPBModel",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.606",
@@ -7899,10 +7650,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "PBAction",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.607",
@@ -7932,10 +7680,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "DimmPBModel",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.608",
@@ -7966,10 +7711,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "SwitchOnMode",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.609",
@@ -8004,10 +7746,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "LoadTypeSet",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.610",
@@ -8039,10 +7778,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "LoadTypeDetected",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.611",
@@ -8076,10 +7812,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "Converter Test Control",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.612",
@@ -8111,10 +7844,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "Converter Control",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.613",
@@ -8150,10 +7880,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "Converter Data Request",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.801",
@@ -8185,10 +7912,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "SABExceptBehaviour",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.802",
@@ -8222,10 +7946,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "SABBehaviour Lock Unlock",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.803",
@@ -8255,10 +7976,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "SSSBMode",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.804",
@@ -8288,10 +8006,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "BlindsControlMode",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.1000",
@@ -8318,10 +8033,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "CommMode",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.1001",
@@ -8350,10 +8062,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "AddInfoTypes",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.1002",
@@ -8384,10 +8093,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "RF ModeSelect",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.1003",
@@ -8417,10 +8123,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "RF FilterSelect",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.1004",
@@ -8452,10 +8155,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "Medium",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.1005",
@@ -8505,10 +8205,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "PB Function",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.1200",
@@ -8540,10 +8237,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "MBus BreakerValve State",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.1202",
@@ -8575,10 +8269,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "Gas Measurement Condition",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.1203",
@@ -8611,10 +8302,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "Breaker Status",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.1204",
@@ -8645,10 +8333,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "Euridis Communication Interface Status",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.1205",
@@ -8679,10 +8364,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "PLC Status",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.1206",
@@ -8714,10 +8396,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "Peak Event Notice",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.1207",
@@ -8749,10 +8428,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "Peak Event",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.1208",
@@ -8782,10 +8458,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "TIC Type",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.1209",
@@ -8818,10 +8491,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "Type TIC Channel",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "21.001",
@@ -8848,10 +8518,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-only",
     "display_name": "StatusGen",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "21.002",
@@ -8878,10 +8545,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-only",
     "display_name": "Device Control",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "21.100",
@@ -8908,10 +8572,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-only",
     "display_name": "ForceSign",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "21.101",
@@ -8938,10 +8599,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-only",
     "display_name": "ForceSignCool",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "21.102",
@@ -8968,10 +8626,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-only",
     "display_name": "StatusRHC",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "21.103",
@@ -8998,10 +8653,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-only",
     "display_name": "StatusSDHWC",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "21.104",
@@ -9028,10 +8680,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-only",
     "display_name": "FuelTypeSet",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "21.105",
@@ -9058,10 +8707,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-only",
     "display_name": "StatusRCC",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "21.106",
@@ -9088,10 +8734,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-only",
     "display_name": "StatusAHU",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "21.601",
@@ -9118,10 +8761,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-only",
     "display_name": "LightActuatorErrorInfo",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "21.1000",
@@ -9148,10 +8788,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-only",
     "display_name": "RF ModeInfo",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "21.1001",
@@ -9178,10 +8815,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-only",
     "display_name": "RF FilterInfo",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "21.1002",
@@ -9208,10 +8842,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-only",
     "display_name": "Security Report",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "21.1010",
@@ -9238,10 +8869,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-only",
     "display_name": "Channel Activation 8",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "21.1200",
@@ -9268,10 +8896,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-only",
     "display_name": "VirtualDryContact",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "21.1201",
@@ -9301,10 +8926,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-only",
     "display_name": "Phases Status",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "22.100",
@@ -9331,10 +8953,7 @@
     "sparkplug_data_type_value": 6,
     "permission": "read-only",
     "display_name": "StatusDHWC",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "22.101",
@@ -9361,10 +8980,7 @@
     "sparkplug_data_type_value": 6,
     "permission": "read-only",
     "display_name": "StatusRHCC",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "22.1000",
@@ -9391,10 +9007,7 @@
     "sparkplug_data_type_value": 6,
     "permission": "read-only",
     "display_name": "Media",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "22.1010",
@@ -9421,10 +9034,7 @@
     "sparkplug_data_type_value": 6,
     "permission": "read-only",
     "display_name": "Channel Activation 16",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "23.001",
@@ -9456,10 +9066,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "OnOff Action",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "23.002",
@@ -9491,10 +9098,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "Alarm Reaction",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "23.003",
@@ -9526,10 +9130,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "UpDown Action",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "23.102",
@@ -9560,10 +9161,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "HVAC PB Action",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "24.001",
@@ -9683,10 +9281,7 @@
     "sparkplug_data_type_value": 7,
     "permission": "read-write",
     "display_name": "CombinedInfoOnOff",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "28.001",
@@ -9833,10 +9428,7 @@
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "Channel Activation 24",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "31.101",
@@ -9863,10 +9455,7 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "PB Action HVAC Extended",
-    "value_conversion": {
-      "formula_to_bus": "ui_value",
-      "formula_from_bus": "raw_value"
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "200.100",
