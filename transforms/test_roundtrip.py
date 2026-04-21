@@ -71,7 +71,6 @@ def _sample_values(entry: dict):
     if v_min == v_max:
         return [v_min] * 5
 
-    category = (entry.get("data_type_category") or "").lower()
     size_bits = int(entry.get("size_bits", 0) or 0)
     step = _parse_factor(entry.get("coefficient")) or _parse_factor(entry.get("resolution")) or _parse_factor(entry.get("step")) or 1.0
 
@@ -129,9 +128,48 @@ def _eval_formula(formula: str, **kwargs):
 
 def _validate_formula(formula: str):
     tree = ast.parse(formula, mode="eval")
+    allowed_nodes = (
+        ast.Expression,
+        ast.Name,
+        ast.Load,
+        ast.Constant,
+        ast.Call,
+        ast.BinOp,
+        ast.UnaryOp,
+        ast.IfExp,
+        ast.Compare,
+        ast.BoolOp,
+        ast.Add,
+        ast.Sub,
+        ast.Mult,
+        ast.Div,
+        ast.FloorDiv,
+        ast.Mod,
+        ast.Pow,
+        ast.BitAnd,
+        ast.BitOr,
+        ast.BitXor,
+        ast.LShift,
+        ast.RShift,
+        ast.USub,
+        ast.UAdd,
+        ast.Not,
+        ast.And,
+        ast.Or,
+        ast.Eq,
+        ast.NotEq,
+        ast.Lt,
+        ast.LtE,
+        ast.Gt,
+        ast.GtE,
+    )
     for node in ast.walk(tree):
+        if not isinstance(node, allowed_nodes):
+            raise ValueError(f"Disallowed syntax in formula: {type(node).__name__}")
         if isinstance(node, ast.Name) and node.id not in ALLOWED_FORMULA_NAMES:
             raise ValueError(f"Unexpected name in formula: {node.id}")
+        if isinstance(node, ast.Call) and not isinstance(node.func, ast.Name):
+            raise ValueError("Only direct function calls are allowed in formulas")
 
 
 def main():

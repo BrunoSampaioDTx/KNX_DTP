@@ -1003,7 +1003,9 @@ F32_DEFAULTS = {
 }
 
 
+# Composite payload families (control/value, time/date, access, scene control, date-time).
 COMPOSITE_MAINS = {2, 3, 10, 11, 15, 18, 19}
+# Structured/textual payload families where scalar formulas are not applicable.
 STRUCTURED_MAINS = {16, 232}
 
 
