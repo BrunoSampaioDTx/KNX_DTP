@@ -27,7 +27,9 @@
     "sparkplug_data_type_value": 11,
     "permission": "read-write",
     "display_name": "Switch",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "1.002",
@@ -57,7 +59,9 @@
     "sparkplug_data_type_value": 11,
     "permission": "read-write",
     "display_name": "Bool",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "1.003",
@@ -87,7 +91,9 @@
     "sparkplug_data_type_value": 11,
     "permission": "read-write",
     "display_name": "Enable",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "1.004",
@@ -117,7 +123,9 @@
     "sparkplug_data_type_value": 11,
     "permission": "read-write",
     "display_name": "Ramp",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "1.005",
@@ -147,7 +155,9 @@
     "sparkplug_data_type_value": 11,
     "permission": "read-only",
     "display_name": "Alarm",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "1.006",
@@ -177,7 +187,9 @@
     "sparkplug_data_type_value": 11,
     "permission": "read-write",
     "display_name": "BinaryValue",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "1.007",
@@ -207,7 +219,9 @@
     "sparkplug_data_type_value": 11,
     "permission": "read-write",
     "display_name": "Step",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "1.008",
@@ -237,7 +251,9 @@
     "sparkplug_data_type_value": 11,
     "permission": "read-write",
     "display_name": "UpDown",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "1.009",
@@ -267,7 +283,9 @@
     "sparkplug_data_type_value": 11,
     "permission": "read-write",
     "display_name": "OpenClose",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "1.010",
@@ -297,7 +315,9 @@
     "sparkplug_data_type_value": 11,
     "permission": "read-write",
     "display_name": "Start",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "1.011",
@@ -327,7 +347,9 @@
     "sparkplug_data_type_value": 11,
     "permission": "read-only",
     "display_name": "State",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "1.012",
@@ -357,7 +379,9 @@
     "sparkplug_data_type_value": 11,
     "permission": "read-write",
     "display_name": "Invert",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "1.013",
@@ -387,7 +411,9 @@
     "sparkplug_data_type_value": 11,
     "permission": "read-write",
     "display_name": "DimSendStyle",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "1.014",
@@ -417,7 +443,9 @@
     "sparkplug_data_type_value": 11,
     "permission": "read-write",
     "display_name": "InputSource",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "1.015",
@@ -447,7 +475,9 @@
     "sparkplug_data_type_value": 11,
     "permission": "read-write",
     "display_name": "Reset",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "1.016",
@@ -477,7 +507,9 @@
     "sparkplug_data_type_value": 11,
     "permission": "read-write",
     "display_name": "Ack",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "1.017",
@@ -507,7 +539,9 @@
     "sparkplug_data_type_value": 11,
     "permission": "read-write",
     "display_name": "Trigger",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "1.018",
@@ -537,7 +571,9 @@
     "sparkplug_data_type_value": 11,
     "permission": "read-only",
     "display_name": "Occupancy",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "1.019",
@@ -567,7 +603,9 @@
     "sparkplug_data_type_value": 11,
     "permission": "read-only",
     "display_name": "Window Door",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "1.021",
@@ -597,7 +635,9 @@
     "sparkplug_data_type_value": 11,
     "permission": "read-write",
     "display_name": "LogicalFunction",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "1.022",
@@ -627,7 +667,9 @@
     "sparkplug_data_type_value": 11,
     "permission": "read-write",
     "display_name": "Scene AB",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "1.023",
@@ -657,7 +699,9 @@
     "sparkplug_data_type_value": 11,
     "permission": "read-write",
     "display_name": "ShutterBlinds Mode",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "1.024",
@@ -687,7 +731,9 @@
     "sparkplug_data_type_value": 11,
     "permission": "read-only",
     "display_name": "DayNight",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "1.100",
@@ -717,7 +763,9 @@
     "sparkplug_data_type_value": 11,
     "permission": "read-write",
     "display_name": "Heat/Cool",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "1.1200",
@@ -747,7 +795,9 @@
     "sparkplug_data_type_value": 11,
     "permission": "read-only",
     "display_name": "ConsumerProducer",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "1.1201",
@@ -777,7 +827,9 @@
     "sparkplug_data_type_value": 11,
     "permission": "read-only",
     "display_name": "EnergyDirection",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "2.001",
@@ -804,12 +856,14 @@
       "2": "Control, Off",
       "3": "Control, On"
     },
-    "notes": "c=0: no control (value only), c=1: override/priority control",
+    "notes": "c=0: no control (value only), c=1: override/priority control Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "Switch Control",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "2.002",
@@ -836,12 +890,14 @@
       "2": "Control, False",
       "3": "Control, True"
     },
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "Bool Control",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "2.003",
@@ -868,12 +924,14 @@
       "2": "Control, Disable",
       "3": "Control, Enable"
     },
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "Enable Control",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "2.004",
@@ -900,12 +958,14 @@
       "2": "Control, No ramp",
       "3": "Control, Ramp"
     },
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "Ramp Control",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "2.005",
@@ -932,12 +992,14 @@
       "2": "Control, No alarm",
       "3": "Control, Alarm"
     },
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "Alarm Control",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "2.006",
@@ -964,12 +1026,14 @@
       "2": "Control, Low",
       "3": "Control, High"
     },
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "BinaryValue Control",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "2.007",
@@ -996,12 +1060,14 @@
       "2": "Control, Decrease",
       "3": "Control, Increase"
     },
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "Step Control",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "2.008",
@@ -1028,12 +1094,14 @@
       "2": "Control, Up",
       "3": "Control, Down"
     },
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "Direction1 Control",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "2.009",
@@ -1060,12 +1128,14 @@
       "2": "Control, Open",
       "3": "Control, Close"
     },
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "Direction2 Control",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "2.010",
@@ -1092,12 +1162,14 @@
       "2": "Control, Stop",
       "3": "Control, Start"
     },
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "Start Control",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "2.011",
@@ -1124,12 +1196,14 @@
       "2": "Control, Inactive",
       "3": "Control, Active"
     },
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "State Control",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "2.012",
@@ -1156,12 +1230,14 @@
       "2": "Control, Not inverted",
       "3": "Control, Inverted"
     },
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "Invert Control",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "3.007",
@@ -1183,12 +1259,14 @@
     "use_scope": "FB",
     "application_domain": "common",
     "value_map": null,
-    "notes": "StepCode 000b=break (stop dimming). Steps subdivide 0-100% range. Used for lighting dimming.",
+    "notes": "StepCode 000b=break (stop dimming). Steps subdivide 0-100% range. Used for lighting dimming. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "Control Dimming",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "3.008",
@@ -1210,12 +1288,14 @@
     "use_scope": "FB",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Used for both vertical position and slat angle relative positioning.",
+    "notes": "Used for both vertical position and slat angle relative positioning. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "Control Blinds",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "4.001",
@@ -1242,7 +1322,9 @@
     "sparkplug_data_type_value": 12,
     "permission": "read-write",
     "display_name": "Char ASCII",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ord(ui_value)",
+    "formula_from_bus": "chr(raw_value)"
   },
   {
     "dpt_id": "4.002",
@@ -1269,7 +1351,9 @@
     "sparkplug_data_type_value": 12,
     "permission": "read-write",
     "display_name": "Char 8859 1",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ord(ui_value)",
+    "formula_from_bus": "chr(raw_value)"
   },
   {
     "dpt_id": "5.001",
@@ -1302,7 +1386,9 @@
       "offset": null,
       "formula_to_bus": "value * 255 / 100",
       "formula_from_bus": "raw * 100 / 255"
-    }
+    },
+    "formula_to_bus": "round(ui_value * 255 / 100)",
+    "formula_from_bus": "raw_value * 100 / 255"
   },
   {
     "dpt_id": "5.003",
@@ -1335,7 +1421,9 @@
       "offset": null,
       "formula_to_bus": "value * 255 / 360",
       "formula_from_bus": "raw * 360 / 255"
-    }
+    },
+    "formula_to_bus": "round(ui_value * 255 / 360)",
+    "formula_from_bus": "raw_value * 360 / 255"
   },
   {
     "dpt_id": "5.004",
@@ -1362,7 +1450,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "Percent U8",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "5.005",
@@ -1389,7 +1479,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "DecimalFactor",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "5.006",
@@ -1416,7 +1508,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "Tariff",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "5.010",
@@ -1443,7 +1537,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "Value 1 Ucount",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "6.001",
@@ -1470,7 +1566,9 @@
     "sparkplug_data_type_value": 1,
     "permission": "read-write",
     "display_name": "Percent V8",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "v8_encode(ui_value)",
+    "formula_from_bus": "v8_decode(raw_value)"
   },
   {
     "dpt_id": "6.010",
@@ -1497,7 +1595,9 @@
     "sparkplug_data_type_value": 1,
     "permission": "read-write",
     "display_name": "Value 1 Count",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "v8_encode(ui_value)",
+    "formula_from_bus": "v8_decode(raw_value)"
   },
   {
     "dpt_id": "6.020",
@@ -1519,12 +1619,14 @@
     "use_scope": "FB",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Composite: 5 boolean status bits + 3-bit mode selector",
+    "notes": "Composite: 5 boolean status bits + 3-bit mode selector Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "Status Mode3",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "7.001",
@@ -1551,7 +1653,9 @@
     "sparkplug_data_type_value": 6,
     "permission": "read-write",
     "display_name": "Value 2 Ucount",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "7.002",
@@ -1573,12 +1677,14 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "TimePeriodMsec",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "7.003",
@@ -1611,7 +1717,9 @@
       "offset": null,
       "formula_to_bus": "value / 10",
       "formula_from_bus": "raw * 10"
-    }
+    },
+    "formula_to_bus": "round(ui_value / 10)",
+    "formula_from_bus": "raw_value * 10"
   },
   {
     "dpt_id": "7.004",
@@ -1644,7 +1752,9 @@
       "offset": null,
       "formula_to_bus": "value / 100",
       "formula_from_bus": "raw * 100"
-    }
+    },
+    "formula_to_bus": "round(ui_value / 100)",
+    "formula_from_bus": "raw_value * 100"
   },
   {
     "dpt_id": "7.005",
@@ -1671,7 +1781,9 @@
     "sparkplug_data_type_value": 6,
     "permission": "read-write",
     "display_name": "TimePeriodSec",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "7.006",
@@ -1698,7 +1810,9 @@
     "sparkplug_data_type_value": 6,
     "permission": "read-write",
     "display_name": "TimePeriodMin",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "7.007",
@@ -1725,7 +1839,9 @@
     "sparkplug_data_type_value": 6,
     "permission": "read-write",
     "display_name": "TimePeriodHrs",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "7.010",
@@ -1752,7 +1868,9 @@
     "sparkplug_data_type_value": 6,
     "permission": "read-write",
     "display_name": "PropDataType",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "7.011",
@@ -1779,7 +1897,9 @@
     "sparkplug_data_type_value": 6,
     "permission": "read-write",
     "display_name": "Length mm",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "7.012",
@@ -1806,7 +1926,9 @@
     "sparkplug_data_type_value": 6,
     "permission": "read-write",
     "display_name": "UElCurrentmA",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "7.013",
@@ -1833,7 +1955,9 @@
     "sparkplug_data_type_value": 6,
     "permission": "read-write",
     "display_name": "Brightness",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "7.600",
@@ -1860,7 +1984,9 @@
     "sparkplug_data_type_value": 6,
     "permission": "read-write",
     "display_name": "Absolute Colour Temperature",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "8.001",
@@ -1887,7 +2013,9 @@
     "sparkplug_data_type_value": 2,
     "permission": "read-write",
     "display_name": "Value 2 Count",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "v16_encode(ui_value)",
+    "formula_from_bus": "v16_decode(raw_value)"
   },
   {
     "dpt_id": "8.002",
@@ -1914,7 +2042,9 @@
     "sparkplug_data_type_value": 2,
     "permission": "read-write",
     "display_name": "DeltaTimeMsec",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "v16_encode(ui_value)",
+    "formula_from_bus": "v16_decode(raw_value)"
   },
   {
     "dpt_id": "8.003",
@@ -1947,7 +2077,9 @@
       "offset": null,
       "formula_to_bus": "value / 10",
       "formula_from_bus": "raw * 10"
-    }
+    },
+    "formula_to_bus": "v16_encode(round(ui_value / 10))",
+    "formula_from_bus": "v16_decode(raw_value) * 10"
   },
   {
     "dpt_id": "8.004",
@@ -1980,7 +2112,9 @@
       "offset": null,
       "formula_to_bus": "value / 100",
       "formula_from_bus": "raw * 100"
-    }
+    },
+    "formula_to_bus": "v16_encode(round(ui_value / 100))",
+    "formula_from_bus": "v16_decode(raw_value) * 100"
   },
   {
     "dpt_id": "8.005",
@@ -2007,7 +2141,9 @@
     "sparkplug_data_type_value": 2,
     "permission": "read-write",
     "display_name": "DeltaTimeSec",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "v16_encode(ui_value)",
+    "formula_from_bus": "v16_decode(raw_value)"
   },
   {
     "dpt_id": "8.006",
@@ -2034,7 +2170,9 @@
     "sparkplug_data_type_value": 2,
     "permission": "read-write",
     "display_name": "DeltaTimeMin",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "v16_encode(ui_value)",
+    "formula_from_bus": "v16_decode(raw_value)"
   },
   {
     "dpt_id": "8.007",
@@ -2061,7 +2199,9 @@
     "sparkplug_data_type_value": 2,
     "permission": "read-write",
     "display_name": "DeltaTimeHrs",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "v16_encode(ui_value)",
+    "formula_from_bus": "v16_decode(raw_value)"
   },
   {
     "dpt_id": "8.010",
@@ -2094,7 +2234,9 @@
       "offset": null,
       "formula_to_bus": "value / 0.01",
       "formula_from_bus": "raw * 0.01"
-    }
+    },
+    "formula_to_bus": "v16_encode(round(ui_value / 0.01))",
+    "formula_from_bus": "v16_decode(raw_value) * 0.01"
   },
   {
     "dpt_id": "8.011",
@@ -2121,7 +2263,9 @@
     "sparkplug_data_type_value": 2,
     "permission": "read-write",
     "display_name": "Rotation Angle",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "v16_encode(ui_value)",
+    "formula_from_bus": "v16_decode(raw_value)"
   },
   {
     "dpt_id": "8.012",
@@ -2148,7 +2292,9 @@
     "sparkplug_data_type_value": 2,
     "permission": "read-write",
     "display_name": "Length m",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "v16_encode(ui_value)",
+    "formula_from_bus": "v16_decode(raw_value)"
   },
   {
     "dpt_id": "9.001",
@@ -2181,7 +2327,9 @@
       "offset": null,
       "formula_to_bus": "0.01 * M * 2^E",
       "formula_from_bus": "0.01 * M * 2^E"
-    }
+    },
+    "formula_to_bus": "dpt9_encode(ui_value)",
+    "formula_from_bus": "dpt9_decode(raw_value)"
   },
   {
     "dpt_id": "9.002",
@@ -2214,7 +2362,9 @@
       "offset": null,
       "formula_to_bus": "0.01 * M * 2^E",
       "formula_from_bus": "0.01 * M * 2^E"
-    }
+    },
+    "formula_to_bus": "dpt9_encode(ui_value)",
+    "formula_from_bus": "dpt9_decode(raw_value)"
   },
   {
     "dpt_id": "9.003",
@@ -2247,7 +2397,9 @@
       "offset": null,
       "formula_to_bus": "0.01 * M * 2^E",
       "formula_from_bus": "0.01 * M * 2^E"
-    }
+    },
+    "formula_to_bus": "dpt9_encode(ui_value)",
+    "formula_from_bus": "dpt9_decode(raw_value)"
   },
   {
     "dpt_id": "9.004",
@@ -2280,7 +2432,9 @@
       "offset": null,
       "formula_to_bus": "0.01 * M * 2^E",
       "formula_from_bus": "0.01 * M * 2^E"
-    }
+    },
+    "formula_to_bus": "dpt9_encode(ui_value)",
+    "formula_from_bus": "dpt9_decode(raw_value)"
   },
   {
     "dpt_id": "9.005",
@@ -2313,7 +2467,9 @@
       "offset": null,
       "formula_to_bus": "0.01 * M * 2^E",
       "formula_from_bus": "0.01 * M * 2^E"
-    }
+    },
+    "formula_to_bus": "dpt9_encode(ui_value)",
+    "formula_from_bus": "dpt9_decode(raw_value)"
   },
   {
     "dpt_id": "9.006",
@@ -2346,7 +2502,9 @@
       "offset": null,
       "formula_to_bus": "0.01 * M * 2^E",
       "formula_from_bus": "0.01 * M * 2^E"
-    }
+    },
+    "formula_to_bus": "dpt9_encode(ui_value)",
+    "formula_from_bus": "dpt9_decode(raw_value)"
   },
   {
     "dpt_id": "9.007",
@@ -2379,7 +2537,9 @@
       "offset": null,
       "formula_to_bus": "0.01 * M * 2^E",
       "formula_from_bus": "0.01 * M * 2^E"
-    }
+    },
+    "formula_to_bus": "dpt9_encode(ui_value)",
+    "formula_from_bus": "dpt9_decode(raw_value)"
   },
   {
     "dpt_id": "9.008",
@@ -2412,7 +2572,9 @@
       "offset": null,
       "formula_to_bus": "0.01 * M * 2^E",
       "formula_from_bus": "0.01 * M * 2^E"
-    }
+    },
+    "formula_to_bus": "dpt9_encode(ui_value)",
+    "formula_from_bus": "dpt9_decode(raw_value)"
   },
   {
     "dpt_id": "9.009",
@@ -2445,7 +2607,9 @@
       "offset": null,
       "formula_to_bus": "0.01 * M * 2^E",
       "formula_from_bus": "0.01 * M * 2^E"
-    }
+    },
+    "formula_to_bus": "dpt9_encode(ui_value)",
+    "formula_from_bus": "dpt9_decode(raw_value)"
   },
   {
     "dpt_id": "9.010",
@@ -2478,7 +2642,9 @@
       "offset": null,
       "formula_to_bus": "0.01 * M * 2^E",
       "formula_from_bus": "0.01 * M * 2^E"
-    }
+    },
+    "formula_to_bus": "dpt9_encode(ui_value)",
+    "formula_from_bus": "dpt9_decode(raw_value)"
   },
   {
     "dpt_id": "9.011",
@@ -2511,7 +2677,9 @@
       "offset": null,
       "formula_to_bus": "0.01 * M * 2^E",
       "formula_from_bus": "0.01 * M * 2^E"
-    }
+    },
+    "formula_to_bus": "dpt9_encode(ui_value)",
+    "formula_from_bus": "dpt9_decode(raw_value)"
   },
   {
     "dpt_id": "9.020",
@@ -2544,7 +2712,9 @@
       "offset": null,
       "formula_to_bus": "0.01 * M * 2^E",
       "formula_from_bus": "0.01 * M * 2^E"
-    }
+    },
+    "formula_to_bus": "dpt9_encode(ui_value)",
+    "formula_from_bus": "dpt9_decode(raw_value)"
   },
   {
     "dpt_id": "9.021",
@@ -2577,7 +2747,9 @@
       "offset": null,
       "formula_to_bus": "0.01 * M * 2^E",
       "formula_from_bus": "0.01 * M * 2^E"
-    }
+    },
+    "formula_to_bus": "dpt9_encode(ui_value)",
+    "formula_from_bus": "dpt9_decode(raw_value)"
   },
   {
     "dpt_id": "9.022",
@@ -2610,7 +2782,9 @@
       "offset": null,
       "formula_to_bus": "0.01 * M * 2^E",
       "formula_from_bus": "0.01 * M * 2^E"
-    }
+    },
+    "formula_to_bus": "dpt9_encode(ui_value)",
+    "formula_from_bus": "dpt9_decode(raw_value)"
   },
   {
     "dpt_id": "9.023",
@@ -2643,7 +2817,9 @@
       "offset": null,
       "formula_to_bus": "0.01 * M * 2^E",
       "formula_from_bus": "0.01 * M * 2^E"
-    }
+    },
+    "formula_to_bus": "dpt9_encode(ui_value)",
+    "formula_from_bus": "dpt9_decode(raw_value)"
   },
   {
     "dpt_id": "9.024",
@@ -2676,7 +2852,9 @@
       "offset": null,
       "formula_to_bus": "0.01 * M * 2^E",
       "formula_from_bus": "0.01 * M * 2^E"
-    }
+    },
+    "formula_to_bus": "dpt9_encode(ui_value)",
+    "formula_from_bus": "dpt9_decode(raw_value)"
   },
   {
     "dpt_id": "9.025",
@@ -2709,7 +2887,9 @@
       "offset": null,
       "formula_to_bus": "0.01 * M * 2^E",
       "formula_from_bus": "0.01 * M * 2^E"
-    }
+    },
+    "formula_to_bus": "dpt9_encode(ui_value)",
+    "formula_from_bus": "dpt9_decode(raw_value)"
   },
   {
     "dpt_id": "9.026",
@@ -2742,7 +2922,9 @@
       "offset": null,
       "formula_to_bus": "0.01 * M * 2^E",
       "formula_from_bus": "0.01 * M * 2^E"
-    }
+    },
+    "formula_to_bus": "dpt9_encode(ui_value)",
+    "formula_from_bus": "dpt9_decode(raw_value)"
   },
   {
     "dpt_id": "9.027",
@@ -2775,7 +2957,9 @@
       "offset": null,
       "formula_to_bus": "0.01 * M * 2^E",
       "formula_from_bus": "0.01 * M * 2^E"
-    }
+    },
+    "formula_to_bus": "dpt9_encode(ui_value)",
+    "formula_from_bus": "dpt9_decode(raw_value)"
   },
   {
     "dpt_id": "9.028",
@@ -2808,7 +2992,9 @@
       "offset": null,
       "formula_to_bus": "0.01 * M * 2^E",
       "formula_from_bus": "0.01 * M * 2^E"
-    }
+    },
+    "formula_to_bus": "dpt9_encode(ui_value)",
+    "formula_from_bus": "dpt9_decode(raw_value)"
   },
   {
     "dpt_id": "9.029",
@@ -2841,7 +3027,9 @@
       "offset": null,
       "formula_to_bus": "0.01 * M * 2^E",
       "formula_from_bus": "0.01 * M * 2^E"
-    }
+    },
+    "formula_to_bus": "dpt9_encode(ui_value)",
+    "formula_from_bus": "dpt9_decode(raw_value)"
   },
   {
     "dpt_id": "9.030",
@@ -2874,7 +3062,9 @@
       "offset": null,
       "formula_to_bus": "0.01 * M * 2^E",
       "formula_from_bus": "0.01 * M * 2^E"
-    }
+    },
+    "formula_to_bus": "dpt9_encode(ui_value)",
+    "formula_from_bus": "dpt9_decode(raw_value)"
   },
   {
     "dpt_id": "10.001",
@@ -2899,12 +3089,14 @@
       "7": "Sunday",
       "0": "No day"
     },
-    "notes": "Day 0=no day. Binary encoded fields.",
+    "notes": "Day 0=no day. Binary encoded fields. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "DateTime",
     "sparkplug_data_type_value": 13,
     "permission": "read-write",
     "display_name": "TimeOfDay",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "11.001",
@@ -2926,12 +3118,14 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Year ≥90 → 19xx (20th century), Year <90 → 20xx (21st century). Range 1990-2089.",
+    "notes": "Year ≥90 → 19xx (20th century), Year <90 → 20xx (21st century). Range 1990-2089. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "DateTime",
     "sparkplug_data_type_value": 13,
     "permission": "read-write",
     "display_name": "Date",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "12.001",
@@ -2958,7 +3152,9 @@
     "sparkplug_data_type_value": 7,
     "permission": "read-write",
     "display_name": "Value 4 Ucount",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "12.100",
@@ -2985,7 +3181,9 @@
     "sparkplug_data_type_value": 7,
     "permission": "read-write",
     "display_name": "LongTimePeriod Sec",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "12.101",
@@ -3012,7 +3210,9 @@
     "sparkplug_data_type_value": 7,
     "permission": "read-write",
     "display_name": "LongTimePeriod Min",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "12.102",
@@ -3039,7 +3239,9 @@
     "sparkplug_data_type_value": 7,
     "permission": "read-write",
     "display_name": "LongTimePeriod Hrs",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "12.1200",
@@ -3061,12 +3263,14 @@
     "use_scope": "FB",
     "application_domain": "metering",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "LongTimePeriod Hrs",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "12.1201",
@@ -3093,7 +3297,9 @@
     "sparkplug_data_type_value": 7,
     "permission": "read-write",
     "display_name": "Volume m3",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "13.001",
@@ -3120,7 +3326,9 @@
     "sparkplug_data_type_value": 3,
     "permission": "read-write",
     "display_name": "Value 4 Count",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "v32_encode(ui_value)",
+    "formula_from_bus": "v32_decode(raw_value)"
   },
   {
     "dpt_id": "13.002",
@@ -3153,7 +3361,9 @@
       "offset": null,
       "formula_to_bus": "value / 0.0001",
       "formula_from_bus": "raw * 0.0001"
-    }
+    },
+    "formula_to_bus": "v32_encode(round(ui_value / 0.0001))",
+    "formula_from_bus": "v32_decode(raw_value) * 0.0001"
   },
   {
     "dpt_id": "13.010",
@@ -3180,7 +3390,9 @@
     "sparkplug_data_type_value": 3,
     "permission": "read-only",
     "display_name": "ActiveEnergy",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "v32_encode(ui_value)",
+    "formula_from_bus": "v32_decode(raw_value)"
   },
   {
     "dpt_id": "13.011",
@@ -3207,7 +3419,9 @@
     "sparkplug_data_type_value": 3,
     "permission": "read-only",
     "display_name": "ApparentEnergy",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "v32_encode(ui_value)",
+    "formula_from_bus": "v32_decode(raw_value)"
   },
   {
     "dpt_id": "13.012",
@@ -3234,7 +3448,9 @@
     "sparkplug_data_type_value": 3,
     "permission": "read-only",
     "display_name": "ReactiveEnergy",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "v32_encode(ui_value)",
+    "formula_from_bus": "v32_decode(raw_value)"
   },
   {
     "dpt_id": "13.013",
@@ -3261,7 +3477,9 @@
     "sparkplug_data_type_value": 3,
     "permission": "read-only",
     "display_name": "ActiveEnergy kWh",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "v32_encode(ui_value)",
+    "formula_from_bus": "v32_decode(raw_value)"
   },
   {
     "dpt_id": "13.014",
@@ -3288,7 +3506,9 @@
     "sparkplug_data_type_value": 3,
     "permission": "read-only",
     "display_name": "ApparentEnergy kVAh",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "v32_encode(ui_value)",
+    "formula_from_bus": "v32_decode(raw_value)"
   },
   {
     "dpt_id": "13.015",
@@ -3315,7 +3535,9 @@
     "sparkplug_data_type_value": 3,
     "permission": "read-only",
     "display_name": "ReactiveEnergy kVARh",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "v32_encode(ui_value)",
+    "formula_from_bus": "v32_decode(raw_value)"
   },
   {
     "dpt_id": "13.016",
@@ -3342,7 +3564,9 @@
     "sparkplug_data_type_value": 3,
     "permission": "read-only",
     "display_name": "ActiveEnergy MWh",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "v32_encode(ui_value)",
+    "formula_from_bus": "v32_decode(raw_value)"
   },
   {
     "dpt_id": "13.100",
@@ -3369,7 +3593,9 @@
     "sparkplug_data_type_value": 3,
     "permission": "read-write",
     "display_name": "LongDeltaTimeSec",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "v32_encode(ui_value)",
+    "formula_from_bus": "v32_decode(raw_value)"
   },
   {
     "dpt_id": "13.1200",
@@ -3396,7 +3622,9 @@
     "sparkplug_data_type_value": 3,
     "permission": "read-write",
     "display_name": "DeltaVolumeLiquid Litre",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "v32_encode(ui_value)",
+    "formula_from_bus": "v32_decode(raw_value)"
   },
   {
     "dpt_id": "13.1201",
@@ -3423,7 +3651,9 @@
     "sparkplug_data_type_value": 3,
     "permission": "read-write",
     "display_name": "DeltaVolume m3",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "v32_encode(ui_value)",
+    "formula_from_bus": "v32_decode(raw_value)"
   },
   {
     "dpt_id": "14.000",
@@ -3450,7 +3680,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Acceleration",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.001",
@@ -3477,7 +3709,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Acceleration Angular",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.002",
@@ -3504,7 +3738,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Activation Energy",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.003",
@@ -3531,7 +3767,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Activity",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.004",
@@ -3558,7 +3796,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Mol",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.005",
@@ -3585,7 +3825,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Amplitude",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.006",
@@ -3612,7 +3854,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value AngleRad",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.007",
@@ -3639,7 +3883,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value AngleDeg",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.008",
@@ -3666,7 +3912,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Angular Momentum",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.009",
@@ -3693,7 +3941,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Angular Velocity",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.010",
@@ -3720,7 +3970,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Area",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.011",
@@ -3747,7 +3999,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Capacitance",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.012",
@@ -3774,7 +4028,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Charge DensitySurface",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.013",
@@ -3801,7 +4057,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Charge DensityVolume",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.014",
@@ -3828,7 +4086,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Compressibility",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.015",
@@ -3855,7 +4115,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Conductance",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.016",
@@ -3882,7 +4144,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Electrical Conductivity",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.017",
@@ -3909,7 +4173,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Density",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.018",
@@ -3936,7 +4202,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Electric Charge",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.019",
@@ -3963,7 +4231,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Electric Current",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.020",
@@ -3990,7 +4260,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Electric CurrentDensity",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.021",
@@ -4017,7 +4289,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Electric DipoleMoment",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.022",
@@ -4044,7 +4318,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Electric Displacement",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.023",
@@ -4071,7 +4347,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Electric FieldStrength",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.024",
@@ -4098,7 +4376,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Electric Flux",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.025",
@@ -4120,12 +4400,14 @@
     "use_scope": "FB",
     "application_domain": "common",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-only",
     "display_name": "Value Electric Flux",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "14.026",
@@ -4152,7 +4434,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Electric Polarization",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.027",
@@ -4179,7 +4463,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Electric Potential",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.028",
@@ -4206,7 +4492,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value ElectromagneticMoment",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.029",
@@ -4233,7 +4521,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value ElectromagneticMoment",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.030",
@@ -4260,7 +4550,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Electromotive Force",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.031",
@@ -4287,7 +4579,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Electromotive Force",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.032",
@@ -4309,12 +4603,14 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-only",
     "display_name": "Value Force",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "14.033",
@@ -4341,7 +4637,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Frequency",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.034",
@@ -4368,7 +4666,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Angular Frequency",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.035",
@@ -4395,7 +4695,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Heat Capacity",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.036",
@@ -4422,7 +4724,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Heat FlowRate",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.037",
@@ -4449,7 +4753,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Heat Quantity",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.038",
@@ -4476,7 +4782,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Impedance",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.039",
@@ -4503,7 +4811,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Length",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.040",
@@ -4530,7 +4840,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Light Quantity",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.041",
@@ -4557,7 +4869,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Luminance",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.042",
@@ -4584,7 +4898,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Luminous Flux",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.043",
@@ -4611,7 +4927,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Luminous Intensity",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.044",
@@ -4638,7 +4956,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Magnetic FieldStrength",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.045",
@@ -4665,7 +4985,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Magnetic Flux",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.046",
@@ -4692,7 +5014,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Magnetic FluxDensity",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.047",
@@ -4719,7 +5043,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Magnetic Moment",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.048",
@@ -4746,7 +5072,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Magnetic Polarization",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.049",
@@ -4773,7 +5101,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Magnetization",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.050",
@@ -4800,7 +5130,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value MagnetomotiveForce",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.051",
@@ -4827,7 +5159,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Mass",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.052",
@@ -4854,7 +5188,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value MassFlux",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.053",
@@ -4881,7 +5217,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Momentum",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.054",
@@ -4908,7 +5246,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Phase AngleRad",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.055",
@@ -4935,7 +5275,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Phase AngleDeg",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.056",
@@ -4962,7 +5304,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Power",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.057",
@@ -4989,7 +5333,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Power Factor",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.058",
@@ -5016,7 +5362,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Pressure",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.059",
@@ -5043,7 +5391,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Reactance",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.060",
@@ -5070,7 +5420,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Resistance",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.061",
@@ -5097,7 +5449,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Resistivity",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.062",
@@ -5124,7 +5478,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value SelfInductance",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.063",
@@ -5151,7 +5507,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value SolidAngle",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.064",
@@ -5178,7 +5536,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Sound Intensity",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.065",
@@ -5205,7 +5565,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Speed",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.066",
@@ -5232,7 +5594,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Stress",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.067",
@@ -5259,7 +5623,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Surface Tension",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.068",
@@ -5286,7 +5652,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Common Temperature",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.069",
@@ -5313,7 +5681,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Absolute Temperature",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.070",
@@ -5340,7 +5710,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value TemperatureDifference",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.071",
@@ -5367,7 +5739,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Thermal Capacity",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.072",
@@ -5394,7 +5768,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Thermal Conductivity",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.073",
@@ -5421,7 +5797,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value ThermoelectricPower",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.074",
@@ -5448,7 +5826,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Time",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.075",
@@ -5475,7 +5855,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Torque",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.076",
@@ -5502,7 +5884,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Volume",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.077",
@@ -5529,7 +5913,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Volume Flux",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.078",
@@ -5556,7 +5942,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Weight",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.079",
@@ -5583,7 +5971,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Work",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.080",
@@ -5610,7 +6000,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value ApparentPower",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.1200",
@@ -5637,7 +6029,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Volume Flux Meter",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "14.1201",
@@ -5664,7 +6058,9 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Volume Flux ls",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "f32_encode(ui_value)",
+    "formula_from_bus": "f32_decode(raw_value)"
   },
   {
     "dpt_id": "15.000",
@@ -5686,12 +6082,14 @@
     "use_scope": "FB",
     "application_domain": "common",
     "value_map": null,
-    "notes": "D=read direction, E=error, P=permission, C=encryption. Index for future use.",
+    "notes": "D=read direction, E=error, P=permission, C=encryption. Index for future use. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "Access Data",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "16.000",
@@ -5713,12 +6111,14 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Fixed 14 octets. Unused trailing characters shall be filled with 00h (NULL).",
+    "notes": "Fixed 14 octets. Unused trailing characters shall be filled with 00h (NULL). Structured/text DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "String",
     "sparkplug_data_type_value": 12,
     "permission": "read-write",
     "display_name": "String ASCII",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "16.001",
@@ -5740,12 +6140,14 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": null,
+    "notes": "Structured/text DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "String",
     "sparkplug_data_type_value": 12,
     "permission": "read-write",
     "display_name": "String 8859 1",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "17.001",
@@ -5772,7 +6174,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "SceneNumber",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "18.001",
@@ -5797,12 +6201,14 @@
       "0": "Activate the scene corresponding to the field Scene Number",
       "1": "Learn the scene corresponding to the field Scene Number"
     },
-    "notes": "Combines control action (activate/learn) with scene number",
+    "notes": "Combines control action (activate/learn) with scene number Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "SceneControl",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "19.001",
@@ -5824,12 +6230,14 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Combined date/time with weekday, annual date (day/month/year) and time-of-day (h/m/s) plus flags for fault, working day, standard summer time and quality",
+    "notes": "Combined date/time with weekday, annual date (day/month/year) and time-of-day (h/m/s) plus flags for fault, working day, standard summer time and quality Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "DateTime",
     "sparkplug_data_type_value": 13,
     "permission": "read-write",
     "display_name": "DateTime",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "20.001",
@@ -5855,12 +6263,14 @@
       "1": "Slave",
       "2": "Master"
     },
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "SCLO Mode",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "20.002",
@@ -5891,7 +6301,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "BuildingMode",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "20.003",
@@ -5917,12 +6329,14 @@
       "1": "Standby",
       "2": "Not occupied"
     },
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "OccMode",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "20.004",
@@ -5949,12 +6363,14 @@
       "2": "Low",
       "3": "Void"
     },
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "Priority",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "20.005",
@@ -5985,7 +6401,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "LightApplicationMode",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "20.006",
@@ -6024,7 +6442,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "ApplicationArea",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "20.007",
@@ -6055,7 +6475,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "AlarmClassType",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "20.008",
@@ -6086,7 +6508,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "PSUMode",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "20.011",
@@ -6133,7 +6557,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "ErrorClass System",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "20.012",
@@ -6166,7 +6592,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "ErrorClass HVAC",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "20.013",
@@ -6220,7 +6648,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "Time Delay",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "20.014",
@@ -6261,7 +6691,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "Beaufort Wind Force Scale",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "20.017",
@@ -6294,7 +6726,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "SensorSelect",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "20.020",
@@ -6324,7 +6758,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "ActuatorConnectType",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "20.021",
@@ -6362,7 +6798,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "Cloud Cover",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "20.022",
@@ -6392,7 +6830,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "PowerReturnMode",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "20.100",
@@ -6424,7 +6864,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "FuelType",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "20.101",
@@ -6455,7 +6897,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "BurnerType",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "20.102",
@@ -6488,7 +6932,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "HVACMode",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "20.103",
@@ -6521,7 +6967,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "DHWMode",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "20.104",
@@ -6552,7 +7000,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "LoadPriority",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "20.105",
@@ -6599,7 +7049,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "HVACContrMode",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "20.106",
@@ -6633,7 +7085,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "HVACEmergMode",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "20.107",
@@ -6664,7 +7118,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "ChangeoverMode",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "20.108",
@@ -6699,7 +7155,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "ValveMode",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "20.109",
@@ -6731,7 +7189,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "DamperMode",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "20.110",
@@ -6762,7 +7222,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "HeaterMode",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "20.111",
@@ -6793,7 +7255,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "FanMode",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "20.112",
@@ -6824,7 +7288,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "MasterSlaveMode",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "20.113",
@@ -6855,7 +7321,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "StatusRoomSetp",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "20.114",
@@ -6899,7 +7367,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "Metering DeviceType",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "20.115",
@@ -6930,7 +7400,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "HumDehumMode",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "20.120",
@@ -6961,7 +7433,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "ADAType",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "20.121",
@@ -6991,7 +7465,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "BackupMode",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "20.122",
@@ -7021,7 +7497,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "StartSynchronization",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "20.600",
@@ -7054,7 +7532,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "Behaviour Lock Unlock",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "20.601",
@@ -7087,7 +7567,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "Behaviour Bus Power Up Down",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "20.602",
@@ -7131,7 +7613,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "DALI Fade Time",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "20.603",
@@ -7162,7 +7646,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "BlinkingMode",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "20.604",
@@ -7192,7 +7678,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "LightControlMode",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "20.605",
@@ -7222,7 +7710,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "SwitchPBModel",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "20.606",
@@ -7254,7 +7744,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "PBAction",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "20.607",
@@ -7284,7 +7776,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "DimmPBModel",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "20.608",
@@ -7315,7 +7809,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "SwitchOnMode",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "20.609",
@@ -7350,7 +7846,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "LoadTypeSet",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "20.610",
@@ -7382,7 +7880,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "LoadTypeDetected",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "20.611",
@@ -7416,7 +7916,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "Converter Test Control",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "20.612",
@@ -7448,7 +7950,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "Converter Control",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "20.613",
@@ -7484,7 +7988,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "Converter Data Request",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "20.801",
@@ -7516,7 +8022,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "SABExceptBehaviour",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "20.802",
@@ -7550,7 +8058,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "SABBehaviour Lock Unlock",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "20.803",
@@ -7580,7 +8090,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "SSSBMode",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "20.804",
@@ -7610,7 +8122,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "BlindsControlMode",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "20.1000",
@@ -7637,7 +8151,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "CommMode",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "20.1001",
@@ -7666,7 +8182,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "AddInfoTypes",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "20.1002",
@@ -7697,7 +8215,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "RF ModeSelect",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "20.1003",
@@ -7727,7 +8247,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "RF FilterSelect",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "20.1004",
@@ -7759,7 +8281,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "Medium",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "20.1005",
@@ -7809,7 +8333,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "PB Function",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "20.1200",
@@ -7841,7 +8367,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "MBus BreakerValve State",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "20.1202",
@@ -7873,7 +8401,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "Gas Measurement Condition",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "20.1203",
@@ -7906,7 +8436,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "Breaker Status",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "20.1204",
@@ -7937,7 +8469,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "Euridis Communication Interface Status",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "20.1205",
@@ -7968,7 +8502,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "PLC Status",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "20.1206",
@@ -8000,7 +8536,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "Peak Event Notice",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "20.1207",
@@ -8032,7 +8570,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "Peak Event",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "20.1208",
@@ -8062,7 +8602,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "TIC Type",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "20.1209",
@@ -8095,7 +8637,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "Type TIC Channel",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "21.001",
@@ -8122,7 +8666,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-only",
     "display_name": "StatusGen",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "21.002",
@@ -8149,7 +8695,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-only",
     "display_name": "Device Control",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "21.100",
@@ -8176,7 +8724,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-only",
     "display_name": "ForceSign",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "21.101",
@@ -8203,7 +8753,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-only",
     "display_name": "ForceSignCool",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "21.102",
@@ -8230,7 +8782,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-only",
     "display_name": "StatusRHC",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "21.103",
@@ -8257,7 +8811,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-only",
     "display_name": "StatusSDHWC",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "21.104",
@@ -8284,7 +8840,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-only",
     "display_name": "FuelTypeSet",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "21.105",
@@ -8311,7 +8869,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-only",
     "display_name": "StatusRCC",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "21.106",
@@ -8338,7 +8898,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-only",
     "display_name": "StatusAHU",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "21.601",
@@ -8365,7 +8927,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-only",
     "display_name": "LightActuatorErrorInfo",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "21.1000",
@@ -8392,7 +8956,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-only",
     "display_name": "RF ModeInfo",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "21.1001",
@@ -8419,7 +8985,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-only",
     "display_name": "RF FilterInfo",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "21.1002",
@@ -8446,7 +9014,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-only",
     "display_name": "Security Report",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "21.1010",
@@ -8473,7 +9043,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-only",
     "display_name": "Channel Activation 8",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "21.1200",
@@ -8500,7 +9072,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-only",
     "display_name": "VirtualDryContact",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "21.1201",
@@ -8530,7 +9104,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-only",
     "display_name": "Phases Status",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "22.100",
@@ -8557,7 +9133,9 @@
     "sparkplug_data_type_value": 6,
     "permission": "read-only",
     "display_name": "StatusDHWC",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "22.101",
@@ -8584,7 +9162,9 @@
     "sparkplug_data_type_value": 6,
     "permission": "read-only",
     "display_name": "StatusRHCC",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "22.1000",
@@ -8611,7 +9191,9 @@
     "sparkplug_data_type_value": 6,
     "permission": "read-only",
     "display_name": "Media",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "22.1010",
@@ -8638,7 +9220,9 @@
     "sparkplug_data_type_value": 6,
     "permission": "read-only",
     "display_name": "Channel Activation 16",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "23.001",
@@ -8670,7 +9254,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "OnOff Action",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "23.002",
@@ -8702,7 +9288,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "Alarm Reaction",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "23.003",
@@ -8734,7 +9322,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "UpDown Action",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "23.102",
@@ -8765,7 +9355,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "HVAC PB Action",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "24.001",
@@ -8787,12 +9379,14 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Terminated by 00h NULL character",
+    "notes": "Terminated by 00h NULL character Structured/text DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "String",
     "sparkplug_data_type_value": 12,
     "permission": "read-write",
     "display_name": "VarString 8859 1",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "25.1000",
@@ -8814,12 +9408,14 @@
     "use_scope": "G",
     "application_domain": "system",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "DoubleNibble",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "26.001",
@@ -8844,12 +9440,14 @@
       "0": "Scene is active",
       "1": "Scene is inactive"
     },
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "SceneInfo",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "27.001",
@@ -8876,7 +9474,9 @@
     "sparkplug_data_type_value": 7,
     "permission": "read-write",
     "display_name": "CombinedInfoOnOff",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "28.001",
@@ -8898,12 +9498,14 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Full Unicode support. Terminated by 00h NULL character.",
+    "notes": "Full Unicode support. Terminated by 00h NULL character. Structured/text DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "String",
     "sparkplug_data_type_value": 12,
     "permission": "read-write",
     "display_name": "UTF-8",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "29.010",
@@ -8930,7 +9532,9 @@
     "sparkplug_data_type_value": 4,
     "permission": "read-only",
     "display_name": "ActiveEnergy V64",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value if ui_value >= 0 else ui_value + 2**64",
+    "formula_from_bus": "raw_value if raw_value < 2**63 else raw_value - 2**64"
   },
   {
     "dpt_id": "29.011",
@@ -8957,7 +9561,9 @@
     "sparkplug_data_type_value": 4,
     "permission": "read-only",
     "display_name": "ApparentEnergy V64",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value if ui_value >= 0 else ui_value + 2**64",
+    "formula_from_bus": "raw_value if raw_value < 2**63 else raw_value - 2**64"
   },
   {
     "dpt_id": "29.012",
@@ -8984,7 +9590,9 @@
     "sparkplug_data_type_value": 4,
     "permission": "read-only",
     "display_name": "ReactiveEnergy V64",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value if ui_value >= 0 else ui_value + 2**64",
+    "formula_from_bus": "raw_value if raw_value < 2**63 else raw_value - 2**64"
   },
   {
     "dpt_id": "30.1010",
@@ -9011,7 +9619,9 @@
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "Channel Activation 24",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "31.101",
@@ -9038,7 +9648,9 @@
     "sparkplug_data_type_value": 5,
     "permission": "read-write",
     "display_name": "PB Action HVAC Extended",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": "ui_value",
+    "formula_from_bus": "raw_value"
   },
   {
     "dpt_id": "200.100",
@@ -9063,12 +9675,14 @@
       "0": "Cooling",
       "1": "Heating"
     },
-    "notes": "Composite: DPT 1.100 value + Z8 status/command byte",
+    "notes": "Composite: DPT 1.100 value + Z8 status/command byte Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "Heat/Cool Z",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "200.101",
@@ -9093,12 +9707,14 @@
       "0": "Low",
       "1": "High"
     },
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "BinaryValue Z",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "201.100",
@@ -9126,12 +9742,14 @@
       "3": "Economy",
       "4": "Building protection"
     },
-    "notes": "Composite: DPT 20.102 HVAC mode + Z8 status byte",
+    "notes": "Composite: DPT 20.102 HVAC mode + Z8 status byte Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "HVACMode Z",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "201.102",
@@ -9159,12 +9777,14 @@
       "3": "Reduced",
       "4": "Off/FrostProtect"
     },
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "DHWMode Z",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "201.104",
@@ -9206,12 +9826,14 @@
       "17": "Emergency Steam",
       "20": "NoDem"
     },
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "HVACContrMode Z",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "201.105",
@@ -9238,12 +9860,14 @@
       "2": "Stage B",
       "3": "Both stages"
     },
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "EnablH/Cstage Z",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "201.107",
@@ -9269,12 +9893,14 @@
       "1": "Not used",
       "2": "Protection"
     },
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "BuildingMode Z",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "201.108",
@@ -9300,12 +9926,14 @@
       "1": "Standby",
       "2": "Not occupied"
     },
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "OccMode Z",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "201.109",
@@ -9327,12 +9955,14 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": "Composite HVAC emergency mode with status byte (N8Z8); used in room controllers",
+    "notes": "Composite HVAC emergency mode with status byte (N8Z8); used in room controllers Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "HVACEmergMode Z",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "202.001",
@@ -9354,12 +9984,14 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Relative value with status byte (U8Z8); general-purpose composite",
+    "notes": "Relative value with status byte (U8Z8); general-purpose composite Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "RelValue Z",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "202.002",
@@ -9381,12 +10013,14 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "UCountValue8 Z",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "203.002",
@@ -9408,12 +10042,14 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "TimePeriodMsec Z",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "203.003",
@@ -9435,12 +10071,14 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "TimePeriod10Msec Z",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "203.004",
@@ -9462,12 +10100,14 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "TimePeriod100Msec Z",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "203.005",
@@ -9489,12 +10129,14 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Time period in seconds with status byte (U16Z8); 0..65535 s",
+    "notes": "Time period in seconds with status byte (U16Z8); 0..65535 s Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "TimePeriodSec Z",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "203.006",
@@ -9516,12 +10158,14 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Time period in minutes with status byte (U16Z8); 0..65535 min",
+    "notes": "Time period in minutes with status byte (U16Z8); 0..65535 min Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "TimePeriodMin Z",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "203.007",
@@ -9543,12 +10187,14 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "TimePeriodHrs Z",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "203.011",
@@ -9570,12 +10216,14 @@
     "use_scope": "FB",
     "application_domain": "common",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "UFlowRateLiter/h Z",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "203.012",
@@ -9597,12 +10245,14 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "UCountValue16 Z",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "203.013",
@@ -9624,12 +10274,14 @@
     "use_scope": "FB",
     "application_domain": "common",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "UElCurrentμA Z",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "203.014",
@@ -9651,12 +10303,14 @@
     "use_scope": "FB",
     "application_domain": "common",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "PowerKW Z",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "203.015",
@@ -9678,12 +10332,14 @@
     "use_scope": "FB",
     "application_domain": "common",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "AtmPressureAbs Z",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "203.017",
@@ -9705,12 +10361,14 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "PercentU16 Z",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "203.100",
@@ -9732,12 +10390,14 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "HVACAirQual Z",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "203.101",
@@ -9759,12 +10419,14 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "WindSpeed Z",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "203.102",
@@ -9786,12 +10448,14 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "SunIntensity Z",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "203.104",
@@ -9813,12 +10477,14 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "HVACAirFlowAbs Z",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "204.001",
@@ -9840,12 +10506,14 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "RelSignedValue Z",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "205.002",
@@ -9867,12 +10535,14 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "DeltaTimeMsec Z",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "205.003",
@@ -9894,12 +10564,14 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "DeltaTime10Msec Z",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "205.004",
@@ -9921,12 +10593,14 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "DeltaTime100Msec Z",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "205.005",
@@ -9948,12 +10622,14 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "DeltaTimeSec Z",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "205.006",
@@ -9975,12 +10651,14 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "DeltaTimeMin Z",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "205.007",
@@ -10002,12 +10680,14 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "DeltaTimeHrs Z",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "205.017",
@@ -10029,12 +10709,14 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "Percent V16 Z",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "205.100",
@@ -10056,12 +10738,14 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "TempHVACAbs Z",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "205.101",
@@ -10083,12 +10767,14 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "TempHVACRel Z",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "205.102",
@@ -10110,12 +10796,14 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "HVACAirFlowRel Z",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "205.103",
@@ -10137,12 +10825,14 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "HVACAirQualiRel Z",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "206.100",
@@ -10164,12 +10854,14 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": "U16=time delay (minutes), N8=next HVAC operating mode",
+    "notes": "U16=time delay (minutes), N8=next HVAC operating mode Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "HVACModeNext",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "206.102",
@@ -10191,12 +10883,14 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "DHWModeNext",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "206.104",
@@ -10218,12 +10912,14 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "OccModeNext",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "206.105",
@@ -10245,12 +10941,14 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "BuildingModeNext",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "207.100",
@@ -10272,12 +10970,14 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-only",
     "display_name": "StatusBUC",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "207.101",
@@ -10299,12 +10999,14 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-only",
     "display_name": "LockSign",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "207.102",
@@ -10326,12 +11028,14 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-only",
     "display_name": "ValueDemBOC",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "207.104",
@@ -10353,12 +11057,14 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-only",
     "display_name": "ActPosDemAbs",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "207.105",
@@ -10380,12 +11086,14 @@
     "use_scope": "G",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": "HVAC actuator status composite (U8B8); includes actuator value and status bits",
+    "notes": "HVAC actuator status composite (U8B8); includes actuator value and status bits Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-only",
     "display_name": "StatusAct",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "207.600",
@@ -10407,12 +11115,14 @@
     "use_scope": "FB",
     "application_domain": "lighting",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-only",
     "display_name": "StatusLightingActuator",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "209.100",
@@ -10434,12 +11144,14 @@
     "use_scope": "G",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": "Heat pump mode status composite (V16B8); signed 16-bit value + 8-bit status",
+    "notes": "Heat pump mode status composite (V16B8); signed 16-bit value + 8-bit status Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-only",
     "display_name": "StatusHPM",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "209.101",
@@ -10461,12 +11173,14 @@
     "use_scope": "G",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": "Absolute room temperature demand composite (V16B8); signed 16-bit + 8-bit status",
+    "notes": "Absolute room temperature demand composite (V16B8); signed 16-bit + 8-bit status Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-only",
     "display_name": "TempRoomDemAbs",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "209.102",
@@ -10488,12 +11202,14 @@
     "use_scope": "G",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": "Cooling plant mode status composite (V16B8); signed 16-bit value + 8-bit status",
+    "notes": "Cooling plant mode status composite (V16B8); signed 16-bit value + 8-bit status Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-only",
     "display_name": "StatusCPM",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "209.103",
@@ -10515,12 +11231,14 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-only",
     "display_name": "StatusWTC",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "210.100",
@@ -10542,12 +11260,14 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "TempFlowWaterDemAbs",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "211.100",
@@ -10569,12 +11289,14 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "EnergyDemWater",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "212.100",
@@ -10596,12 +11318,14 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": "Each V16 encoded as KNX F16. Setpoint shifts for Comfort/Standby/Economy.",
+    "notes": "Each V16 encoded as KNX F16. Setpoint shifts for Comfort/Standby/Economy. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "TempRoomSetpSetShift[3]",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "212.101",
@@ -10623,12 +11347,14 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "TempRoomSetpSet[3]",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "213.100",
@@ -10650,12 +11376,14 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": "Comfort/Standby/Economy/BuildingProtection setpoints",
+    "notes": "Comfort/Standby/Economy/BuildingProtection setpoints Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "TempRoomSetpSet[4]",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "213.101",
@@ -10677,12 +11405,14 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "TempDHWSetpSet[4]",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "213.102",
@@ -10704,12 +11434,14 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "TempRoomSetpSetShift[4]",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "214.100",
@@ -10731,12 +11463,14 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "PowerFlowWaterDemHPM",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "214.101",
@@ -10758,12 +11492,14 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "PowerFlowWaterDemCPM",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "215.100",
@@ -10785,12 +11521,14 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-only",
     "display_name": "StatusBOC",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "215.101",
@@ -10812,12 +11550,14 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-only",
     "display_name": "StatusCC",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "216.100",
@@ -10839,12 +11579,14 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "SpecHeatProd",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "217.001",
@@ -10866,12 +11608,14 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Main version (0-31), Sub version (0-31), Revision (0-63)",
+    "notes": "Main version (0-31), Sub version (0-31), Revision (0-63) Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-only",
     "display_name": "Version",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "218.001",
@@ -10893,12 +11637,14 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "VolumeLiter Z",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "218.002",
@@ -10920,12 +11666,14 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "FlowRate m3/h Z",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "219.001",
@@ -10950,12 +11698,14 @@
       "0": "False",
       "1": "True"
     },
-    "notes": "LogNumber(U8), AlarmPriority(N8:0-2,3=void), ApplicationArea(N8), ErrorClass(N8), Attributes(B8), AlarmStatus(B8)",
+    "notes": "LogNumber(U8), AlarmPriority(N8:0-2,3=void), ApplicationArea(N8), ErrorClass(N8), Attributes(B8), AlarmStatus(B8) Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-only",
     "display_name": "AlarmInfo",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "220.100",
@@ -10977,12 +11727,14 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "TempHVACAbsNext",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "221.001",
@@ -11004,12 +11756,14 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "KNX serial number: 2-byte manufacturer code (N16) + 4-byte serial number (U32); 6 bytes total",
+    "notes": "KNX serial number: 2-byte manufacturer code (N16) + 4-byte serial number (U32); 6 bytes total Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-only",
     "display_name": "SerNum",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "222.100",
@@ -11031,12 +11785,14 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "TempRoomSetpSetF16[3]",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "222.101",
@@ -11058,12 +11814,14 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "TempRoomSetpSetShiftF16[3]",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "223.100",
@@ -11085,12 +11843,14 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "EnergyDemAir",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "224.100",
@@ -11112,12 +11872,14 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "TempSupplyAirSetpSet",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "225.001",
@@ -11139,12 +11901,14 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "ScalingSpeed",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "225.002",
@@ -11166,12 +11930,14 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "Scaling Step Time",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "225.003",
@@ -11193,12 +11959,14 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "TariffNext",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "229.001",
@@ -11220,12 +11988,14 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Energy/volume metering. V32=value, N8=metering unit enum, Z8=status/command",
+    "notes": "Energy/volume metering. V32=value, N8=metering unit enum, Z8=status/command Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-only",
     "display_name": "MeteringValue",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "230.1000",
@@ -11247,12 +12017,14 @@
     "use_scope": "FB",
     "application_domain": "system",
     "value_map": null,
-    "notes": "DeviceType(U16), SerialNumber(U32), Version(U8), Medium(N8)",
+    "notes": "DeviceType(U16), SerialNumber(U32), Version(U8), Medium(N8) Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "MBus Address",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "231.001",
@@ -11274,12 +12046,14 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Language (2 ASCII chars) + Region (2 ASCII chars), e.g. 'deDE'",
+    "notes": "Language (2 ASCII chars) + Region (2 ASCII chars), e.g. 'deDE' Structured/text DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "String",
     "sparkplug_data_type_value": 12,
     "permission": "read-write",
     "display_name": "Locale ASCII",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "232.600",
@@ -11301,12 +12075,14 @@
     "use_scope": "G",
     "application_domain": "lighting",
     "value_map": null,
-    "notes": "Red(0-255), Green(0-255), Blue(0-255). Common in lighting control.",
+    "notes": "Red(0-255), Green(0-255), Blue(0-255). Common in lighting control. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "Colour RGB",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "234.001",
@@ -11328,12 +12104,14 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": null,
+    "notes": "Structured/text DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "String",
     "sparkplug_data_type_value": 12,
     "permission": "read-write",
     "display_name": "LanguageCodeAlpha2 ASCII",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "234.002",
@@ -11355,12 +12133,14 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": null,
+    "notes": "Structured/text DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "String",
     "sparkplug_data_type_value": 12,
     "permission": "read-write",
     "display_name": "RegionCodeAlpha2 ASCII",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "235.001",
@@ -11382,12 +12162,14 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Energy(V32 Wh), Tariff(U8 0-255), Validity(B8)",
+    "notes": "Energy(V32 Wh), Tariff(U8 0-255), Validity(B8) Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-only",
     "display_name": "Tariff ActiveEnergy",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "236.001",
@@ -11409,12 +12191,14 @@
     "use_scope": "FB",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Valid(B1), Priority(N3:0-7), Mode(N4:0-15). 1 octet.",
+    "notes": "Valid(B1), Priority(N3:0-7), Mode(N4:0-15). 1 octet. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "Prioritised Mode Control",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "237.600",
@@ -11436,12 +12220,14 @@
     "use_scope": "FB",
     "application_domain": "lighting",
     "value_map": null,
-    "notes": "Lamp/ballast/converter failure flags + device address (U6: 0-63)",
+    "notes": "Lamp/ballast/converter failure flags + device address (U6: 0-63) Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-only",
     "display_name": "DALI Control Gear Diagnostic",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "238.001",
@@ -11463,12 +12249,14 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "SceneConfig",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "238.600",
@@ -11490,12 +12278,14 @@
     "use_scope": "FB",
     "application_domain": "lighting",
     "value_map": null,
-    "notes": "LampFailure(b6), BallastFailure(b7), DeviceAddress(U6:0-63)",
+    "notes": "LampFailure(b6), BallastFailure(b7), DeviceAddress(U6:0-63) Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-only",
     "display_name": "DALI Diagnostics",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "239.001",
@@ -11517,12 +12307,14 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "FlaggedScaling",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "240.800",
@@ -11544,12 +12336,14 @@
     "use_scope": "FB",
     "application_domain": "shutters_blinds",
     "value_map": null,
-    "notes": "Position(U8:0-100%), Angle(U8:0-100%), Status(B8). For shutters/blinds.",
+    "notes": "Position(U8:0-100%), Angle(U8:0-100%), Status(B8). For shutters/blinds. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "CombinedPosition",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "241.800",
@@ -11571,12 +12365,14 @@
     "use_scope": "FB",
     "application_domain": "shutters_blinds",
     "value_map": null,
-    "notes": "Position, angle, and 16-bit status flags",
+    "notes": "Position, angle, and 16-bit status flags Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-only",
     "display_name": "StatusSAB",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "242.600",
@@ -11598,12 +12394,14 @@
     "use_scope": "G",
     "application_domain": "lighting",
     "value_map": null,
-    "notes": "x(U16:0-65535->0.0-1.0), y(U16), Brightness(U8:0-100%), C/B validity bits",
+    "notes": "x(U16:0-65535->0.0-1.0), y(U16), Brightness(U8:0-100%), C/B validity bits Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "Colour xyY",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "243.600",
@@ -11625,12 +12423,14 @@
     "use_scope": "G",
     "application_domain": "lighting",
     "value_map": null,
-    "notes": "x, y, TransitionTime(U16:100ms units, 0-6553.5s), Brightness, validity bits",
+    "notes": "x, y, TransitionTime(U16:100ms units, 0-6553.5s), Brightness, validity bits Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "Colour Transition xyY",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "244.600",
@@ -11652,12 +12452,14 @@
     "use_scope": "FB",
     "application_domain": "lighting",
     "value_map": null,
-    "notes": "ConverterMode(N4:0-7), HardwareStatus(B4), test pending flags, converter failure",
+    "notes": "ConverterMode(N4:0-7), HardwareStatus(B4), test pending flags, converter failure Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-only",
     "display_name": "Converter Status",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "245.600",
@@ -11679,12 +12481,14 @@
     "use_scope": "FB",
     "application_domain": "lighting",
     "value_map": null,
-    "notes": "Last test results (FT/DT/PDT), start methods, battery discharge time, charge level",
+    "notes": "Last test results (FT/DT/PDT), start methods, battery discharge time, charge level Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-only",
     "display_name": "Converter Test Result",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "246.600",
@@ -11706,12 +12510,14 @@
     "use_scope": "FB",
     "application_domain": "lighting",
     "value_map": null,
-    "notes": "Battery info for DALI devices: 3-bit status flags + 8-bit battery level; 2 bytes total",
+    "notes": "Battery info for DALI devices: 3-bit status flags + 8-bit battery level; 2 bytes total Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-only",
     "display_name": "Battery Info",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "247.600",
@@ -11733,12 +12539,14 @@
     "use_scope": "FB",
     "application_domain": "lighting",
     "value_map": null,
-    "notes": "DALI emergency converter test info: includes date/time, status flags, duration and result; 12 bytes",
+    "notes": "DALI emergency converter test info: includes date/time, status flags, duration and result; 12 bytes Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-only",
     "display_name": "Converter Test Info",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "248.600",
@@ -11760,12 +12568,14 @@
     "use_scope": "FB",
     "application_domain": "lighting",
     "value_map": null,
-    "notes": "DALI emergency converter fixed info: N8U8U8U8B8 format, 5 bytes",
+    "notes": "DALI emergency converter fixed info: N8U8U8U8B8 format, 5 bytes Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-only",
     "display_name": "Converter Info Fix",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "249.600",
@@ -11787,12 +12597,14 @@
     "use_scope": "FB",
     "application_domain": "lighting",
     "value_map": null,
-    "notes": "Composite type for tunable white lighting: fade time in units of 100ms, colour temperature in Kelvin, brightness in percent (0..100), plus validity flags; 6 bytes total",
+    "notes": "Composite type for tunable white lighting: fade time in units of 100ms, colour temperature in Kelvin, brightness in percent (0..100), plus validity flags; 6 bytes total Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "Brightness Colour Temperature Transition",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "250.600",
@@ -11814,12 +12626,14 @@
     "use_scope": "G",
     "application_domain": "lighting",
     "value_map": null,
-    "notes": "Step-based brightness and CCT control with mask bits",
+    "notes": "Step-based brightness and CCT control with mask bits Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "Converter Info Fix",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "251.600",
@@ -11841,12 +12655,14 @@
     "use_scope": "FB",
     "application_domain": "lighting",
     "value_map": null,
-    "notes": "RGBW colour value: R[0..255] G[0..255] B[0..255] W[0..255] + 4 reserved bits + 4 validity flags; 6 bytes total",
+    "notes": "RGBW colour value: R[0..255] G[0..255] B[0..255] W[0..255] + 4 reserved bits + 4 validity flags; 6 bytes total Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "Colour RGBW",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "252.600",
@@ -11868,12 +12684,14 @@
     "use_scope": "G",
     "application_domain": "lighting",
     "value_map": null,
-    "notes": "4x step codes for R/G/B/W channels + mask byte",
+    "notes": "4x step codes for R/G/B/W channels + mask byte Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "Relative Control RGBW",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "253.600",
@@ -11895,12 +12713,14 @@
     "use_scope": "FB",
     "application_domain": "lighting",
     "value_map": null,
-    "notes": "Relative control of xyY colour: x/y/brightness each encoded as direction+stepcode+validity; 4 bytes total",
+    "notes": "Relative control of xyY colour: x/y/brightness each encoded as direction+stepcode+validity; 4 bytes total Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "Relative Control xyY",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "254.600",
@@ -11922,12 +12742,14 @@
     "use_scope": "G",
     "application_domain": "lighting",
     "value_map": null,
-    "notes": "3x step codes for R/G/B channels (no white)",
+    "notes": "3x step codes for R/G/B channels (no white) Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "Relative Control RGB",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "255.001",
@@ -11949,12 +12771,14 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Geographic location: Latitude(F32) + Longitude(F32) in degrees; IEEE 754; 8 bytes total",
+    "notes": "Geographic location: Latitude(F32) + Longitude(F32) in degrees; IEEE 754; 8 bytes total Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-only",
     "display_name": "GeographicalLocation",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "256.001",
@@ -11976,12 +12800,14 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "DateTime with period information for scheduler/timer use",
+    "notes": "DateTime with period information for scheduler/timer use Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "GeographicalLocation",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "257.1200",
@@ -12003,12 +12829,14 @@
     "use_scope": "G",
     "application_domain": "metering",
     "value_map": null,
-    "notes": "Three-phase electric current values: 3 × F32 (IEEE 754); 12 bytes; metering application",
+    "notes": "Three-phase electric current values: 3 × F32 (IEEE 754); 12 bytes; metering application Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "Value Electric Current 3",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "257.1201",
@@ -12030,12 +12858,14 @@
     "use_scope": "G",
     "application_domain": "metering",
     "value_map": null,
-    "notes": "Three-phase electric potential values: 3 × F32 (IEEE 754); 12 bytes; metering application",
+    "notes": "Three-phase electric potential values: 3 × F32 (IEEE 754); 12 bytes; metering application Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "Value Electric Potential 3",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "257.1202",
@@ -12057,12 +12887,14 @@
     "use_scope": "FB",
     "application_domain": "metering",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-write",
     "display_name": "Value ApparentPower 3",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "265.001",
@@ -12084,12 +12916,14 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-only",
     "display_name": "DateTime Switch",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "265.005",
@@ -12111,12 +12945,14 @@
     "use_scope": "FB",
     "application_domain": "common",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-only",
     "display_name": "DateTime OpenClose",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "265.009",
@@ -12138,12 +12974,14 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Date/time with open/close action scheduling; complex composite with date, time and control flags; 9 bytes",
+    "notes": "Date/time with open/close action scheduling; complex composite with date, time and control flags; 9 bytes Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-only",
     "display_name": "DateTime OpenClose",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "265.011",
@@ -12165,12 +13003,14 @@
     "use_scope": "FB",
     "application_domain": "common",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-only",
     "display_name": "DateTime State",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "265.012",
@@ -12192,12 +13032,14 @@
     "use_scope": "FB",
     "application_domain": "common",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-only",
     "display_name": "DateTime Invert",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "265.1200",
@@ -12219,12 +13061,14 @@
     "use_scope": "FB",
     "application_domain": "metering",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-only",
     "display_name": "DateTime ConsumerProducer",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "265.1201",
@@ -12246,12 +13090,14 @@
     "use_scope": "FB",
     "application_domain": "metering",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-only",
     "display_name": "DateTime EnergyDirection",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "266.027",
@@ -12273,12 +13119,14 @@
     "use_scope": "FB",
     "application_domain": "common",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-only",
     "display_name": "DateTime Value Electric Potential",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "266.056",
@@ -12300,12 +13148,14 @@
     "use_scope": "FB",
     "application_domain": "common",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-only",
     "display_name": "DateTime Value Power",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "266.080",
@@ -12327,12 +13177,14 @@
     "use_scope": "FB",
     "application_domain": "common",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-only",
     "display_name": "DateTime Value ApparentPower",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "267.001",
@@ -12354,12 +13206,14 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-only",
     "display_name": "DateTime UTF-8",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "268.1203",
@@ -12381,12 +13235,14 @@
     "use_scope": "FB",
     "application_domain": "metering",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-only",
     "display_name": "DateTime Breaker Status",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "268.1204",
@@ -12408,12 +13264,14 @@
     "use_scope": "FB",
     "application_domain": "metering",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-only",
     "display_name": "DateTime Euridis Communication Interface Status",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "268.1205",
@@ -12435,12 +13293,14 @@
     "use_scope": "FB",
     "application_domain": "metering",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-only",
     "display_name": "DateTime PLC Status",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "268.1206",
@@ -12462,12 +13322,14 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-only",
     "display_name": "DateTime Peak Notice",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "269.1200",
@@ -12489,12 +13351,14 @@
     "use_scope": "FB",
     "application_domain": "common",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-only",
     "display_name": "DateTime Tariff ActiveEnergy",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "270.1200",
@@ -12516,12 +13380,14 @@
     "use_scope": "FB",
     "application_domain": "common",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-only",
     "display_name": "DateTime Value Electric Current 3",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "270.1201",
@@ -12543,12 +13409,14 @@
     "use_scope": "FB",
     "application_domain": "common",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-only",
     "display_name": "DateTime Value Electric Potential 3",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "270.1202",
@@ -12570,12 +13438,14 @@
     "use_scope": "FB",
     "application_domain": "common",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-only",
     "display_name": "DateTime Value ApparentPower 3",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "271.1200",
@@ -12597,12 +13467,14 @@
     "use_scope": "FB",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Structured tariff schedule with time/rate fields",
+    "notes": "Structured tariff schedule with time/rate fields Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-only",
     "display_name": "TariffDayProfile",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "272.600",
@@ -12624,12 +13496,14 @@
     "use_scope": "FB",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Status, levels, rated duration for emergency lighting",
+    "notes": "Status, levels, rated duration for emergency lighting Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-only",
     "display_name": "Converter Info",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "273.001",
@@ -12651,12 +13525,14 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Validity(B8), Date(U16), Time(U8), MinTemp(F16), MaxTemp(F16). 7 octets.",
+    "notes": "Validity(B8), Date(U16), Time(U8), MinTemp(F16), MaxTemp(F16). 7 octets. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-only",
     "display_name": "Forecast Temperature",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "273.002",
@@ -12678,12 +13554,14 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-only",
     "display_name": "Forecast WindSpeed",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "273.003",
@@ -12705,12 +13583,14 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-only",
     "display_name": "Forecast RelativeHumidity",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "273.004",
@@ -12732,12 +13612,14 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-only",
     "display_name": "Forecast AbsoluteHumidity",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "273.005",
@@ -12759,12 +13641,14 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-only",
     "display_name": "Forecast CO2",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "273.006",
@@ -12786,12 +13670,14 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-only",
     "display_name": "Forecast AirPollutants",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "273.007",
@@ -12813,12 +13699,14 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": null,
+    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-only",
     "display_name": "Forecast SunIntensity",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "274.001",
@@ -12840,12 +13728,14 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Validity, date, time, main direction, secondary direction. 6 octets.",
+    "notes": "Validity, date, time, main direction, secondary direction. 6 octets. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-only",
     "display_name": "Forecast Wind Direction",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "276.1200",
@@ -12867,12 +13757,14 @@
     "use_scope": "FB",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Battery/charging state + status bits. 4 octets.",
+    "notes": "Battery/charging state + status bits. 4 octets. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-only",
     "display_name": "ERL Status",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "277.1200",
@@ -12894,12 +13786,14 @@
     "use_scope": "FB",
     "application_domain": "common",
     "value_map": null,
-    "notes": "4x (Energy V32 Wh + Tariff U8 + Status B8). 20 octets total.",
+    "notes": "4x (Energy V32 Wh + Tariff U8 + Status B8). 20 octets total. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-only",
     "display_name": "4 EnergyRegisters",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "278.1200",
@@ -12921,12 +13815,14 @@
     "use_scope": "FB",
     "application_domain": "common",
     "value_map": null,
-    "notes": "25 octets total.",
+    "notes": "25 octets total. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-only",
     "display_name": "5 EnergyRegisters",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "279.1200",
@@ -12948,12 +13844,14 @@
     "use_scope": "FB",
     "application_domain": "common",
     "value_map": null,
-    "notes": "30 octets total.",
+    "notes": "30 octets total. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-only",
     "display_name": "6 EnergyRegisters",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "280.1200",
@@ -12975,12 +13873,14 @@
     "use_scope": "FB",
     "application_domain": "common",
     "value_map": null,
-    "notes": "55 octets. Most complete metering.",
+    "notes": "55 octets. Most complete metering. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-only",
     "display_name": "11 EnergyRegisters",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "281.1200",
@@ -13002,12 +13902,14 @@
     "use_scope": "FB",
     "application_domain": "common",
     "value_map": null,
-    "notes": "24 octets. Timestamped metering data.",
+    "notes": "24 octets. Timestamped metering data. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-only",
     "display_name": "DateTime 4 EnergyRegisters",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "282.1200",
@@ -13029,12 +13931,14 @@
     "use_scope": "FB",
     "application_domain": "common",
     "value_map": null,
-    "notes": "29 octets.",
+    "notes": "29 octets. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-only",
     "display_name": "DateTime 5 EnergyRegisters",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "283.1200",
@@ -13056,12 +13960,14 @@
     "use_scope": "FB",
     "application_domain": "common",
     "value_map": null,
-    "notes": "34 octets.",
+    "notes": "34 octets. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-only",
     "display_name": "DateTime 6 EnergyRegisters",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   },
   {
     "dpt_id": "284.1200",
@@ -13083,11 +13989,13 @@
     "use_scope": "FB",
     "application_domain": "common",
     "value_map": null,
-    "notes": "59 octets. Complete timestamped metering.",
+    "notes": "59 octets. Complete timestamped metering. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "permission": "read-only",
     "display_name": "DateTime 11 EnergyRegisters",
-    "value_conversion": null
+    "value_conversion": null,
+    "formula_to_bus": null,
+    "formula_from_bus": null
   }
 ]

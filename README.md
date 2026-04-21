@@ -76,7 +76,40 @@ make test          # All validation scripts
 make test-units    # Unit string checks only
 make test-f32      # F32 comparison check
 make test-omega    # Unicode Omega check
+python transforms/test_roundtrip.py  # Bidirectional formula roundtrip validation
 ```
+
+## Bidirectional value transformers
+
+Each DPT JSON entry now carries:
+
+- `formula_to_bus`: Python expression that encodes UI/engineering input using `ui_value`
+- `formula_from_bus`: Python expression that decodes KNX raw input using `raw_value`
+
+The variable names are standardized: use only `ui_value` for encode and `raw_value` for decode.
+
+Python evaluation example:
+
+```python
+result = eval(
+    formula,
+    {"__builtins__": {}},
+    {"raw_value": 128, "ui_value": 50, "dpt9_decode": dpt9_decode, "dpt9_encode": dpt9_encode, "f32_decode": f32_decode, "f32_encode": f32_encode},
+)
+```
+
+TypeScript interface and DPT 5.001 example:
+
+```ts
+interface DPTTransformer { fromBus(raw: number): number; toBus(input: number): number }
+
+const DPT5001: DPTTransformer = {
+  fromBus: (raw) => (raw * 100) / 255,
+  toBus:   (ui)  => Math.round((ui * 255) / 100),
+};
+```
+
+Composite/structured DPTs (e.g. 2.*, 3.*, 10.*, 11.*, 19.*, 232.*) intentionally keep these formulas as `null`; handle them using `value_map` and dedicated structured decoders.
 
 ### Without Make
 
