@@ -1184,10 +1184,8 @@ def _set_value_conversion(entry: dict, formula_to_bus, formula_from_bus) -> dict
 def apply_bidirectional_transformers(data: list[dict]) -> list[dict]:
     updated_entries = []
     for entry in data:
-        formula_to_bus, formula_from_bus, note = _resolve_formulas(entry)
+        formula_to_bus, formula_from_bus, _note = _resolve_formulas(entry)
         updated_entry = _set_value_conversion(entry, formula_to_bus, formula_from_bus)
-        if note:
-            updated_entry["notes"] = _append_note(updated_entry.get("notes"), note)
         updated_entries.append(updated_entry)
     return updated_entries
 

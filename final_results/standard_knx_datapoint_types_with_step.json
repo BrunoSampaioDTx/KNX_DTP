@@ -752,7 +752,7 @@
       "2": "Control, Off",
       "3": "Control, On"
     },
-    "notes": "c=0: no control (value only), c=1: override/priority control Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": "c=0: no control (value only), c=1: override/priority control",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -782,7 +782,7 @@
       "2": "Control, False",
       "3": "Control, True"
     },
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -812,7 +812,7 @@
       "2": "Control, Disable",
       "3": "Control, Enable"
     },
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -842,7 +842,7 @@
       "2": "Control, No ramp",
       "3": "Control, Ramp"
     },
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -872,7 +872,7 @@
       "2": "Control, No alarm",
       "3": "Control, Alarm"
     },
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -902,7 +902,7 @@
       "2": "Control, Low",
       "3": "Control, High"
     },
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -932,7 +932,7 @@
       "2": "Control, Decrease",
       "3": "Control, Increase"
     },
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -962,7 +962,7 @@
       "2": "Control, Up",
       "3": "Control, Down"
     },
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -992,7 +992,7 @@
       "2": "Control, Open",
       "3": "Control, Close"
     },
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -1022,7 +1022,7 @@
       "2": "Control, Stop",
       "3": "Control, Start"
     },
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -1052,7 +1052,7 @@
       "2": "Control, Inactive",
       "3": "Control, Active"
     },
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -1082,7 +1082,7 @@
       "2": "Control, Not inverted",
       "3": "Control, Inverted"
     },
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -1107,7 +1107,7 @@
     "use_scope": "FB",
     "application_domain": "common",
     "value_map": null,
-    "notes": "StepCode 000b=break (stop dimming). Steps subdivide 0-100% range. Used for lighting dimming. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": "StepCode 000b=break (stop dimming). Steps subdivide 0-100% range. Used for lighting dimming.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -1132,7 +1132,7 @@
     "use_scope": "FB",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Used for both vertical position and slat angle relative positioning. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": "Used for both vertical position and slat angle relative positioning.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -1425,7 +1425,7 @@
     "use_scope": "FB",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Composite: 5 boolean status bits + 3-bit mode selector Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": "Composite: 5 boolean status bits + 3-bit mode selector",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -1475,7 +1475,7 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -2655,7 +2655,7 @@
       "7": "Sunday",
       "0": "No day"
     },
-    "notes": "Day 0=no day. Binary encoded fields. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": "Day 0=no day. Binary encoded fields.",
     "sparkplug_data_type": "DateTime",
     "sparkplug_data_type_value": 13,
     "value_conversion": null
@@ -2680,7 +2680,7 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Year ≥90 → 19xx (20th century), Year <90 → 20xx (21st century). Range 1990-2089. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": "Year ≥90 → 19xx (20th century), Year <90 → 20xx (21st century). Range 1990-2089.",
     "sparkplug_data_type": "DateTime",
     "sparkplug_data_type_value": 13,
     "value_conversion": null
@@ -2805,7 +2805,7 @@
     "use_scope": "FB",
     "application_domain": "metering",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -3891,7 +3891,7 @@
     "use_scope": "FB",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -4084,7 +4084,7 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -5509,7 +5509,7 @@
     "use_scope": "FB",
     "application_domain": "common",
     "value_map": null,
-    "notes": "D=read direction, E=error, P=permission, C=encryption. Index for future use. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": "D=read direction, E=error, P=permission, C=encryption. Index for future use.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -5534,7 +5534,7 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Fixed 14 octets. Unused trailing characters shall be filled with 00h (NULL). Structured/text DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": "Fixed 14 octets. Unused trailing characters shall be filled with 00h (NULL).",
     "sparkplug_data_type": "String",
     "sparkplug_data_type_value": 12,
     "value_conversion": null
@@ -5559,7 +5559,7 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Structured/text DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "String",
     "sparkplug_data_type_value": 12,
     "value_conversion": null
@@ -5612,7 +5612,7 @@
       "0": "Activate the scene corresponding to the field Scene Number",
       "1": "Learn the scene corresponding to the field Scene Number"
     },
-    "notes": "Combines control action (activate/learn) with scene number Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": "Combines control action (activate/learn) with scene number",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -5637,7 +5637,7 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Combined date/time with weekday, annual date (day/month/year) and time-of-day (h/m/s) plus flags for fault, working day, standard summer time and quality Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": "Combined date/time with weekday, annual date (day/month/year) and time-of-day (h/m/s) plus flags for fault, working day, standard summer time and quality",
     "sparkplug_data_type": "DateTime",
     "sparkplug_data_type_value": 13,
     "value_conversion": null
@@ -5666,7 +5666,7 @@
       "1": "Slave",
       "2": "Master"
     },
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -5724,7 +5724,7 @@
       "1": "Standby",
       "2": "Not occupied"
     },
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -5754,7 +5754,7 @@
       "2": "Low",
       "3": "Void"
     },
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -8414,7 +8414,7 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Terminated by 00h NULL character Structured/text DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": "Terminated by 00h NULL character",
     "sparkplug_data_type": "String",
     "sparkplug_data_type_value": 12,
     "value_conversion": null
@@ -8439,7 +8439,7 @@
     "use_scope": "G",
     "application_domain": "system",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -8467,7 +8467,7 @@
       "0": "Scene is active",
       "1": "Scene is inactive"
     },
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -8517,7 +8517,7 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Full Unicode support. Terminated by 00h NULL character. Structured/text DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": "Full Unicode support. Terminated by 00h NULL character.",
     "sparkplug_data_type": "String",
     "sparkplug_data_type_value": 12,
     "value_conversion": null
@@ -8679,7 +8679,7 @@
       "0": "Cooling",
       "1": "Heating"
     },
-    "notes": "Composite: DPT 1.100 value + Z8 status/command byte Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": "Composite: DPT 1.100 value + Z8 status/command byte",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -8707,7 +8707,7 @@
       "0": "Low",
       "1": "High"
     },
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -8738,7 +8738,7 @@
       "3": "Economy",
       "4": "Building protection"
     },
-    "notes": "Composite: DPT 20.102 HVAC mode + Z8 status byte Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": "Composite: DPT 20.102 HVAC mode + Z8 status byte",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -8769,7 +8769,7 @@
       "3": "Reduced",
       "4": "Off/FrostProtect"
     },
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -8814,7 +8814,7 @@
       "17": "Emergency Steam",
       "20": "NoDem"
     },
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -8844,7 +8844,7 @@
       "2": "Stage B",
       "3": "Both stages"
     },
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -8873,7 +8873,7 @@
       "1": "Not used",
       "2": "Protection"
     },
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -8902,7 +8902,7 @@
       "1": "Standby",
       "2": "Not occupied"
     },
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -8927,7 +8927,7 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": "Composite HVAC emergency mode with status byte (N8Z8); used in room controllers Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": "Composite HVAC emergency mode with status byte (N8Z8); used in room controllers",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -8952,7 +8952,7 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Relative value with status byte (U8Z8); general-purpose composite Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": "Relative value with status byte (U8Z8); general-purpose composite",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -8977,7 +8977,7 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -9002,7 +9002,7 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -9027,7 +9027,7 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -9052,7 +9052,7 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -9077,7 +9077,7 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Time period in seconds with status byte (U16Z8); 0..65535 s Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": "Time period in seconds with status byte (U16Z8); 0..65535 s",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -9102,7 +9102,7 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Time period in minutes with status byte (U16Z8); 0..65535 min Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": "Time period in minutes with status byte (U16Z8); 0..65535 min",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -9127,7 +9127,7 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -9152,7 +9152,7 @@
     "use_scope": "FB",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -9177,7 +9177,7 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -9202,7 +9202,7 @@
     "use_scope": "FB",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -9227,7 +9227,7 @@
     "use_scope": "FB",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -9252,7 +9252,7 @@
     "use_scope": "FB",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -9277,7 +9277,7 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -9302,7 +9302,7 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -9327,7 +9327,7 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -9352,7 +9352,7 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -9377,7 +9377,7 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -9402,7 +9402,7 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -9427,7 +9427,7 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -9452,7 +9452,7 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -9477,7 +9477,7 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -9502,7 +9502,7 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -9527,7 +9527,7 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -9552,7 +9552,7 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -9577,7 +9577,7 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -9602,7 +9602,7 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -9627,7 +9627,7 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -9652,7 +9652,7 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -9677,7 +9677,7 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -9702,7 +9702,7 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": "U16=time delay (minutes), N8=next HVAC operating mode Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": "U16=time delay (minutes), N8=next HVAC operating mode",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -9727,7 +9727,7 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -9752,7 +9752,7 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -9777,7 +9777,7 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -9802,7 +9802,7 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -9827,7 +9827,7 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -9852,7 +9852,7 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -9877,7 +9877,7 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -9902,7 +9902,7 @@
     "use_scope": "G",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": "HVAC actuator status composite (U8B8); includes actuator value and status bits Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": "HVAC actuator status composite (U8B8); includes actuator value and status bits",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -9927,7 +9927,7 @@
     "use_scope": "FB",
     "application_domain": "lighting",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -9952,7 +9952,7 @@
     "use_scope": "G",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": "Heat pump mode status composite (V16B8); signed 16-bit value + 8-bit status Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": "Heat pump mode status composite (V16B8); signed 16-bit value + 8-bit status",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -9977,7 +9977,7 @@
     "use_scope": "G",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": "Absolute room temperature demand composite (V16B8); signed 16-bit + 8-bit status Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": "Absolute room temperature demand composite (V16B8); signed 16-bit + 8-bit status",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -10002,7 +10002,7 @@
     "use_scope": "G",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": "Cooling plant mode status composite (V16B8); signed 16-bit value + 8-bit status Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": "Cooling plant mode status composite (V16B8); signed 16-bit value + 8-bit status",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -10027,7 +10027,7 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -10052,7 +10052,7 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -10077,7 +10077,7 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -10102,7 +10102,7 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": "Each V16 encoded as KNX F16. Setpoint shifts for Comfort/Standby/Economy. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": "Each V16 encoded as KNX F16. Setpoint shifts for Comfort/Standby/Economy.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -10127,7 +10127,7 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -10152,7 +10152,7 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": "Comfort/Standby/Economy/BuildingProtection setpoints Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": "Comfort/Standby/Economy/BuildingProtection setpoints",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -10177,7 +10177,7 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -10202,7 +10202,7 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -10227,7 +10227,7 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -10252,7 +10252,7 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -10277,7 +10277,7 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -10302,7 +10302,7 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -10327,7 +10327,7 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -10352,7 +10352,7 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Main version (0-31), Sub version (0-31), Revision (0-63) Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": "Main version (0-31), Sub version (0-31), Revision (0-63)",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -10377,7 +10377,7 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -10402,7 +10402,7 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -10430,7 +10430,7 @@
       "0": "False",
       "1": "True"
     },
-    "notes": "LogNumber(U8), AlarmPriority(N8:0-2,3=void), ApplicationArea(N8), ErrorClass(N8), Attributes(B8), AlarmStatus(B8) Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": "LogNumber(U8), AlarmPriority(N8:0-2,3=void), ApplicationArea(N8), ErrorClass(N8), Attributes(B8), AlarmStatus(B8)",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -10455,7 +10455,7 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -10480,7 +10480,7 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "KNX serial number: 2-byte manufacturer code (N16) + 4-byte serial number (U32); 6 bytes total Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": "KNX serial number: 2-byte manufacturer code (N16) + 4-byte serial number (U32); 6 bytes total",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -10505,7 +10505,7 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -10530,7 +10530,7 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -10555,7 +10555,7 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -10580,7 +10580,7 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -10605,7 +10605,7 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -10630,7 +10630,7 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -10655,7 +10655,7 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -10680,7 +10680,7 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Energy/volume metering. V32=value, N8=metering unit enum, Z8=status/command Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": "Energy/volume metering. V32=value, N8=metering unit enum, Z8=status/command",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -10705,7 +10705,7 @@
     "use_scope": "FB",
     "application_domain": "system",
     "value_map": null,
-    "notes": "DeviceType(U16), SerialNumber(U32), Version(U8), Medium(N8) Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": "DeviceType(U16), SerialNumber(U32), Version(U8), Medium(N8)",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -10730,7 +10730,7 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Language (2 ASCII chars) + Region (2 ASCII chars), e.g. 'deDE' Structured/text DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": "Language (2 ASCII chars) + Region (2 ASCII chars), e.g. 'deDE'",
     "sparkplug_data_type": "String",
     "sparkplug_data_type_value": 12,
     "value_conversion": null
@@ -10755,7 +10755,7 @@
     "use_scope": "G",
     "application_domain": "lighting",
     "value_map": null,
-    "notes": "Red(0-255), Green(0-255), Blue(0-255). Common in lighting control. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": "Red(0-255), Green(0-255), Blue(0-255). Common in lighting control.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -10780,7 +10780,7 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Structured/text DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "String",
     "sparkplug_data_type_value": 12,
     "value_conversion": null
@@ -10805,7 +10805,7 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Structured/text DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "String",
     "sparkplug_data_type_value": 12,
     "value_conversion": null
@@ -10830,7 +10830,7 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Energy(V32 Wh), Tariff(U8 0-255), Validity(B8) Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": "Energy(V32 Wh), Tariff(U8 0-255), Validity(B8)",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -10855,7 +10855,7 @@
     "use_scope": "FB",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Valid(B1), Priority(N3:0-7), Mode(N4:0-15). 1 octet. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": "Valid(B1), Priority(N3:0-7), Mode(N4:0-15). 1 octet.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -10880,7 +10880,7 @@
     "use_scope": "FB",
     "application_domain": "lighting",
     "value_map": null,
-    "notes": "Lamp/ballast/converter failure flags + device address (U6: 0-63) Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": "Lamp/ballast/converter failure flags + device address (U6: 0-63)",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -10905,7 +10905,7 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -10930,7 +10930,7 @@
     "use_scope": "FB",
     "application_domain": "lighting",
     "value_map": null,
-    "notes": "LampFailure(b6), BallastFailure(b7), DeviceAddress(U6:0-63) Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": "LampFailure(b6), BallastFailure(b7), DeviceAddress(U6:0-63)",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -10955,7 +10955,7 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -10980,7 +10980,7 @@
     "use_scope": "FB",
     "application_domain": "shutters_blinds",
     "value_map": null,
-    "notes": "Position(U8:0-100%), Angle(U8:0-100%), Status(B8). For shutters/blinds. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": "Position(U8:0-100%), Angle(U8:0-100%), Status(B8). For shutters/blinds.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -11005,7 +11005,7 @@
     "use_scope": "FB",
     "application_domain": "shutters_blinds",
     "value_map": null,
-    "notes": "Position, angle, and 16-bit status flags Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": "Position, angle, and 16-bit status flags",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -11030,7 +11030,7 @@
     "use_scope": "G",
     "application_domain": "lighting",
     "value_map": null,
-    "notes": "x(U16:0-65535->0.0-1.0), y(U16), Brightness(U8:0-100%), C/B validity bits Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": "x(U16:0-65535->0.0-1.0), y(U16), Brightness(U8:0-100%), C/B validity bits",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -11055,7 +11055,7 @@
     "use_scope": "G",
     "application_domain": "lighting",
     "value_map": null,
-    "notes": "x, y, TransitionTime(U16:100ms units, 0-6553.5s), Brightness, validity bits Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": "x, y, TransitionTime(U16:100ms units, 0-6553.5s), Brightness, validity bits",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -11080,7 +11080,7 @@
     "use_scope": "FB",
     "application_domain": "lighting",
     "value_map": null,
-    "notes": "ConverterMode(N4:0-7), HardwareStatus(B4), test pending flags, converter failure Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": "ConverterMode(N4:0-7), HardwareStatus(B4), test pending flags, converter failure",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -11105,7 +11105,7 @@
     "use_scope": "FB",
     "application_domain": "lighting",
     "value_map": null,
-    "notes": "Last test results (FT/DT/PDT), start methods, battery discharge time, charge level Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": "Last test results (FT/DT/PDT), start methods, battery discharge time, charge level",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -11130,7 +11130,7 @@
     "use_scope": "FB",
     "application_domain": "lighting",
     "value_map": null,
-    "notes": "Battery info for DALI devices: 3-bit status flags + 8-bit battery level; 2 bytes total Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": "Battery info for DALI devices: 3-bit status flags + 8-bit battery level; 2 bytes total",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -11155,7 +11155,7 @@
     "use_scope": "FB",
     "application_domain": "lighting",
     "value_map": null,
-    "notes": "DALI emergency converter fixed info: N8U8U8U8B8 format, 5 bytes Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": "DALI emergency converter fixed info: N8U8U8U8B8 format, 5 bytes",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -11180,7 +11180,7 @@
     "use_scope": "FB",
     "application_domain": "lighting",
     "value_map": null,
-    "notes": "Composite type for tunable white lighting: fade time in units of 100ms, colour temperature in Kelvin, brightness in percent (0..100), plus validity flags; 6 bytes total Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": "Composite type for tunable white lighting: fade time in units of 100ms, colour temperature in Kelvin, brightness in percent (0..100), plus validity flags; 6 bytes total",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -11205,7 +11205,7 @@
     "use_scope": "G",
     "application_domain": "lighting",
     "value_map": null,
-    "notes": "Step-based brightness and CCT control with mask bits Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": "Step-based brightness and CCT control with mask bits",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -11230,7 +11230,7 @@
     "use_scope": "FB",
     "application_domain": "lighting",
     "value_map": null,
-    "notes": "RGBW colour value: R[0..255] G[0..255] B[0..255] W[0..255] + 4 reserved bits + 4 validity flags; 6 bytes total Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": "RGBW colour value: R[0..255] G[0..255] B[0..255] W[0..255] + 4 reserved bits + 4 validity flags; 6 bytes total",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -11255,7 +11255,7 @@
     "use_scope": "G",
     "application_domain": "lighting",
     "value_map": null,
-    "notes": "4x step codes for R/G/B/W channels + mask byte Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": "4x step codes for R/G/B/W channels + mask byte",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -11280,7 +11280,7 @@
     "use_scope": "FB",
     "application_domain": "lighting",
     "value_map": null,
-    "notes": "Relative control of xyY colour: x/y/brightness each encoded as direction+stepcode+validity; 4 bytes total Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": "Relative control of xyY colour: x/y/brightness each encoded as direction+stepcode+validity; 4 bytes total",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -11305,7 +11305,7 @@
     "use_scope": "G",
     "application_domain": "lighting",
     "value_map": null,
-    "notes": "3x step codes for R/G/B channels (no white) Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": "3x step codes for R/G/B channels (no white)",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -11330,7 +11330,7 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Geographic location: Latitude(F32) + Longitude(F32) in degrees; IEEE 754; 8 bytes total Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": "Geographic location: Latitude(F32) + Longitude(F32) in degrees; IEEE 754; 8 bytes total",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -11355,7 +11355,7 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "DateTime with period information for scheduler/timer use Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": "DateTime with period information for scheduler/timer use",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -11380,7 +11380,7 @@
     "use_scope": "G",
     "application_domain": "metering",
     "value_map": null,
-    "notes": "Three-phase electric current values: 3 × F32 (IEEE 754); 12 bytes; metering application Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": "Three-phase electric current values: 3 × F32 (IEEE 754); 12 bytes; metering application",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -11405,7 +11405,7 @@
     "use_scope": "G",
     "application_domain": "metering",
     "value_map": null,
-    "notes": "Three-phase electric potential values: 3 × F32 (IEEE 754); 12 bytes; metering application Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": "Three-phase electric potential values: 3 × F32 (IEEE 754); 12 bytes; metering application",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -11430,7 +11430,7 @@
     "use_scope": "FB",
     "application_domain": "metering",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -11455,7 +11455,7 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -11480,7 +11480,7 @@
     "use_scope": "FB",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -11505,7 +11505,7 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Date/time with open/close action scheduling; complex composite with date, time and control flags; 9 bytes Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": "Date/time with open/close action scheduling; complex composite with date, time and control flags; 9 bytes",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -11530,7 +11530,7 @@
     "use_scope": "FB",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -11555,7 +11555,7 @@
     "use_scope": "FB",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -11580,7 +11580,7 @@
     "use_scope": "FB",
     "application_domain": "metering",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -11605,7 +11605,7 @@
     "use_scope": "FB",
     "application_domain": "metering",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -11630,7 +11630,7 @@
     "use_scope": "FB",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -11655,7 +11655,7 @@
     "use_scope": "FB",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -11680,7 +11680,7 @@
     "use_scope": "FB",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -11705,7 +11705,7 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -11730,7 +11730,7 @@
     "use_scope": "FB",
     "application_domain": "metering",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -11755,7 +11755,7 @@
     "use_scope": "FB",
     "application_domain": "metering",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -11780,7 +11780,7 @@
     "use_scope": "FB",
     "application_domain": "metering",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -11805,7 +11805,7 @@
     "use_scope": "FB",
     "application_domain": "hvac",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -11830,7 +11830,7 @@
     "use_scope": "FB",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -11855,7 +11855,7 @@
     "use_scope": "FB",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -11880,7 +11880,7 @@
     "use_scope": "FB",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -11905,7 +11905,7 @@
     "use_scope": "FB",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -11930,7 +11930,7 @@
     "use_scope": "FB",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Structured tariff schedule with time/rate fields Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": "Structured tariff schedule with time/rate fields",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -11955,7 +11955,7 @@
     "use_scope": "FB",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Status, levels, rated duration for emergency lighting Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": "Status, levels, rated duration for emergency lighting",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -11980,7 +11980,7 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Validity(B8), Date(U16), Time(U8), MinTemp(F16), MaxTemp(F16). 7 octets. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": "Validity(B8), Date(U16), Time(U8), MinTemp(F16), MaxTemp(F16). 7 octets.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -12005,7 +12005,7 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -12030,7 +12030,7 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -12055,7 +12055,7 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -12080,7 +12080,7 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -12105,7 +12105,7 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -12130,7 +12130,7 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": null,
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -12155,7 +12155,7 @@
     "use_scope": "G",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Validity, date, time, main direction, secondary direction. 6 octets. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": "Validity, date, time, main direction, secondary direction. 6 octets.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -12180,7 +12180,7 @@
     "use_scope": "FB",
     "application_domain": "common",
     "value_map": null,
-    "notes": "Battery/charging state + status bits. 4 octets. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": "Battery/charging state + status bits. 4 octets.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -12205,7 +12205,7 @@
     "use_scope": "FB",
     "application_domain": "common",
     "value_map": null,
-    "notes": "4x (Energy V32 Wh + Tariff U8 + Status B8). 20 octets total. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": "4x (Energy V32 Wh + Tariff U8 + Status B8). 20 octets total.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -12230,7 +12230,7 @@
     "use_scope": "FB",
     "application_domain": "common",
     "value_map": null,
-    "notes": "25 octets total. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": "25 octets total.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -12255,7 +12255,7 @@
     "use_scope": "FB",
     "application_domain": "common",
     "value_map": null,
-    "notes": "30 octets total. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": "30 octets total.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -12280,7 +12280,7 @@
     "use_scope": "FB",
     "application_domain": "common",
     "value_map": null,
-    "notes": "55 octets. Most complete metering. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": "55 octets. Most complete metering.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -12305,7 +12305,7 @@
     "use_scope": "FB",
     "application_domain": "common",
     "value_map": null,
-    "notes": "24 octets. Timestamped metering data. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": "24 octets. Timestamped metering data.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -12330,7 +12330,7 @@
     "use_scope": "FB",
     "application_domain": "common",
     "value_map": null,
-    "notes": "29 octets. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": "29 octets.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -12355,7 +12355,7 @@
     "use_scope": "FB",
     "application_domain": "common",
     "value_map": null,
-    "notes": "34 octets. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": "34 octets.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
@@ -12380,7 +12380,7 @@
     "use_scope": "FB",
     "application_domain": "common",
     "value_map": null,
-    "notes": "59 octets. Complete timestamped metering. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
+    "notes": "59 octets. Complete timestamped metering.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
     "value_conversion": null
