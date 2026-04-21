@@ -1163,6 +1163,12 @@ def _set_value_conversion(entry: dict, formula_to_bus, formula_from_bus) -> dict
         updated["value_conversion"] = None
         return updated
 
+    # Structured/unsupported DPTs have no scalar formulas; keep value_conversion
+    # null instead of emitting an object with null fields.
+    if formula_to_bus is None and formula_from_bus is None:
+        updated["value_conversion"] = None
+        return updated
+
     value_conversion = updated.get("value_conversion")
     if not isinstance(value_conversion, dict):
         value_conversion = {}

@@ -728,10 +728,7 @@
     "notes": "c=0: no control (value only), c=1: override/priority control Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "2.002",
@@ -760,10 +757,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "2.003",
@@ -792,10 +786,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "2.004",
@@ -824,10 +815,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "2.005",
@@ -856,10 +844,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "2.006",
@@ -888,10 +873,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "2.007",
@@ -920,10 +902,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "2.008",
@@ -952,10 +931,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "2.009",
@@ -984,10 +960,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "2.010",
@@ -1016,10 +989,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "2.011",
@@ -1048,10 +1018,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "2.012",
@@ -1080,10 +1047,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "3.007",
@@ -1107,10 +1071,7 @@
     "notes": "StepCode 000b=break (stop dimming). Steps subdivide 0-100% range. Used for lighting dimming. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "3.008",
@@ -1134,10 +1095,7 @@
     "notes": "Used for both vertical position and slat angle relative positioning. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "4.001",
@@ -1419,10 +1377,7 @@
     "notes": "Composite: 5 boolean status bits + 3-bit mode selector Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "7.001",
@@ -1470,10 +1425,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "7.003",
@@ -2610,10 +2562,7 @@
     "notes": "Day 0=no day. Binary encoded fields. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "DateTime",
     "sparkplug_data_type_value": 13,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "11.001",
@@ -2637,10 +2586,7 @@
     "notes": "Year ≥90 → 19xx (20th century), Year <90 → 20xx (21st century). Range 1990-2089. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "DateTime",
     "sparkplug_data_type_value": 13,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "12.001",
@@ -2760,10 +2706,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "12.1201",
@@ -3810,10 +3753,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "14.026",
@@ -3999,10 +3939,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "14.033",
@@ -5376,10 +5313,7 @@
     "notes": "D=read direction, E=error, P=permission, C=encryption. Index for future use. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "16.000",
@@ -5403,10 +5337,7 @@
     "notes": "Fixed 14 octets. Unused trailing characters shall be filled with 00h (NULL). Structured/text DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "String",
     "sparkplug_data_type_value": 12,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "16.001",
@@ -5430,10 +5361,7 @@
     "notes": "Structured/text DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "String",
     "sparkplug_data_type_value": 12,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "17.001",
@@ -5484,10 +5412,7 @@
     "notes": "Combines control action (activate/learn) with scene number Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "19.001",
@@ -5511,10 +5436,7 @@
     "notes": "Combined date/time with weekday, annual date (day/month/year) and time-of-day (h/m/s) plus flags for fault, working day, standard summer time and quality Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "DateTime",
     "sparkplug_data_type_value": 13,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.001",
@@ -5542,10 +5464,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.002",
@@ -5601,10 +5520,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.004",
@@ -5633,10 +5549,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "20.005",
@@ -8207,10 +8120,7 @@
     "notes": "Terminated by 00h NULL character Structured/text DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "String",
     "sparkplug_data_type_value": 12,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "25.1000",
@@ -8234,10 +8144,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "26.001",
@@ -8264,10 +8171,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "27.001",
@@ -8315,10 +8219,7 @@
     "notes": "Full Unicode support. Terminated by 00h NULL character. Structured/text DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "String",
     "sparkplug_data_type_value": 12,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "29.010",
@@ -8474,10 +8375,7 @@
     "notes": "Composite: DPT 1.100 value + Z8 status/command byte Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "200.101",
@@ -8504,10 +8402,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "201.100",
@@ -8537,10 +8432,7 @@
     "notes": "Composite: DPT 20.102 HVAC mode + Z8 status byte Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "201.102",
@@ -8570,10 +8462,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "201.104",
@@ -8617,10 +8506,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "201.105",
@@ -8649,10 +8535,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "201.107",
@@ -8680,10 +8563,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "201.108",
@@ -8711,10 +8591,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "201.109",
@@ -8738,10 +8615,7 @@
     "notes": "Composite HVAC emergency mode with status byte (N8Z8); used in room controllers Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "202.001",
@@ -8765,10 +8639,7 @@
     "notes": "Relative value with status byte (U8Z8); general-purpose composite Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "202.002",
@@ -8792,10 +8663,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "203.002",
@@ -8819,10 +8687,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "203.003",
@@ -8846,10 +8711,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "203.004",
@@ -8873,10 +8735,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "203.005",
@@ -8900,10 +8759,7 @@
     "notes": "Time period in seconds with status byte (U16Z8); 0..65535 s Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "203.006",
@@ -8927,10 +8783,7 @@
     "notes": "Time period in minutes with status byte (U16Z8); 0..65535 min Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "203.007",
@@ -8954,10 +8807,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "203.011",
@@ -8981,10 +8831,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "203.012",
@@ -9008,10 +8855,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "203.013",
@@ -9035,10 +8879,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "203.014",
@@ -9062,10 +8903,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "203.015",
@@ -9089,10 +8927,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "203.017",
@@ -9116,10 +8951,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "203.100",
@@ -9143,10 +8975,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "203.101",
@@ -9170,10 +8999,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "203.102",
@@ -9197,10 +9023,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "203.104",
@@ -9224,10 +9047,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "204.001",
@@ -9251,10 +9071,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "205.002",
@@ -9278,10 +9095,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "205.003",
@@ -9305,10 +9119,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "205.004",
@@ -9332,10 +9143,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "205.005",
@@ -9359,10 +9167,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "205.006",
@@ -9386,10 +9191,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "205.007",
@@ -9413,10 +9215,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "205.017",
@@ -9440,10 +9239,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "205.100",
@@ -9467,10 +9263,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "205.101",
@@ -9494,10 +9287,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "205.102",
@@ -9521,10 +9311,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "205.103",
@@ -9548,10 +9335,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "206.100",
@@ -9575,10 +9359,7 @@
     "notes": "U16=time delay (minutes), N8=next HVAC operating mode Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "206.102",
@@ -9602,10 +9383,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "206.104",
@@ -9629,10 +9407,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "206.105",
@@ -9656,10 +9431,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "207.100",
@@ -9683,10 +9455,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "207.101",
@@ -9710,10 +9479,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "207.102",
@@ -9737,10 +9503,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "207.104",
@@ -9764,10 +9527,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "207.105",
@@ -9791,10 +9551,7 @@
     "notes": "HVAC actuator status composite (U8B8); includes actuator value and status bits Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "207.600",
@@ -9818,10 +9575,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "209.100",
@@ -9845,10 +9599,7 @@
     "notes": "Heat pump mode status composite (V16B8); signed 16-bit value + 8-bit status Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "209.101",
@@ -9872,10 +9623,7 @@
     "notes": "Absolute room temperature demand composite (V16B8); signed 16-bit + 8-bit status Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "209.102",
@@ -9899,10 +9647,7 @@
     "notes": "Cooling plant mode status composite (V16B8); signed 16-bit value + 8-bit status Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "209.103",
@@ -9926,10 +9671,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "210.100",
@@ -9953,10 +9695,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "211.100",
@@ -9980,10 +9719,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "212.100",
@@ -10007,10 +9743,7 @@
     "notes": "Each V16 encoded as KNX F16. Setpoint shifts for Comfort/Standby/Economy. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "212.101",
@@ -10034,10 +9767,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "213.100",
@@ -10061,10 +9791,7 @@
     "notes": "Comfort/Standby/Economy/BuildingProtection setpoints Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "213.101",
@@ -10088,10 +9815,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "213.102",
@@ -10115,10 +9839,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "214.100",
@@ -10142,10 +9863,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "214.101",
@@ -10169,10 +9887,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "215.100",
@@ -10196,10 +9911,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "215.101",
@@ -10223,10 +9935,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "216.100",
@@ -10250,10 +9959,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "217.001",
@@ -10277,10 +9983,7 @@
     "notes": "Main version (0-31), Sub version (0-31), Revision (0-63) Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "218.001",
@@ -10304,10 +10007,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "218.002",
@@ -10331,10 +10031,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "219.001",
@@ -10361,10 +10058,7 @@
     "notes": "LogNumber(U8), AlarmPriority(N8:0-2,3=void), ApplicationArea(N8), ErrorClass(N8), Attributes(B8), AlarmStatus(B8) Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "220.100",
@@ -10388,10 +10082,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "221.001",
@@ -10415,10 +10106,7 @@
     "notes": "KNX serial number: 2-byte manufacturer code (N16) + 4-byte serial number (U32); 6 bytes total Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "222.100",
@@ -10442,10 +10130,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "222.101",
@@ -10469,10 +10154,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "223.100",
@@ -10496,10 +10178,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "224.100",
@@ -10523,10 +10202,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "225.001",
@@ -10550,10 +10226,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "225.002",
@@ -10577,10 +10250,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "225.003",
@@ -10604,10 +10274,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "229.001",
@@ -10631,10 +10298,7 @@
     "notes": "Energy/volume metering. V32=value, N8=metering unit enum, Z8=status/command Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "230.1000",
@@ -10658,10 +10322,7 @@
     "notes": "DeviceType(U16), SerialNumber(U32), Version(U8), Medium(N8) Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "231.001",
@@ -10685,10 +10346,7 @@
     "notes": "Language (2 ASCII chars) + Region (2 ASCII chars), e.g. 'deDE' Structured/text DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "String",
     "sparkplug_data_type_value": 12,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "232.600",
@@ -10712,10 +10370,7 @@
     "notes": "Red(0-255), Green(0-255), Blue(0-255). Common in lighting control. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "234.001",
@@ -10739,10 +10394,7 @@
     "notes": "Structured/text DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "String",
     "sparkplug_data_type_value": 12,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "234.002",
@@ -10766,10 +10418,7 @@
     "notes": "Structured/text DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "String",
     "sparkplug_data_type_value": 12,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "235.001",
@@ -10793,10 +10442,7 @@
     "notes": "Energy(V32 Wh), Tariff(U8 0-255), Validity(B8) Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "236.001",
@@ -10820,10 +10466,7 @@
     "notes": "Valid(B1), Priority(N3:0-7), Mode(N4:0-15). 1 octet. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "237.600",
@@ -10847,10 +10490,7 @@
     "notes": "Lamp/ballast/converter failure flags + device address (U6: 0-63) Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "238.001",
@@ -10874,10 +10514,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "238.600",
@@ -10901,10 +10538,7 @@
     "notes": "LampFailure(b6), BallastFailure(b7), DeviceAddress(U6:0-63) Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "239.001",
@@ -10928,10 +10562,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "240.800",
@@ -10955,10 +10586,7 @@
     "notes": "Position(U8:0-100%), Angle(U8:0-100%), Status(B8). For shutters/blinds. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "241.800",
@@ -10982,10 +10610,7 @@
     "notes": "Position, angle, and 16-bit status flags Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "242.600",
@@ -11009,10 +10634,7 @@
     "notes": "x(U16:0-65535->0.0-1.0), y(U16), Brightness(U8:0-100%), C/B validity bits Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "243.600",
@@ -11036,10 +10658,7 @@
     "notes": "x, y, TransitionTime(U16:100ms units, 0-6553.5s), Brightness, validity bits Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "244.600",
@@ -11063,10 +10682,7 @@
     "notes": "ConverterMode(N4:0-7), HardwareStatus(B4), test pending flags, converter failure Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "245.600",
@@ -11090,10 +10706,7 @@
     "notes": "Last test results (FT/DT/PDT), start methods, battery discharge time, charge level Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "246.600",
@@ -11117,10 +10730,7 @@
     "notes": "Battery info for DALI devices: 3-bit status flags + 8-bit battery level; 2 bytes total Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "248.600",
@@ -11144,10 +10754,7 @@
     "notes": "DALI emergency converter fixed info: N8U8U8U8B8 format, 5 bytes Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "249.600",
@@ -11171,10 +10778,7 @@
     "notes": "Composite type for tunable white lighting: fade time in units of 100ms, colour temperature in Kelvin, brightness in percent (0..100), plus validity flags; 6 bytes total Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "250.600",
@@ -11198,10 +10802,7 @@
     "notes": "Step-based brightness and CCT control with mask bits Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "251.600",
@@ -11225,10 +10826,7 @@
     "notes": "RGBW colour value: R[0..255] G[0..255] B[0..255] W[0..255] + 4 reserved bits + 4 validity flags; 6 bytes total Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "252.600",
@@ -11252,10 +10850,7 @@
     "notes": "4x step codes for R/G/B/W channels + mask byte Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "253.600",
@@ -11279,10 +10874,7 @@
     "notes": "Relative control of xyY colour: x/y/brightness each encoded as direction+stepcode+validity; 4 bytes total Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "254.600",
@@ -11306,10 +10898,7 @@
     "notes": "3x step codes for R/G/B channels (no white) Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "255.001",
@@ -11333,10 +10922,7 @@
     "notes": "Geographic location: Latitude(F32) + Longitude(F32) in degrees; IEEE 754; 8 bytes total Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "256.001",
@@ -11360,10 +10946,7 @@
     "notes": "DateTime with period information for scheduler/timer use Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "257.1200",
@@ -11387,10 +10970,7 @@
     "notes": "Three-phase electric current values: 3 × F32 (IEEE 754); 12 bytes; metering application Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "257.1201",
@@ -11414,10 +10994,7 @@
     "notes": "Three-phase electric potential values: 3 × F32 (IEEE 754); 12 bytes; metering application Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "257.1202",
@@ -11441,10 +11018,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "265.001",
@@ -11468,10 +11042,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "265.005",
@@ -11495,10 +11066,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "265.009",
@@ -11522,10 +11090,7 @@
     "notes": "Date/time with open/close action scheduling; complex composite with date, time and control flags; 9 bytes Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "265.011",
@@ -11549,10 +11114,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "265.012",
@@ -11576,10 +11138,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "265.1200",
@@ -11603,10 +11162,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "265.1201",
@@ -11630,10 +11186,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "266.027",
@@ -11657,10 +11210,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "266.056",
@@ -11684,10 +11234,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "266.080",
@@ -11711,10 +11258,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "267.001",
@@ -11738,10 +11282,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "268.1203",
@@ -11765,10 +11306,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "268.1204",
@@ -11792,10 +11330,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "268.1205",
@@ -11819,10 +11354,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "268.1206",
@@ -11846,10 +11378,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "269.1200",
@@ -11873,10 +11402,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "270.1200",
@@ -11900,10 +11426,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "270.1201",
@@ -11927,10 +11450,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "270.1202",
@@ -11954,10 +11474,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "271.1200",
@@ -11981,10 +11498,7 @@
     "notes": "Structured tariff schedule with time/rate fields Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "272.600",
@@ -12008,10 +11522,7 @@
     "notes": "Status, levels, rated duration for emergency lighting Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "273.001",
@@ -12035,10 +11546,7 @@
     "notes": "Validity(B8), Date(U16), Time(U8), MinTemp(F16), MaxTemp(F16). 7 octets. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "273.002",
@@ -12062,10 +11570,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "273.003",
@@ -12089,10 +11594,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "273.004",
@@ -12116,10 +11618,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "273.005",
@@ -12143,10 +11642,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "273.006",
@@ -12170,10 +11666,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "273.007",
@@ -12197,10 +11690,7 @@
     "notes": "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "274.001",
@@ -12224,10 +11714,7 @@
     "notes": "Validity, date, time, main direction, secondary direction. 6 octets. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "276.1200",
@@ -12251,10 +11738,7 @@
     "notes": "Battery/charging state + status bits. 4 octets. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "277.1200",
@@ -12278,10 +11762,7 @@
     "notes": "4x (Energy V32 Wh + Tariff U8 + Status B8). 20 octets total. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "278.1200",
@@ -12305,10 +11786,7 @@
     "notes": "25 octets total. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "279.1200",
@@ -12332,10 +11810,7 @@
     "notes": "30 octets total. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "280.1200",
@@ -12359,10 +11834,7 @@
     "notes": "55 octets. Most complete metering. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "281.1200",
@@ -12386,10 +11858,7 @@
     "notes": "24 octets. Timestamped metering data. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "282.1200",
@@ -12413,10 +11882,7 @@
     "notes": "29 octets. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "283.1200",
@@ -12440,10 +11906,7 @@
     "notes": "34 octets. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   },
   {
     "dpt_id": "284.1200",
@@ -12467,9 +11930,6 @@
     "notes": "59 octets. Complete timestamped metering. Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.",
     "sparkplug_data_type": "Bytes",
     "sparkplug_data_type_value": 17,
-    "value_conversion": {
-      "formula_to_bus": null,
-      "formula_from_bus": null
-    }
+    "value_conversion": null
   }
 ]
