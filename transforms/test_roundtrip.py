@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import ast
 import json
 import math
 import re
@@ -23,6 +24,24 @@ from knx_dpt_transforms import (
 
 
 FINAL_RESULTS = ROOT / "final_results"
+NUMERIC_PREFIX_RE = re.compile(r"^\s*([+-]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][+-]?\d+)?)")
+ALLOWED_FORMULA_NAMES = {
+    "ui_value",
+    "raw_value",
+    "round",
+    "ord",
+    "chr",
+    "dpt9_decode",
+    "dpt9_encode",
+    "f32_decode",
+    "f32_encode",
+    "v8_decode",
+    "v8_encode",
+    "v16_decode",
+    "v16_encode",
+    "v32_decode",
+    "v32_encode",
+}
 
 
 def _parse_factor(value):
@@ -31,7 +50,7 @@ def _parse_factor(value):
     if isinstance(value, (int, float)):
         return float(value)
     if isinstance(value, str):
-        match = re.match(r"^\s*([+-]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][+-]?\d+)?)", value)
+        match = NUMERIC_PREFIX_RE.match(value)
         if match:
             return float(match.group(1))
     return None
@@ -85,6 +104,7 @@ def _tolerance(entry: dict):
 
 
 def _eval_formula(formula: str, **kwargs):
+    _validate_formula(formula)
     return eval(
         formula,
         {"__builtins__": {}},
@@ -105,6 +125,13 @@ def _eval_formula(formula: str, **kwargs):
             "v32_encode": v32_encode,
         },
     )
+
+
+def _validate_formula(formula: str):
+    tree = ast.parse(formula, mode="eval")
+    for node in ast.walk(tree):
+        if isinstance(node, ast.Name) and node.id not in ALLOWED_FORMULA_NAMES:
+            raise ValueError(f"Unexpected name in formula: {node.id}")
 
 
 def main():
