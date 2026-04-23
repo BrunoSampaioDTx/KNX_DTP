@@ -1242,7 +1242,10 @@
     "sparkplug_data_type_value": 12,
     "permission": "read-write",
     "display_name": "Char ASCII",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "ord(ui_value)",
+      "formula_from_bus": "chr(raw_value)"
+    }
   },
   {
     "dpt_id": "4.002",
@@ -1269,7 +1272,10 @@
     "sparkplug_data_type_value": 12,
     "permission": "read-write",
     "display_name": "Char 8859 1",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "ord(ui_value)",
+      "formula_from_bus": "chr(raw_value)"
+    }
   },
   {
     "dpt_id": "5.001",
@@ -1300,8 +1306,8 @@
       "operation": "multiply",
       "factor": 0.392157,
       "offset": null,
-      "formula_to_bus": "value * 255 / 100",
-      "formula_from_bus": "raw * 100 / 255"
+      "formula_to_bus": "round(ui_value * 255 / 100)",
+      "formula_from_bus": "raw_value * 100 / 255"
     }
   },
   {
@@ -1333,8 +1339,8 @@
       "operation": "multiply",
       "factor": 1.411765,
       "offset": null,
-      "formula_to_bus": "value * 255 / 360",
-      "formula_from_bus": "raw * 360 / 255"
+      "formula_to_bus": "round(ui_value * 255 / 360)",
+      "formula_from_bus": "raw_value * 360 / 255"
     }
   },
   {
@@ -1470,7 +1476,10 @@
     "sparkplug_data_type_value": 1,
     "permission": "read-write",
     "display_name": "Percent V8",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "v8_encode(ui_value)",
+      "formula_from_bus": "v8_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "6.010",
@@ -1497,7 +1506,10 @@
     "sparkplug_data_type_value": 1,
     "permission": "read-write",
     "display_name": "Value 1 Count",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "v8_encode(ui_value)",
+      "formula_from_bus": "v8_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "6.020",
@@ -1609,8 +1621,8 @@
       "operation": "multiply",
       "factor": 10,
       "offset": null,
-      "formula_to_bus": "value / 10",
-      "formula_from_bus": "raw * 10"
+      "formula_to_bus": "round(ui_value / 10)",
+      "formula_from_bus": "raw_value * 10"
     }
   },
   {
@@ -1642,8 +1654,8 @@
       "operation": "multiply",
       "factor": 100,
       "offset": null,
-      "formula_to_bus": "value / 100",
-      "formula_from_bus": "raw * 100"
+      "formula_to_bus": "round(ui_value / 100)",
+      "formula_from_bus": "raw_value * 100"
     }
   },
   {
@@ -1887,7 +1899,10 @@
     "sparkplug_data_type_value": 2,
     "permission": "read-write",
     "display_name": "Value 2 Count",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "v16_encode(ui_value)",
+      "formula_from_bus": "v16_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "8.002",
@@ -1914,7 +1929,10 @@
     "sparkplug_data_type_value": 2,
     "permission": "read-write",
     "display_name": "DeltaTimeMsec",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "v16_encode(ui_value)",
+      "formula_from_bus": "v16_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "8.003",
@@ -1945,8 +1963,8 @@
       "operation": "multiply",
       "factor": 10,
       "offset": null,
-      "formula_to_bus": "value / 10",
-      "formula_from_bus": "raw * 10"
+      "formula_to_bus": "v16_encode(round(ui_value / 10))",
+      "formula_from_bus": "v16_decode(raw_value) * 10"
     }
   },
   {
@@ -1978,8 +1996,8 @@
       "operation": "multiply",
       "factor": 100,
       "offset": null,
-      "formula_to_bus": "value / 100",
-      "formula_from_bus": "raw * 100"
+      "formula_to_bus": "v16_encode(round(ui_value / 100))",
+      "formula_from_bus": "v16_decode(raw_value) * 100"
     }
   },
   {
@@ -2007,7 +2025,10 @@
     "sparkplug_data_type_value": 2,
     "permission": "read-write",
     "display_name": "DeltaTimeSec",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "v16_encode(ui_value)",
+      "formula_from_bus": "v16_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "8.006",
@@ -2034,7 +2055,10 @@
     "sparkplug_data_type_value": 2,
     "permission": "read-write",
     "display_name": "DeltaTimeMin",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "v16_encode(ui_value)",
+      "formula_from_bus": "v16_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "8.007",
@@ -2061,7 +2085,10 @@
     "sparkplug_data_type_value": 2,
     "permission": "read-write",
     "display_name": "DeltaTimeHrs",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "v16_encode(ui_value)",
+      "formula_from_bus": "v16_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "8.010",
@@ -2092,8 +2119,8 @@
       "operation": "multiply",
       "factor": 0.01,
       "offset": null,
-      "formula_to_bus": "value / 0.01",
-      "formula_from_bus": "raw * 0.01"
+      "formula_to_bus": "v16_encode(round(ui_value / 0.01))",
+      "formula_from_bus": "v16_decode(raw_value) * 0.01"
     }
   },
   {
@@ -2121,7 +2148,10 @@
     "sparkplug_data_type_value": 2,
     "permission": "read-write",
     "display_name": "Rotation Angle",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "v16_encode(ui_value)",
+      "formula_from_bus": "v16_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "8.012",
@@ -2148,7 +2178,10 @@
     "sparkplug_data_type_value": 2,
     "permission": "read-write",
     "display_name": "Length m",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "v16_encode(ui_value)",
+      "formula_from_bus": "v16_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "9.001",
@@ -2179,8 +2212,8 @@
       "operation": "formula",
       "factor": null,
       "offset": null,
-      "formula_to_bus": "0.01 * M * 2^E",
-      "formula_from_bus": "0.01 * M * 2^E"
+      "formula_to_bus": "dpt9_encode(ui_value)",
+      "formula_from_bus": "dpt9_decode(raw_value)"
     }
   },
   {
@@ -2212,8 +2245,8 @@
       "operation": "formula",
       "factor": null,
       "offset": null,
-      "formula_to_bus": "0.01 * M * 2^E",
-      "formula_from_bus": "0.01 * M * 2^E"
+      "formula_to_bus": "dpt9_encode(ui_value)",
+      "formula_from_bus": "dpt9_decode(raw_value)"
     }
   },
   {
@@ -2245,8 +2278,8 @@
       "operation": "formula",
       "factor": null,
       "offset": null,
-      "formula_to_bus": "0.01 * M * 2^E",
-      "formula_from_bus": "0.01 * M * 2^E"
+      "formula_to_bus": "dpt9_encode(ui_value)",
+      "formula_from_bus": "dpt9_decode(raw_value)"
     }
   },
   {
@@ -2278,8 +2311,8 @@
       "operation": "formula",
       "factor": null,
       "offset": null,
-      "formula_to_bus": "0.01 * M * 2^E",
-      "formula_from_bus": "0.01 * M * 2^E"
+      "formula_to_bus": "dpt9_encode(ui_value)",
+      "formula_from_bus": "dpt9_decode(raw_value)"
     }
   },
   {
@@ -2311,8 +2344,8 @@
       "operation": "formula",
       "factor": null,
       "offset": null,
-      "formula_to_bus": "0.01 * M * 2^E",
-      "formula_from_bus": "0.01 * M * 2^E"
+      "formula_to_bus": "dpt9_encode(ui_value)",
+      "formula_from_bus": "dpt9_decode(raw_value)"
     }
   },
   {
@@ -2344,8 +2377,8 @@
       "operation": "formula",
       "factor": null,
       "offset": null,
-      "formula_to_bus": "0.01 * M * 2^E",
-      "formula_from_bus": "0.01 * M * 2^E"
+      "formula_to_bus": "dpt9_encode(ui_value)",
+      "formula_from_bus": "dpt9_decode(raw_value)"
     }
   },
   {
@@ -2377,8 +2410,8 @@
       "operation": "formula",
       "factor": null,
       "offset": null,
-      "formula_to_bus": "0.01 * M * 2^E",
-      "formula_from_bus": "0.01 * M * 2^E"
+      "formula_to_bus": "dpt9_encode(ui_value)",
+      "formula_from_bus": "dpt9_decode(raw_value)"
     }
   },
   {
@@ -2410,8 +2443,8 @@
       "operation": "formula",
       "factor": null,
       "offset": null,
-      "formula_to_bus": "0.01 * M * 2^E",
-      "formula_from_bus": "0.01 * M * 2^E"
+      "formula_to_bus": "dpt9_encode(ui_value)",
+      "formula_from_bus": "dpt9_decode(raw_value)"
     }
   },
   {
@@ -2443,8 +2476,8 @@
       "operation": "formula",
       "factor": null,
       "offset": null,
-      "formula_to_bus": "0.01 * M * 2^E",
-      "formula_from_bus": "0.01 * M * 2^E"
+      "formula_to_bus": "dpt9_encode(ui_value)",
+      "formula_from_bus": "dpt9_decode(raw_value)"
     }
   },
   {
@@ -2476,8 +2509,8 @@
       "operation": "formula",
       "factor": null,
       "offset": null,
-      "formula_to_bus": "0.01 * M * 2^E",
-      "formula_from_bus": "0.01 * M * 2^E"
+      "formula_to_bus": "dpt9_encode(ui_value)",
+      "formula_from_bus": "dpt9_decode(raw_value)"
     }
   },
   {
@@ -2509,8 +2542,8 @@
       "operation": "formula",
       "factor": null,
       "offset": null,
-      "formula_to_bus": "0.01 * M * 2^E",
-      "formula_from_bus": "0.01 * M * 2^E"
+      "formula_to_bus": "dpt9_encode(ui_value)",
+      "formula_from_bus": "dpt9_decode(raw_value)"
     }
   },
   {
@@ -2542,8 +2575,8 @@
       "operation": "formula",
       "factor": null,
       "offset": null,
-      "formula_to_bus": "0.01 * M * 2^E",
-      "formula_from_bus": "0.01 * M * 2^E"
+      "formula_to_bus": "dpt9_encode(ui_value)",
+      "formula_from_bus": "dpt9_decode(raw_value)"
     }
   },
   {
@@ -2575,8 +2608,8 @@
       "operation": "formula",
       "factor": null,
       "offset": null,
-      "formula_to_bus": "0.01 * M * 2^E",
-      "formula_from_bus": "0.01 * M * 2^E"
+      "formula_to_bus": "dpt9_encode(ui_value)",
+      "formula_from_bus": "dpt9_decode(raw_value)"
     }
   },
   {
@@ -2608,8 +2641,8 @@
       "operation": "formula",
       "factor": null,
       "offset": null,
-      "formula_to_bus": "0.01 * M * 2^E",
-      "formula_from_bus": "0.01 * M * 2^E"
+      "formula_to_bus": "dpt9_encode(ui_value)",
+      "formula_from_bus": "dpt9_decode(raw_value)"
     }
   },
   {
@@ -2641,8 +2674,8 @@
       "operation": "formula",
       "factor": null,
       "offset": null,
-      "formula_to_bus": "0.01 * M * 2^E",
-      "formula_from_bus": "0.01 * M * 2^E"
+      "formula_to_bus": "dpt9_encode(ui_value)",
+      "formula_from_bus": "dpt9_decode(raw_value)"
     }
   },
   {
@@ -2674,8 +2707,8 @@
       "operation": "formula",
       "factor": null,
       "offset": null,
-      "formula_to_bus": "0.01 * M * 2^E",
-      "formula_from_bus": "0.01 * M * 2^E"
+      "formula_to_bus": "dpt9_encode(ui_value)",
+      "formula_from_bus": "dpt9_decode(raw_value)"
     }
   },
   {
@@ -2707,8 +2740,8 @@
       "operation": "formula",
       "factor": null,
       "offset": null,
-      "formula_to_bus": "0.01 * M * 2^E",
-      "formula_from_bus": "0.01 * M * 2^E"
+      "formula_to_bus": "dpt9_encode(ui_value)",
+      "formula_from_bus": "dpt9_decode(raw_value)"
     }
   },
   {
@@ -2740,8 +2773,8 @@
       "operation": "formula",
       "factor": null,
       "offset": null,
-      "formula_to_bus": "0.01 * M * 2^E",
-      "formula_from_bus": "0.01 * M * 2^E"
+      "formula_to_bus": "dpt9_encode(ui_value)",
+      "formula_from_bus": "dpt9_decode(raw_value)"
     }
   },
   {
@@ -2773,8 +2806,8 @@
       "operation": "formula",
       "factor": null,
       "offset": null,
-      "formula_to_bus": "0.01 * M * 2^E",
-      "formula_from_bus": "0.01 * M * 2^E"
+      "formula_to_bus": "dpt9_encode(ui_value)",
+      "formula_from_bus": "dpt9_decode(raw_value)"
     }
   },
   {
@@ -2806,8 +2839,8 @@
       "operation": "formula",
       "factor": null,
       "offset": null,
-      "formula_to_bus": "0.01 * M * 2^E",
-      "formula_from_bus": "0.01 * M * 2^E"
+      "formula_to_bus": "dpt9_encode(ui_value)",
+      "formula_from_bus": "dpt9_decode(raw_value)"
     }
   },
   {
@@ -2839,8 +2872,8 @@
       "operation": "formula",
       "factor": null,
       "offset": null,
-      "formula_to_bus": "0.01 * M * 2^E",
-      "formula_from_bus": "0.01 * M * 2^E"
+      "formula_to_bus": "dpt9_encode(ui_value)",
+      "formula_from_bus": "dpt9_decode(raw_value)"
     }
   },
   {
@@ -2872,8 +2905,8 @@
       "operation": "formula",
       "factor": null,
       "offset": null,
-      "formula_to_bus": "0.01 * M * 2^E",
-      "formula_from_bus": "0.01 * M * 2^E"
+      "formula_to_bus": "dpt9_encode(ui_value)",
+      "formula_from_bus": "dpt9_decode(raw_value)"
     }
   },
   {
@@ -3120,7 +3153,10 @@
     "sparkplug_data_type_value": 3,
     "permission": "read-write",
     "display_name": "Value 4 Count",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "v32_encode(ui_value)",
+      "formula_from_bus": "v32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "13.002",
@@ -3151,8 +3187,8 @@
       "operation": "multiply",
       "factor": 0.0001,
       "offset": null,
-      "formula_to_bus": "value / 0.0001",
-      "formula_from_bus": "raw * 0.0001"
+      "formula_to_bus": "v32_encode(round(ui_value / 0.0001))",
+      "formula_from_bus": "v32_decode(raw_value) * 0.0001"
     }
   },
   {
@@ -3180,7 +3216,10 @@
     "sparkplug_data_type_value": 3,
     "permission": "read-only",
     "display_name": "ActiveEnergy",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "v32_encode(ui_value)",
+      "formula_from_bus": "v32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "13.011",
@@ -3207,7 +3246,10 @@
     "sparkplug_data_type_value": 3,
     "permission": "read-only",
     "display_name": "ApparentEnergy",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "v32_encode(ui_value)",
+      "formula_from_bus": "v32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "13.012",
@@ -3234,7 +3276,10 @@
     "sparkplug_data_type_value": 3,
     "permission": "read-only",
     "display_name": "ReactiveEnergy",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "v32_encode(ui_value)",
+      "formula_from_bus": "v32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "13.013",
@@ -3261,7 +3306,10 @@
     "sparkplug_data_type_value": 3,
     "permission": "read-only",
     "display_name": "ActiveEnergy kWh",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "v32_encode(ui_value)",
+      "formula_from_bus": "v32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "13.014",
@@ -3288,7 +3336,10 @@
     "sparkplug_data_type_value": 3,
     "permission": "read-only",
     "display_name": "ApparentEnergy kVAh",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "v32_encode(ui_value)",
+      "formula_from_bus": "v32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "13.015",
@@ -3315,7 +3366,10 @@
     "sparkplug_data_type_value": 3,
     "permission": "read-only",
     "display_name": "ReactiveEnergy kVARh",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "v32_encode(ui_value)",
+      "formula_from_bus": "v32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "13.016",
@@ -3342,7 +3396,10 @@
     "sparkplug_data_type_value": 3,
     "permission": "read-only",
     "display_name": "ActiveEnergy MWh",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "v32_encode(ui_value)",
+      "formula_from_bus": "v32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "13.100",
@@ -3369,7 +3426,10 @@
     "sparkplug_data_type_value": 3,
     "permission": "read-write",
     "display_name": "LongDeltaTimeSec",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "v32_encode(ui_value)",
+      "formula_from_bus": "v32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "13.1200",
@@ -3396,7 +3456,10 @@
     "sparkplug_data_type_value": 3,
     "permission": "read-write",
     "display_name": "DeltaVolumeLiquid Litre",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "v32_encode(ui_value)",
+      "formula_from_bus": "v32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "13.1201",
@@ -3423,7 +3486,10 @@
     "sparkplug_data_type_value": 3,
     "permission": "read-write",
     "display_name": "DeltaVolume m3",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "v32_encode(ui_value)",
+      "formula_from_bus": "v32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.000",
@@ -3450,7 +3516,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Acceleration",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.001",
@@ -3477,7 +3546,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Acceleration Angular",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.002",
@@ -3504,7 +3576,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Activation Energy",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.003",
@@ -3531,7 +3606,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Activity",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.004",
@@ -3558,7 +3636,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Mol",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.005",
@@ -3585,7 +3666,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Amplitude",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.006",
@@ -3612,7 +3696,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value AngleRad",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.007",
@@ -3639,7 +3726,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value AngleDeg",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.008",
@@ -3666,7 +3756,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Angular Momentum",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.009",
@@ -3693,7 +3786,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Angular Velocity",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.010",
@@ -3720,7 +3816,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Area",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.011",
@@ -3747,7 +3846,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Capacitance",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.012",
@@ -3774,7 +3876,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Charge DensitySurface",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.013",
@@ -3801,7 +3906,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Charge DensityVolume",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.014",
@@ -3828,7 +3936,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Compressibility",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.015",
@@ -3855,7 +3966,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Conductance",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.016",
@@ -3882,7 +3996,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Electrical Conductivity",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.017",
@@ -3909,7 +4026,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Density",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.018",
@@ -3936,7 +4056,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Electric Charge",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.019",
@@ -3963,7 +4086,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Electric Current",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.020",
@@ -3990,7 +4116,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Electric CurrentDensity",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.021",
@@ -4017,7 +4146,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Electric DipoleMoment",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.022",
@@ -4044,7 +4176,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Electric Displacement",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.023",
@@ -4071,7 +4206,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Electric FieldStrength",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.024",
@@ -4098,7 +4236,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Electric Flux",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.025",
@@ -4152,7 +4293,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Electric Polarization",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.027",
@@ -4179,7 +4323,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Electric Potential",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.028",
@@ -4206,7 +4353,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value ElectromagneticMoment",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.029",
@@ -4233,7 +4383,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value ElectromagneticMoment",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.030",
@@ -4260,7 +4413,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Electromotive Force",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.031",
@@ -4287,7 +4443,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Electromotive Force",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.032",
@@ -4341,7 +4500,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Frequency",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.034",
@@ -4368,7 +4530,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Angular Frequency",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.035",
@@ -4395,7 +4560,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Heat Capacity",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.036",
@@ -4422,7 +4590,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Heat FlowRate",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.037",
@@ -4449,7 +4620,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Heat Quantity",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.038",
@@ -4476,7 +4650,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Impedance",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.039",
@@ -4503,7 +4680,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Length",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.040",
@@ -4530,7 +4710,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Light Quantity",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.041",
@@ -4557,7 +4740,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Luminance",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.042",
@@ -4584,7 +4770,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Luminous Flux",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.043",
@@ -4611,7 +4800,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Luminous Intensity",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.044",
@@ -4638,7 +4830,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Magnetic FieldStrength",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.045",
@@ -4665,7 +4860,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Magnetic Flux",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.046",
@@ -4692,7 +4890,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Magnetic FluxDensity",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.047",
@@ -4719,7 +4920,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Magnetic Moment",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.048",
@@ -4746,7 +4950,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Magnetic Polarization",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.049",
@@ -4773,7 +4980,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Magnetization",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.050",
@@ -4800,7 +5010,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value MagnetomotiveForce",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.051",
@@ -4827,7 +5040,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Mass",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.052",
@@ -4854,7 +5070,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value MassFlux",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.053",
@@ -4881,7 +5100,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Momentum",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.054",
@@ -4908,7 +5130,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Phase AngleRad",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.055",
@@ -4935,7 +5160,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Phase AngleDeg",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.056",
@@ -4962,7 +5190,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Power",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.057",
@@ -4989,7 +5220,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Power Factor",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.058",
@@ -5016,7 +5250,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Pressure",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.059",
@@ -5043,7 +5280,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Reactance",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.060",
@@ -5070,7 +5310,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Resistance",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.061",
@@ -5097,7 +5340,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Resistivity",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.062",
@@ -5124,7 +5370,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value SelfInductance",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.063",
@@ -5151,7 +5400,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value SolidAngle",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.064",
@@ -5178,7 +5430,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Sound Intensity",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.065",
@@ -5205,7 +5460,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Speed",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.066",
@@ -5232,7 +5490,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Stress",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.067",
@@ -5259,7 +5520,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Surface Tension",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.068",
@@ -5286,7 +5550,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Common Temperature",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.069",
@@ -5313,7 +5580,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Absolute Temperature",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.070",
@@ -5340,7 +5610,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value TemperatureDifference",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.071",
@@ -5367,7 +5640,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Thermal Capacity",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.072",
@@ -5394,7 +5670,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Thermal Conductivity",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.073",
@@ -5421,7 +5700,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value ThermoelectricPower",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.074",
@@ -5448,7 +5730,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Time",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.075",
@@ -5475,7 +5760,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Torque",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.076",
@@ -5502,7 +5790,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Volume",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.077",
@@ -5529,7 +5820,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Volume Flux",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.078",
@@ -5556,7 +5850,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Weight",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.079",
@@ -5583,7 +5880,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value Work",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.080",
@@ -5610,7 +5910,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Value ApparentPower",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.1200",
@@ -5637,7 +5940,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Volume Flux Meter",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.1201",
@@ -5664,7 +5970,10 @@
     "sparkplug_data_type_value": 9,
     "permission": "read-only",
     "display_name": "Volume Flux ls",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "15.000",
@@ -8930,7 +9239,10 @@
     "sparkplug_data_type_value": 4,
     "permission": "read-only",
     "display_name": "ActiveEnergy V64",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "ui_value if ui_value >= 0 else ui_value + 2**64",
+      "formula_from_bus": "raw_value if raw_value < 2**63 else raw_value - 2**64"
+    }
   },
   {
     "dpt_id": "29.011",
@@ -8957,7 +9269,10 @@
     "sparkplug_data_type_value": 4,
     "permission": "read-only",
     "display_name": "ApparentEnergy V64",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "ui_value if ui_value >= 0 else ui_value + 2**64",
+      "formula_from_bus": "raw_value if raw_value < 2**63 else raw_value - 2**64"
+    }
   },
   {
     "dpt_id": "29.012",
@@ -8984,7 +9299,10 @@
     "sparkplug_data_type_value": 4,
     "permission": "read-only",
     "display_name": "ReactiveEnergy V64",
-    "value_conversion": null
+    "value_conversion": {
+      "formula_to_bus": "ui_value if ui_value >= 0 else ui_value + 2**64",
+      "formula_from_bus": "raw_value if raw_value < 2**63 else raw_value - 2**64"
+    }
   },
   {
     "dpt_id": "30.1010",

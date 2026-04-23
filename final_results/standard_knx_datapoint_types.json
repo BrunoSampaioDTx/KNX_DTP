@@ -23,7 +23,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "Boolean",
-    "sparkplug_data_type_value": 11
+    "sparkplug_data_type_value": 11,
+    "value_conversion": null
   },
   {
     "dpt_id": "1.002",
@@ -49,7 +50,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "Boolean",
-    "sparkplug_data_type_value": 11
+    "sparkplug_data_type_value": 11,
+    "value_conversion": null
   },
   {
     "dpt_id": "1.003",
@@ -75,7 +77,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "Boolean",
-    "sparkplug_data_type_value": 11
+    "sparkplug_data_type_value": 11,
+    "value_conversion": null
   },
   {
     "dpt_id": "1.004",
@@ -101,7 +104,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "Boolean",
-    "sparkplug_data_type_value": 11
+    "sparkplug_data_type_value": 11,
+    "value_conversion": null
   },
   {
     "dpt_id": "1.005",
@@ -127,7 +131,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "Boolean",
-    "sparkplug_data_type_value": 11
+    "sparkplug_data_type_value": 11,
+    "value_conversion": null
   },
   {
     "dpt_id": "1.006",
@@ -153,7 +158,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "Boolean",
-    "sparkplug_data_type_value": 11
+    "sparkplug_data_type_value": 11,
+    "value_conversion": null
   },
   {
     "dpt_id": "1.007",
@@ -179,7 +185,8 @@
     },
     "notes": "Application-specific: in Shutters/Blinds FB, decrease=step-down, increase=step-up",
     "sparkplug_data_type": "Boolean",
-    "sparkplug_data_type_value": 11
+    "sparkplug_data_type_value": 11,
+    "value_conversion": null
   },
   {
     "dpt_id": "1.008",
@@ -205,7 +212,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "Boolean",
-    "sparkplug_data_type_value": 11
+    "sparkplug_data_type_value": 11,
+    "value_conversion": null
   },
   {
     "dpt_id": "1.009",
@@ -231,7 +239,8 @@
     },
     "notes": "Also used for mechanical normally-open push button interface and binary valve state",
     "sparkplug_data_type": "Boolean",
-    "sparkplug_data_type_value": 11
+    "sparkplug_data_type_value": 11,
+    "value_conversion": null
   },
   {
     "dpt_id": "1.010",
@@ -257,7 +266,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "Boolean",
-    "sparkplug_data_type_value": 11
+    "sparkplug_data_type_value": 11,
+    "value_conversion": null
   },
   {
     "dpt_id": "1.011",
@@ -283,7 +293,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "Boolean",
-    "sparkplug_data_type_value": 11
+    "sparkplug_data_type_value": 11,
+    "value_conversion": null
   },
   {
     "dpt_id": "1.012",
@@ -309,7 +320,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "Boolean",
-    "sparkplug_data_type_value": 11
+    "sparkplug_data_type_value": 11,
+    "value_conversion": null
   },
   {
     "dpt_id": "1.013",
@@ -335,7 +347,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "Boolean",
-    "sparkplug_data_type_value": 11
+    "sparkplug_data_type_value": 11,
+    "value_conversion": null
   },
   {
     "dpt_id": "1.014",
@@ -361,7 +374,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "Boolean",
-    "sparkplug_data_type_value": 11
+    "sparkplug_data_type_value": 11,
+    "value_conversion": null
   },
   {
     "dpt_id": "1.015",
@@ -387,7 +401,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "Boolean",
-    "sparkplug_data_type_value": 11
+    "sparkplug_data_type_value": 11,
+    "value_conversion": null
   },
   {
     "dpt_id": "1.016",
@@ -413,7 +428,8 @@
     },
     "notes": "Used for alarming acknowledgement",
     "sparkplug_data_type": "Boolean",
-    "sparkplug_data_type_value": 11
+    "sparkplug_data_type_value": 11,
+    "value_conversion": null
   },
   {
     "dpt_id": "1.017",
@@ -439,7 +455,8 @@
     },
     "notes": "Both values 0 and 1 shall have the same effect (trigger on any transition)",
     "sparkplug_data_type": "Boolean",
-    "sparkplug_data_type_value": 11
+    "sparkplug_data_type_value": 11,
+    "value_conversion": null
   },
   {
     "dpt_id": "1.018",
@@ -465,7 +482,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "Boolean",
-    "sparkplug_data_type_value": 11
+    "sparkplug_data_type_value": 11,
+    "value_conversion": null
   },
   {
     "dpt_id": "1.019",
@@ -491,7 +509,8 @@
     },
     "notes": "Also used for binary valve state",
     "sparkplug_data_type": "Boolean",
-    "sparkplug_data_type_value": 11
+    "sparkplug_data_type_value": 11,
+    "value_conversion": null
   },
   {
     "dpt_id": "1.021",
@@ -517,7 +536,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "Boolean",
-    "sparkplug_data_type_value": 11
+    "sparkplug_data_type_value": 11,
+    "value_conversion": null
   },
   {
     "dpt_id": "1.022",
@@ -543,7 +563,8 @@
     },
     "notes": "Recommended to display as 1 and 2 with offset of 1",
     "sparkplug_data_type": "Boolean",
-    "sparkplug_data_type_value": 11
+    "sparkplug_data_type_value": 11,
+    "value_conversion": null
   },
   {
     "dpt_id": "1.023",
@@ -569,7 +590,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "Boolean",
-    "sparkplug_data_type_value": 11
+    "sparkplug_data_type_value": 11,
+    "value_conversion": null
   },
   {
     "dpt_id": "1.024",
@@ -595,7 +617,8 @@
     },
     "notes": "Day/night switching indication; 0=Day (default), 1=Night",
     "sparkplug_data_type": "Boolean",
-    "sparkplug_data_type_value": 11
+    "sparkplug_data_type_value": 11,
+    "value_conversion": null
   },
   {
     "dpt_id": "1.100",
@@ -621,7 +644,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "Boolean",
-    "sparkplug_data_type_value": 11
+    "sparkplug_data_type_value": 11,
+    "value_conversion": null
   },
   {
     "dpt_id": "1.1200",
@@ -647,7 +671,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "Boolean",
-    "sparkplug_data_type_value": 11
+    "sparkplug_data_type_value": 11,
+    "value_conversion": null
   },
   {
     "dpt_id": "1.1201",
@@ -673,7 +698,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "Boolean",
-    "sparkplug_data_type_value": 11
+    "sparkplug_data_type_value": 11,
+    "value_conversion": null
   },
   {
     "dpt_id": "2.001",
@@ -701,7 +727,8 @@
     },
     "notes": "c=0: no control (value only), c=1: override/priority control",
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "2.002",
@@ -729,7 +756,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "2.003",
@@ -757,7 +785,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "2.004",
@@ -785,7 +814,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "2.005",
@@ -813,7 +843,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "2.006",
@@ -841,7 +872,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "2.007",
@@ -869,7 +901,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "2.008",
@@ -897,7 +930,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "2.009",
@@ -925,7 +959,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "2.010",
@@ -953,7 +988,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "2.011",
@@ -981,7 +1017,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "2.012",
@@ -1009,7 +1046,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "3.007",
@@ -1032,7 +1070,8 @@
     "value_map": null,
     "notes": "StepCode 000b=break (stop dimming). Steps subdivide 0-100% range. Used for lighting dimming.",
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "3.008",
@@ -1055,7 +1094,8 @@
     "value_map": null,
     "notes": "Used for both vertical position and slat angle relative positioning.",
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "4.001",
@@ -1078,7 +1118,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "String",
-    "sparkplug_data_type_value": 12
+    "sparkplug_data_type_value": 12,
+    "value_conversion": {
+      "formula_to_bus": "ord(ui_value)",
+      "formula_from_bus": "chr(raw_value)"
+    }
   },
   {
     "dpt_id": "4.002",
@@ -1101,7 +1145,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "String",
-    "sparkplug_data_type_value": 12
+    "sparkplug_data_type_value": 12,
+    "value_conversion": {
+      "formula_to_bus": "ord(ui_value)",
+      "formula_from_bus": "chr(raw_value)"
+    }
   },
   {
     "dpt_id": "5.001",
@@ -1124,7 +1172,11 @@
     "value_map": null,
     "notes": "Value = raw * 100/255 ≈ 0.4% resolution per step",
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": {
+      "formula_to_bus": "round(ui_value * 255 / 100)",
+      "formula_from_bus": "raw_value * 100 / 255"
+    }
   },
   {
     "dpt_id": "5.003",
@@ -1147,7 +1199,11 @@
     "value_map": null,
     "notes": "Value = raw * 360/255 ≈ 1.4° resolution per step",
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": {
+      "formula_to_bus": "round(ui_value * 255 / 360)",
+      "formula_from_bus": "raw_value * 360 / 255"
+    }
   },
   {
     "dpt_id": "5.004",
@@ -1170,7 +1226,8 @@
     "value_map": null,
     "notes": "Previously named DPT_RelPos_Valve",
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "5.005",
@@ -1193,7 +1250,8 @@
     "value_map": null,
     "notes": "Multiplication factor; interpretation depends on context",
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "5.006",
@@ -1216,7 +1274,8 @@
     "value_map": null,
     "notes": "Value 255 reserved, shall not be used. Tariff mapping is country/supplier specific.",
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "5.010",
@@ -1239,7 +1298,8 @@
     "value_map": null,
     "notes": "Shall be used for counting discrete events only. Not for bit fields or enumerations.",
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "6.001",
@@ -1262,7 +1322,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Int8",
-    "sparkplug_data_type_value": 1
+    "sparkplug_data_type_value": 1,
+    "value_conversion": {
+      "formula_to_bus": "v8_encode(ui_value)",
+      "formula_from_bus": "v8_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "6.010",
@@ -1285,7 +1349,11 @@
     "value_map": null,
     "notes": "Shall be used for counting discrete events only.",
     "sparkplug_data_type": "Int8",
-    "sparkplug_data_type_value": 1
+    "sparkplug_data_type_value": 1,
+    "value_conversion": {
+      "formula_to_bus": "v8_encode(ui_value)",
+      "formula_from_bus": "v8_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "6.020",
@@ -1308,7 +1376,8 @@
     "value_map": null,
     "notes": "Composite: 5 boolean status bits + 3-bit mode selector",
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "7.001",
@@ -1331,7 +1400,8 @@
     "value_map": null,
     "notes": "General-purpose 2-byte unsigned counter value; unit depends on application",
     "sparkplug_data_type": "UInt16",
-    "sparkplug_data_type_value": 6
+    "sparkplug_data_type_value": 6,
+    "value_conversion": null
   },
   {
     "dpt_id": "7.002",
@@ -1354,7 +1424,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "7.003",
@@ -1377,7 +1448,11 @@
     "value_map": null,
     "notes": "Raw range 0-65535 represents 0-655350 ms (≈655 s)",
     "sparkplug_data_type": "UInt16",
-    "sparkplug_data_type_value": 6
+    "sparkplug_data_type_value": 6,
+    "value_conversion": {
+      "formula_to_bus": "round(ui_value / 10)",
+      "formula_from_bus": "raw_value * 10"
+    }
   },
   {
     "dpt_id": "7.004",
@@ -1400,7 +1475,11 @@
     "value_map": null,
     "notes": "Raw range 0-65535 represents 0-6553500 ms (≈6554 s)",
     "sparkplug_data_type": "UInt16",
-    "sparkplug_data_type_value": 6
+    "sparkplug_data_type_value": 6,
+    "value_conversion": {
+      "formula_to_bus": "round(ui_value / 100)",
+      "formula_from_bus": "raw_value * 100"
+    }
   },
   {
     "dpt_id": "7.005",
@@ -1423,7 +1502,8 @@
     "value_map": null,
     "notes": "Max ≈ 18.2 hours",
     "sparkplug_data_type": "UInt16",
-    "sparkplug_data_type_value": 6
+    "sparkplug_data_type_value": 6,
+    "value_conversion": null
   },
   {
     "dpt_id": "7.006",
@@ -1446,7 +1526,8 @@
     "value_map": null,
     "notes": "Max ≈ 45.5 days",
     "sparkplug_data_type": "UInt16",
-    "sparkplug_data_type_value": 6
+    "sparkplug_data_type_value": 6,
+    "value_conversion": null
   },
   {
     "dpt_id": "7.007",
@@ -1469,7 +1550,8 @@
     "value_map": null,
     "notes": "Max ≈ 7.4 years",
     "sparkplug_data_type": "UInt16",
-    "sparkplug_data_type_value": 6
+    "sparkplug_data_type_value": 6,
+    "value_conversion": null
   },
   {
     "dpt_id": "7.010",
@@ -1492,7 +1574,8 @@
     "value_map": null,
     "notes": "Identifier for Interface Object Property data types. No physical unit.",
     "sparkplug_data_type": "UInt16",
-    "sparkplug_data_type_value": 6
+    "sparkplug_data_type_value": 6,
+    "value_conversion": null
   },
   {
     "dpt_id": "7.011",
@@ -1515,7 +1598,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "UInt16",
-    "sparkplug_data_type_value": 6
+    "sparkplug_data_type_value": 6,
+    "value_conversion": null
   },
   {
     "dpt_id": "7.012",
@@ -1538,7 +1622,8 @@
     "value_map": null,
     "notes": "Value 0 means 'no bus power supply'. Values 1-65535 = current in mA.",
     "sparkplug_data_type": "UInt16",
-    "sparkplug_data_type_value": 6
+    "sparkplug_data_type_value": 6,
+    "value_conversion": null
   },
   {
     "dpt_id": "7.013",
@@ -1561,7 +1646,8 @@
     "value_map": null,
     "notes": "E-Mode parameters only; for runtime use DPT_Value_Lux (9.004)",
     "sparkplug_data_type": "UInt16",
-    "sparkplug_data_type_value": 6
+    "sparkplug_data_type_value": 6,
+    "value_conversion": null
   },
   {
     "dpt_id": "7.600",
@@ -1584,7 +1670,8 @@
     "value_map": null,
     "notes": "Used for lighting colour temperature control (warm white ~2700K to cool white ~6500K)",
     "sparkplug_data_type": "UInt16",
-    "sparkplug_data_type_value": 6
+    "sparkplug_data_type_value": 6,
+    "value_conversion": null
   },
   {
     "dpt_id": "8.001",
@@ -1607,7 +1694,11 @@
     "value_map": null,
     "notes": "For counting discrete events. See General Requirement 01.",
     "sparkplug_data_type": "Int16",
-    "sparkplug_data_type_value": 2
+    "sparkplug_data_type_value": 2,
+    "value_conversion": {
+      "formula_to_bus": "v16_encode(ui_value)",
+      "formula_from_bus": "v16_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "8.002",
@@ -1630,7 +1721,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Int16",
-    "sparkplug_data_type_value": 2
+    "sparkplug_data_type_value": 2,
+    "value_conversion": {
+      "formula_to_bus": "v16_encode(ui_value)",
+      "formula_from_bus": "v16_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "8.003",
@@ -1653,7 +1748,11 @@
     "value_map": null,
     "notes": "Raw -32768..32767 → -327680..327670 ms (≈±328 s)",
     "sparkplug_data_type": "Int16",
-    "sparkplug_data_type_value": 2
+    "sparkplug_data_type_value": 2,
+    "value_conversion": {
+      "formula_to_bus": "v16_encode(round(ui_value / 10))",
+      "formula_from_bus": "v16_decode(raw_value) * 10"
+    }
   },
   {
     "dpt_id": "8.004",
@@ -1676,7 +1775,11 @@
     "value_map": null,
     "notes": "Raw -32768..32767 → -3276800..3276700 ms (≈±3277 s)",
     "sparkplug_data_type": "Int16",
-    "sparkplug_data_type_value": 2
+    "sparkplug_data_type_value": 2,
+    "value_conversion": {
+      "formula_to_bus": "v16_encode(round(ui_value / 100))",
+      "formula_from_bus": "v16_decode(raw_value) * 100"
+    }
   },
   {
     "dpt_id": "8.005",
@@ -1699,7 +1802,11 @@
     "value_map": null,
     "notes": "Range ≈ ±9.1 hours",
     "sparkplug_data_type": "Int16",
-    "sparkplug_data_type_value": 2
+    "sparkplug_data_type_value": 2,
+    "value_conversion": {
+      "formula_to_bus": "v16_encode(ui_value)",
+      "formula_from_bus": "v16_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "8.006",
@@ -1722,7 +1829,11 @@
     "value_map": null,
     "notes": "Range ≈ ±22.7 days",
     "sparkplug_data_type": "Int16",
-    "sparkplug_data_type_value": 2
+    "sparkplug_data_type_value": 2,
+    "value_conversion": {
+      "formula_to_bus": "v16_encode(ui_value)",
+      "formula_from_bus": "v16_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "8.007",
@@ -1745,7 +1856,11 @@
     "value_map": null,
     "notes": "Range ≈ ±3.7 years",
     "sparkplug_data_type": "Int16",
-    "sparkplug_data_type_value": 2
+    "sparkplug_data_type_value": 2,
+    "value_conversion": {
+      "formula_to_bus": "v16_encode(ui_value)",
+      "formula_from_bus": "v16_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "8.010",
@@ -1768,7 +1883,11 @@
     "value_map": null,
     "notes": "7FFFh = invalid data",
     "sparkplug_data_type": "Int16",
-    "sparkplug_data_type_value": 2
+    "sparkplug_data_type_value": 2,
+    "value_conversion": {
+      "formula_to_bus": "v16_encode(round(ui_value / 0.01))",
+      "formula_from_bus": "v16_decode(raw_value) * 0.01"
+    }
   },
   {
     "dpt_id": "8.011",
@@ -1791,7 +1910,11 @@
     "value_map": null,
     "notes": "Used for slats positioning in degrees",
     "sparkplug_data_type": "Int16",
-    "sparkplug_data_type_value": 2
+    "sparkplug_data_type_value": 2,
+    "value_conversion": {
+      "formula_to_bus": "v16_encode(ui_value)",
+      "formula_from_bus": "v16_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "8.012",
@@ -1814,7 +1937,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Int16",
-    "sparkplug_data_type_value": 2
+    "sparkplug_data_type_value": 2,
+    "value_conversion": {
+      "formula_to_bus": "v16_encode(ui_value)",
+      "formula_from_bus": "v16_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "9.001",
@@ -1837,7 +1964,11 @@
     "value_map": null,
     "notes": "Lower limit -273°C = absolute zero. KNX F16 encoding: F = (0.01*M)*2^E",
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "dpt9_encode(ui_value)",
+      "formula_from_bus": "dpt9_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "9.002",
@@ -1860,7 +1991,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "dpt9_encode(ui_value)",
+      "formula_from_bus": "dpt9_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "9.003",
@@ -1883,7 +2018,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "dpt9_encode(ui_value)",
+      "formula_from_bus": "dpt9_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "9.004",
@@ -1906,7 +2045,11 @@
     "value_map": null,
     "notes": "Typical indoor: 300-500 lux, outdoor direct sunlight: up to 100000 lux",
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "dpt9_encode(ui_value)",
+      "formula_from_bus": "dpt9_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "9.005",
@@ -1929,7 +2072,11 @@
     "value_map": null,
     "notes": "See also 9.028 (km/h) and 20.014 (Beaufort scale)",
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "dpt9_encode(ui_value)",
+      "formula_from_bus": "dpt9_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "9.006",
@@ -1952,7 +2099,11 @@
     "value_map": null,
     "notes": "Standard atmospheric pressure ≈ 101325 Pa",
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "dpt9_encode(ui_value)",
+      "formula_from_bus": "dpt9_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "9.007",
@@ -1975,7 +2126,11 @@
     "value_map": null,
     "notes": "Typical valid range 0-100%. Values above 100% technically possible but not physically meaningful.",
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "dpt9_encode(ui_value)",
+      "formula_from_bus": "dpt9_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "9.008",
@@ -1998,7 +2153,11 @@
     "value_map": null,
     "notes": "For environmental sensors: ozone, CO₂, VOC. Indoor CO₂ typically 400-2000 ppm.",
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "dpt9_encode(ui_value)",
+      "formula_from_bus": "dpt9_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "9.009",
@@ -2021,7 +2180,11 @@
     "value_map": null,
     "notes": "For higher precision use DPT 14.077 (F32). Signed: positive=supply, negative=exhaust.",
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "dpt9_encode(ui_value)",
+      "formula_from_bus": "dpt9_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "9.010",
@@ -2044,7 +2207,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "dpt9_encode(ui_value)",
+      "formula_from_bus": "dpt9_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "9.011",
@@ -2067,7 +2234,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "dpt9_encode(ui_value)",
+      "formula_from_bus": "dpt9_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "9.020",
@@ -2090,7 +2261,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "dpt9_encode(ui_value)",
+      "formula_from_bus": "dpt9_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "9.021",
@@ -2113,7 +2288,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "dpt9_encode(ui_value)",
+      "formula_from_bus": "dpt9_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "9.022",
@@ -2136,7 +2315,11 @@
     "value_map": null,
     "notes": "Solar irradiance on clear day ≈ 1000 W/m²",
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "dpt9_encode(ui_value)",
+      "formula_from_bus": "dpt9_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "9.023",
@@ -2159,7 +2342,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "dpt9_encode(ui_value)",
+      "formula_from_bus": "dpt9_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "9.024",
@@ -2182,7 +2369,11 @@
     "value_map": null,
     "notes": "See also 14.056 (DPT_Value_Power, F32 in Watts) for higher precision",
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "dpt9_encode(ui_value)",
+      "formula_from_bus": "dpt9_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "9.025",
@@ -2205,7 +2396,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "dpt9_encode(ui_value)",
+      "formula_from_bus": "dpt9_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "9.026",
@@ -2228,7 +2423,11 @@
     "value_map": null,
     "notes": "For rain gauge / pluviometer sensors",
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "dpt9_encode(ui_value)",
+      "formula_from_bus": "dpt9_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "9.027",
@@ -2251,7 +2450,11 @@
     "value_map": null,
     "notes": "Shall be implemented only as extra DP alongside DPT_Value_Temp (9.001). Default must be 9.001.",
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "dpt9_encode(ui_value)",
+      "formula_from_bus": "dpt9_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "9.028",
@@ -2274,7 +2477,11 @@
     "value_map": null,
     "notes": "Shall be implemented only as extra DP alongside DPT_Value_Wsp (9.005). Default must be 9.005.",
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "dpt9_encode(ui_value)",
+      "formula_from_bus": "dpt9_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "9.029",
@@ -2297,7 +2504,11 @@
     "value_map": null,
     "notes": "Absolute air humidity. General use.",
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "dpt9_encode(ui_value)",
+      "formula_from_bus": "dpt9_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "9.030",
@@ -2320,7 +2531,11 @@
     "value_map": null,
     "notes": "Fine particulate matter measurement (PM2.5, PM10)",
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "dpt9_encode(ui_value)",
+      "formula_from_bus": "dpt9_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "10.001",
@@ -2346,7 +2561,8 @@
     },
     "notes": "Day 0=no day. Binary encoded fields.",
     "sparkplug_data_type": "DateTime",
-    "sparkplug_data_type_value": 13
+    "sparkplug_data_type_value": 13,
+    "value_conversion": null
   },
   {
     "dpt_id": "11.001",
@@ -2369,7 +2585,8 @@
     "value_map": null,
     "notes": "Year ≥90 → 19xx (20th century), Year <90 → 20xx (21st century). Range 1990-2089.",
     "sparkplug_data_type": "DateTime",
-    "sparkplug_data_type_value": 13
+    "sparkplug_data_type_value": 13,
+    "value_conversion": null
   },
   {
     "dpt_id": "12.001",
@@ -2392,7 +2609,8 @@
     "value_map": null,
     "notes": "For counting discrete events. See General Requirement 01.",
     "sparkplug_data_type": "UInt32",
-    "sparkplug_data_type_value": 7
+    "sparkplug_data_type_value": 7,
+    "value_conversion": null
   },
   {
     "dpt_id": "12.100",
@@ -2415,7 +2633,8 @@
     "value_map": null,
     "notes": "Max ≈ 136 years. Use with DPT_LongDeltaTimeSec (13.100).",
     "sparkplug_data_type": "UInt32",
-    "sparkplug_data_type_value": 7
+    "sparkplug_data_type_value": 7,
+    "value_conversion": null
   },
   {
     "dpt_id": "12.101",
@@ -2438,7 +2657,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "UInt32",
-    "sparkplug_data_type_value": 7
+    "sparkplug_data_type_value": 7,
+    "value_conversion": null
   },
   {
     "dpt_id": "12.102",
@@ -2461,7 +2681,8 @@
     "value_map": null,
     "notes": "Long-duration period expressed in full hours; range 0..4294967295 h",
     "sparkplug_data_type": "UInt32",
-    "sparkplug_data_type_value": 7
+    "sparkplug_data_type_value": 7,
+    "value_conversion": null
   },
   {
     "dpt_id": "12.1200",
@@ -2484,7 +2705,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "12.1201",
@@ -2507,7 +2729,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "UInt32",
-    "sparkplug_data_type_value": 7
+    "sparkplug_data_type_value": 7,
+    "value_conversion": null
   },
   {
     "dpt_id": "13.001",
@@ -2530,7 +2753,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Int32",
-    "sparkplug_data_type_value": 3
+    "sparkplug_data_type_value": 3,
+    "value_conversion": {
+      "formula_to_bus": "v32_encode(ui_value)",
+      "formula_from_bus": "v32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "13.002",
@@ -2553,7 +2780,11 @@
     "value_map": null,
     "notes": "Signed 4-byte flow rate in m³/h; resolution 0.0001 m³/h; two's complement encoding",
     "sparkplug_data_type": "Int32",
-    "sparkplug_data_type_value": 3
+    "sparkplug_data_type_value": 3,
+    "value_conversion": {
+      "formula_to_bus": "v32_encode(round(ui_value / 0.0001))",
+      "formula_from_bus": "v32_decode(raw_value) * 0.0001"
+    }
   },
   {
     "dpt_id": "13.010",
@@ -2576,7 +2807,11 @@
     "value_map": null,
     "notes": "Signed active energy counter in Wh; two's complement; used for energy metering",
     "sparkplug_data_type": "Int32",
-    "sparkplug_data_type_value": 3
+    "sparkplug_data_type_value": 3,
+    "value_conversion": {
+      "formula_to_bus": "v32_encode(ui_value)",
+      "formula_from_bus": "v32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "13.011",
@@ -2599,7 +2834,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Int32",
-    "sparkplug_data_type_value": 3
+    "sparkplug_data_type_value": 3,
+    "value_conversion": {
+      "formula_to_bus": "v32_encode(ui_value)",
+      "formula_from_bus": "v32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "13.012",
@@ -2622,7 +2861,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Int32",
-    "sparkplug_data_type_value": 3
+    "sparkplug_data_type_value": 3,
+    "value_conversion": {
+      "formula_to_bus": "v32_encode(ui_value)",
+      "formula_from_bus": "v32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "13.013",
@@ -2645,7 +2888,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Int32",
-    "sparkplug_data_type_value": 3
+    "sparkplug_data_type_value": 3,
+    "value_conversion": {
+      "formula_to_bus": "v32_encode(ui_value)",
+      "formula_from_bus": "v32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "13.014",
@@ -2668,7 +2915,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Int32",
-    "sparkplug_data_type_value": 3
+    "sparkplug_data_type_value": 3,
+    "value_conversion": {
+      "formula_to_bus": "v32_encode(ui_value)",
+      "formula_from_bus": "v32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "13.015",
@@ -2691,7 +2942,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Int32",
-    "sparkplug_data_type_value": 3
+    "sparkplug_data_type_value": 3,
+    "value_conversion": {
+      "formula_to_bus": "v32_encode(ui_value)",
+      "formula_from_bus": "v32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "13.016",
@@ -2714,7 +2969,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Int32",
-    "sparkplug_data_type_value": 3
+    "sparkplug_data_type_value": 3,
+    "value_conversion": {
+      "formula_to_bus": "v32_encode(ui_value)",
+      "formula_from_bus": "v32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "13.100",
@@ -2737,7 +2996,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Int32",
-    "sparkplug_data_type_value": 3
+    "sparkplug_data_type_value": 3,
+    "value_conversion": {
+      "formula_to_bus": "v32_encode(ui_value)",
+      "formula_from_bus": "v32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "13.1200",
@@ -2760,7 +3023,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Int32",
-    "sparkplug_data_type_value": 3
+    "sparkplug_data_type_value": 3,
+    "value_conversion": {
+      "formula_to_bus": "v32_encode(ui_value)",
+      "formula_from_bus": "v32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "13.1201",
@@ -2783,7 +3050,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Int32",
-    "sparkplug_data_type_value": 3
+    "sparkplug_data_type_value": 3,
+    "value_conversion": {
+      "formula_to_bus": "v32_encode(ui_value)",
+      "formula_from_bus": "v32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.000",
@@ -2806,7 +3077,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.001",
@@ -2829,7 +3104,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.002",
@@ -2852,7 +3131,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.003",
@@ -2875,7 +3158,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.004",
@@ -2898,7 +3185,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.005",
@@ -2921,7 +3212,11 @@
     "value_map": null,
     "notes": "Dimensionless amplitude value",
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.006",
@@ -2944,7 +3239,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.007",
@@ -2967,7 +3266,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.008",
@@ -2990,7 +3293,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.009",
@@ -3013,7 +3320,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.010",
@@ -3036,7 +3347,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.011",
@@ -3059,7 +3374,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.012",
@@ -3082,7 +3401,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.013",
@@ -3105,7 +3428,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.014",
@@ -3128,7 +3455,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.015",
@@ -3151,7 +3482,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.016",
@@ -3174,7 +3509,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.017",
@@ -3197,7 +3536,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.018",
@@ -3220,7 +3563,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.019",
@@ -3243,7 +3590,11 @@
     "value_map": null,
     "notes": "See also 9.021 (mA, F16) for lower-precision milliamp readings",
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.020",
@@ -3266,7 +3617,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.021",
@@ -3289,7 +3644,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.022",
@@ -3312,7 +3671,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.023",
@@ -3335,7 +3698,11 @@
     "value_map": null,
     "notes": "4-byte IEEE 754 single-precision electric field strength in V/m",
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.024",
@@ -3358,7 +3725,11 @@
     "value_map": null,
     "notes": "4-byte IEEE 754 single-precision electric flux (charge) in Coulombs",
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.025",
@@ -3381,7 +3752,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "14.026",
@@ -3404,7 +3776,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.027",
@@ -3427,7 +3803,11 @@
     "value_map": null,
     "notes": "Main voltage measurement DPT. See also 9.020 (mV, F16).",
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.028",
@@ -3450,7 +3830,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.029",
@@ -3473,7 +3857,11 @@
     "value_map": null,
     "notes": "4-byte IEEE 754 single-precision electromagnetic moment in A·m²",
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.030",
@@ -3496,7 +3884,11 @@
     "value_map": null,
     "notes": "4-byte IEEE 754 single-precision electromotive force (EMF) in Volts",
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.031",
@@ -3519,7 +3911,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.032",
@@ -3542,7 +3938,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "14.033",
@@ -3565,7 +3962,11 @@
     "value_map": null,
     "notes": "Hz = s⁻¹",
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.034",
@@ -3588,7 +3989,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.035",
@@ -3611,7 +4016,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.036",
@@ -3634,7 +4043,11 @@
     "value_map": null,
     "notes": "4-byte IEEE 754 single-precision heat flow rate in W",
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.037",
@@ -3657,7 +4070,11 @@
     "value_map": null,
     "notes": "4-byte IEEE 754 single-precision heat quantity (thermal energy) in J",
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.038",
@@ -3680,7 +4097,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.039",
@@ -3703,7 +4124,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.040",
@@ -3726,7 +4151,11 @@
     "value_map": null,
     "notes": "Also expressible as J (Joule)",
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.041",
@@ -3749,7 +4178,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.042",
@@ -3772,7 +4205,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.043",
@@ -3795,7 +4232,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.044",
@@ -3818,7 +4259,11 @@
     "value_map": null,
     "notes": "4-byte IEEE 754 single-precision magnetic field strength in A/m",
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.045",
@@ -3841,7 +4286,11 @@
     "value_map": null,
     "notes": "4-byte IEEE 754 single-precision magnetic flux in Wb (Weber)",
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.046",
@@ -3864,7 +4313,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.047",
@@ -3887,7 +4340,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.048",
@@ -3910,7 +4367,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.049",
@@ -3933,7 +4394,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.050",
@@ -3956,7 +4421,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.051",
@@ -3979,7 +4448,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.052",
@@ -4002,7 +4475,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.053",
@@ -4025,7 +4502,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.054",
@@ -4048,7 +4529,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.055",
@@ -4071,7 +4556,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.056",
@@ -4094,7 +4583,11 @@
     "value_map": null,
     "notes": "F32 precision. See also 9.024 (kW, F16) for lower-precision. Resolution 1W vs 0.01kW.",
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.057",
@@ -4117,7 +4610,11 @@
     "value_map": null,
     "notes": "Dimensionless ratio, typically 0.0 to 1.0. cos(φ) of phase angle between voltage and current.",
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.058",
@@ -4140,7 +4637,11 @@
     "value_map": null,
     "notes": "Pa = N/m²",
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.059",
@@ -4163,7 +4664,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.060",
@@ -4186,7 +4691,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.061",
@@ -4209,7 +4718,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.062",
@@ -4232,7 +4745,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.063",
@@ -4255,7 +4772,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.064",
@@ -4278,7 +4799,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.065",
@@ -4301,7 +4826,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.066",
@@ -4324,7 +4853,11 @@
     "value_map": null,
     "notes": "Pa = N/m²",
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.067",
@@ -4347,7 +4880,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.068",
@@ -4370,7 +4907,11 @@
     "value_map": null,
     "notes": "F32 precision. See also 9.001 (F16) for lower-precision temperature.",
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.069",
@@ -4393,7 +4934,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.070",
@@ -4416,7 +4961,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.071",
@@ -4439,7 +4988,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.072",
@@ -4462,7 +5015,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.073",
@@ -4485,7 +5042,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.074",
@@ -4508,7 +5069,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.075",
@@ -4531,7 +5096,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.076",
@@ -4554,7 +5123,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.077",
@@ -4577,7 +5150,11 @@
     "value_map": null,
     "notes": "High-precision alternative to 9.009 (m³/h, F16)",
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.078",
@@ -4600,7 +5177,11 @@
     "value_map": null,
     "notes": "4-byte IEEE 754 single-precision weight/force in Newtons (N); used for load and weight measurements",
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.079",
@@ -4623,7 +5204,11 @@
     "value_map": null,
     "notes": "4-byte IEEE 754 single-precision work/energy in Joules",
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.080",
@@ -4646,7 +5231,11 @@
     "value_map": null,
     "notes": "VA = V × A. See also real power (14.056, W) and reactive power.",
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.1200",
@@ -4669,7 +5258,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "14.1201",
@@ -4692,7 +5285,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Float",
-    "sparkplug_data_type_value": 9
+    "sparkplug_data_type_value": 9,
+    "value_conversion": {
+      "formula_to_bus": "f32_encode(ui_value)",
+      "formula_from_bus": "f32_decode(raw_value)"
+    }
   },
   {
     "dpt_id": "15.000",
@@ -4715,7 +5312,8 @@
     "value_map": null,
     "notes": "D=read direction, E=error, P=permission, C=encryption. Index for future use.",
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "16.000",
@@ -4738,7 +5336,8 @@
     "value_map": null,
     "notes": "Fixed 14 octets. Unused trailing characters shall be filled with 00h (NULL).",
     "sparkplug_data_type": "String",
-    "sparkplug_data_type_value": 12
+    "sparkplug_data_type_value": 12,
+    "value_conversion": null
   },
   {
     "dpt_id": "16.001",
@@ -4761,7 +5360,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "String",
-    "sparkplug_data_type_value": 12
+    "sparkplug_data_type_value": 12,
+    "value_conversion": null
   },
   {
     "dpt_id": "17.001",
@@ -4784,7 +5384,8 @@
     "value_map": null,
     "notes": "ETS displays scene number +1 (i.e., 1-64)",
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "18.001",
@@ -4810,7 +5411,8 @@
     },
     "notes": "Combines control action (activate/learn) with scene number",
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "19.001",
@@ -4833,7 +5435,8 @@
     "value_map": null,
     "notes": "Combined date/time with weekday, annual date (day/month/year) and time-of-day (h/m/s) plus flags for fault, working day, standard summer time and quality",
     "sparkplug_data_type": "DateTime",
-    "sparkplug_data_type_value": 13
+    "sparkplug_data_type_value": 13,
+    "value_conversion": null
   },
   {
     "dpt_id": "20.001",
@@ -4860,7 +5463,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "20.002",
@@ -4887,7 +5491,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "20.003",
@@ -4914,7 +5519,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "20.004",
@@ -4942,7 +5548,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "20.005",
@@ -4969,7 +5576,8 @@
     },
     "notes": "Light application mode enumeration; 0=Normal, 1=Presence simulation, 2=Night round",
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "20.006",
@@ -5004,7 +5612,8 @@
     },
     "notes": "Application area enumeration for fault reporting; 0=No fault, 1=System, 10=HVAC general, 20=Lighting, 30=Security, 40=Load Management, 50=Shutters/blinds",
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "20.007",
@@ -5031,7 +5640,8 @@
     },
     "notes": "Alarm class type enumeration; 1=Simple alarm, 2=Basic alarm, 3=Extended alarm",
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "20.008",
@@ -5058,7 +5668,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "20.011",
@@ -5101,7 +5712,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "20.012",
@@ -5130,7 +5742,8 @@
     },
     "notes": "HVAC error class enumeration; 0=No fault, 1=Sensor fault, 2=Process fault/controller, 3=Actuator fault, 4=Other fault",
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "20.013",
@@ -5180,7 +5793,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "20.014",
@@ -5217,7 +5831,8 @@
     },
     "notes": "See also 9.005 (m/s) and 9.028 (km/h) for continuous wind speed",
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "20.017",
@@ -5246,7 +5861,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "20.020",
@@ -5272,7 +5888,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "20.021",
@@ -5306,7 +5923,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "20.022",
@@ -5332,7 +5950,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "20.100",
@@ -5360,7 +5979,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "20.101",
@@ -5387,7 +6007,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "20.102",
@@ -5416,7 +6037,8 @@
     },
     "notes": "Central HVAC mode selector. Used by room thermostats, valves, etc.",
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "20.103",
@@ -5445,7 +6067,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "20.104",
@@ -5472,7 +6095,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "20.105",
@@ -5515,7 +6139,8 @@
     },
     "notes": "Values 0..17 and 20",
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "20.106",
@@ -5545,7 +6170,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "20.107",
@@ -5572,7 +6198,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "20.108",
@@ -5603,7 +6230,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "20.109",
@@ -5631,7 +6259,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "20.110",
@@ -5658,7 +6287,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "20.111",
@@ -5685,7 +6315,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "20.112",
@@ -5712,7 +6343,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "20.113",
@@ -5739,7 +6371,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "20.114",
@@ -5779,7 +6412,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "20.115",
@@ -5806,7 +6440,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "20.120",
@@ -5833,7 +6468,8 @@
     },
     "notes": "field1=ADAType. Values 3-255 reserved.",
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "20.121",
@@ -5859,7 +6495,8 @@
     },
     "notes": "field1=BackupMode. Values 2-255 reserved.",
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "20.122",
@@ -5885,7 +6522,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "20.600",
@@ -5914,7 +6552,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "20.601",
@@ -5943,7 +6582,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "20.602",
@@ -5983,7 +6623,8 @@
     },
     "notes": "DALI standard fade times. Each step ≈ √2 × previous.",
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "20.603",
@@ -6010,7 +6651,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "20.604",
@@ -6036,7 +6678,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "20.605",
@@ -6062,7 +6705,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "20.606",
@@ -6090,7 +6734,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "20.607",
@@ -6116,7 +6761,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "20.608",
@@ -6143,7 +6789,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "20.609",
@@ -6174,7 +6821,8 @@
     },
     "notes": "Load type setting for dimmer/actuator; 0=Automatic, 1=Leading edge, 2=Trailing edge, 3=Switch mode only, 4=Automatic once, 7=LED leading, 8=LED trailing; lighting application",
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "20.610",
@@ -6202,7 +6850,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "20.611",
@@ -6232,7 +6881,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "20.612",
@@ -6260,7 +6910,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "20.613",
@@ -6292,7 +6943,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "20.801",
@@ -6320,7 +6972,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "20.802",
@@ -6350,7 +7003,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "20.803",
@@ -6376,7 +7030,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "20.804",
@@ -6402,7 +7057,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "20.1000",
@@ -6425,7 +7081,8 @@
     "value_map": null,
     "notes": "Communication mode enumeration for M-Bus/metering devices; system application domain",
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "20.1001",
@@ -6450,7 +7107,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "20.1002",
@@ -6477,7 +7135,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "20.1003",
@@ -6503,7 +7162,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "20.1004",
@@ -6531,7 +7191,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "20.1005",
@@ -6577,7 +7238,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "20.1200",
@@ -6605,7 +7267,8 @@
     },
     "notes": "M-Bus breaker/valve state enumeration; 0=Closed, 1=Open, 2=Released, 255=Invalid; metering application",
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "20.1202",
@@ -6633,7 +7296,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "20.1203",
@@ -6662,7 +7326,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "20.1204",
@@ -6689,7 +7354,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "20.1205",
@@ -6716,7 +7382,8 @@
     },
     "notes": "PLC status enumeration for S-FSK pairing; 0=New/Unlock, 1=New/Lock, 2=Registered; metering application",
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "20.1206",
@@ -6744,7 +7411,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "20.1207",
@@ -6772,7 +7440,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "20.1208",
@@ -6798,7 +7467,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "20.1209",
@@ -6827,7 +7497,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "21.001",
@@ -6850,7 +7521,8 @@
     "value_map": null,
     "notes": "Standard KNX status byte (Z8). Referenced by many _Z composite DPTs.",
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "21.002",
@@ -6873,7 +7545,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "21.100",
@@ -6896,7 +7569,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "21.101",
@@ -6919,7 +7593,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "21.102",
@@ -6942,7 +7617,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "21.103",
@@ -6965,7 +7641,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "21.104",
@@ -6988,7 +7665,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "21.105",
@@ -7011,7 +7689,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "21.106",
@@ -7034,7 +7713,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "21.601",
@@ -7057,7 +7737,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "21.1000",
@@ -7080,7 +7761,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "21.1001",
@@ -7103,7 +7785,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "21.1002",
@@ -7126,7 +7809,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "21.1010",
@@ -7149,7 +7833,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "21.1200",
@@ -7172,7 +7857,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "21.1201",
@@ -7198,7 +7884,8 @@
     },
     "notes": "For 3-phase power monitoring",
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "22.100",
@@ -7221,7 +7908,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "UInt16",
-    "sparkplug_data_type_value": 6
+    "sparkplug_data_type_value": 6,
+    "value_conversion": null
   },
   {
     "dpt_id": "22.101",
@@ -7244,7 +7932,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "UInt16",
-    "sparkplug_data_type_value": 6
+    "sparkplug_data_type_value": 6,
+    "value_conversion": null
   },
   {
     "dpt_id": "22.1000",
@@ -7267,7 +7956,8 @@
     "value_map": null,
     "notes": "Removed TP0 and PL132 from specification",
     "sparkplug_data_type": "UInt16",
-    "sparkplug_data_type_value": 6
+    "sparkplug_data_type_value": 6,
+    "value_conversion": null
   },
   {
     "dpt_id": "22.1010",
@@ -7290,7 +7980,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "UInt16",
-    "sparkplug_data_type_value": 6
+    "sparkplug_data_type_value": 6,
+    "value_conversion": null
   },
   {
     "dpt_id": "23.001",
@@ -7318,7 +8009,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "23.002",
@@ -7346,7 +8038,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "23.003",
@@ -7374,7 +8067,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "23.102",
@@ -7401,7 +8095,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "24.001",
@@ -7424,7 +8119,8 @@
     "value_map": null,
     "notes": "Terminated by 00h NULL character",
     "sparkplug_data_type": "String",
-    "sparkplug_data_type_value": 12
+    "sparkplug_data_type_value": 12,
+    "value_conversion": null
   },
   {
     "dpt_id": "25.1000",
@@ -7447,7 +8143,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "26.001",
@@ -7473,7 +8170,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "27.001",
@@ -7496,7 +8194,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "UInt32",
-    "sparkplug_data_type_value": 7
+    "sparkplug_data_type_value": 7,
+    "value_conversion": null
   },
   {
     "dpt_id": "28.001",
@@ -7519,7 +8218,8 @@
     "value_map": null,
     "notes": "Full Unicode support. Terminated by 00h NULL character.",
     "sparkplug_data_type": "String",
-    "sparkplug_data_type_value": 12
+    "sparkplug_data_type_value": 12,
+    "value_conversion": null
   },
   {
     "dpt_id": "29.010",
@@ -7542,7 +8242,11 @@
     "value_map": null,
     "notes": "High-capacity energy counter. Range ≈ ±9.2×10¹⁸ Wh",
     "sparkplug_data_type": "Int64",
-    "sparkplug_data_type_value": 4
+    "sparkplug_data_type_value": 4,
+    "value_conversion": {
+      "formula_to_bus": "ui_value if ui_value >= 0 else ui_value + 2**64",
+      "formula_from_bus": "raw_value if raw_value < 2**63 else raw_value - 2**64"
+    }
   },
   {
     "dpt_id": "29.011",
@@ -7565,7 +8269,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Int64",
-    "sparkplug_data_type_value": 4
+    "sparkplug_data_type_value": 4,
+    "value_conversion": {
+      "formula_to_bus": "ui_value if ui_value >= 0 else ui_value + 2**64",
+      "formula_from_bus": "raw_value if raw_value < 2**63 else raw_value - 2**64"
+    }
   },
   {
     "dpt_id": "29.012",
@@ -7588,7 +8296,11 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Int64",
-    "sparkplug_data_type_value": 4
+    "sparkplug_data_type_value": 4,
+    "value_conversion": {
+      "formula_to_bus": "ui_value if ui_value >= 0 else ui_value + 2**64",
+      "formula_from_bus": "raw_value if raw_value < 2**63 else raw_value - 2**64"
+    }
   },
   {
     "dpt_id": "30.1010",
@@ -7611,7 +8323,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "31.101",
@@ -7634,7 +8347,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "UInt8",
-    "sparkplug_data_type_value": 5
+    "sparkplug_data_type_value": 5,
+    "value_conversion": null
   },
   {
     "dpt_id": "200.100",
@@ -7660,7 +8374,8 @@
     },
     "notes": "Composite: DPT 1.100 value + Z8 status/command byte",
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "200.101",
@@ -7686,7 +8401,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "201.100",
@@ -7715,7 +8431,8 @@
     },
     "notes": "Composite: DPT 20.102 HVAC mode + Z8 status byte",
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "201.102",
@@ -7744,7 +8461,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "201.104",
@@ -7787,7 +8505,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "201.105",
@@ -7815,7 +8534,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "201.107",
@@ -7842,7 +8562,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "201.108",
@@ -7869,7 +8590,8 @@
     },
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "201.109",
@@ -7892,7 +8614,8 @@
     "value_map": null,
     "notes": "Composite HVAC emergency mode with status byte (N8Z8); used in room controllers",
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "202.001",
@@ -7915,7 +8638,8 @@
     "value_map": null,
     "notes": "Relative value with status byte (U8Z8); general-purpose composite",
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "202.002",
@@ -7938,7 +8662,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "203.002",
@@ -7961,7 +8686,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "203.003",
@@ -7984,7 +8710,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "203.004",
@@ -8007,7 +8734,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "203.005",
@@ -8030,7 +8758,8 @@
     "value_map": null,
     "notes": "Time period in seconds with status byte (U16Z8); 0..65535 s",
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "203.006",
@@ -8053,7 +8782,8 @@
     "value_map": null,
     "notes": "Time period in minutes with status byte (U16Z8); 0..65535 min",
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "203.007",
@@ -8076,7 +8806,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "203.011",
@@ -8099,7 +8830,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "203.012",
@@ -8122,7 +8854,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "203.013",
@@ -8145,7 +8878,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "203.014",
@@ -8168,7 +8902,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "203.015",
@@ -8191,7 +8926,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "203.017",
@@ -8214,7 +8950,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "203.100",
@@ -8237,7 +8974,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "203.101",
@@ -8260,7 +8998,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "203.102",
@@ -8283,7 +9022,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "203.104",
@@ -8306,7 +9046,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "204.001",
@@ -8329,7 +9070,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "205.002",
@@ -8352,7 +9094,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "205.003",
@@ -8375,7 +9118,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "205.004",
@@ -8398,7 +9142,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "205.005",
@@ -8421,7 +9166,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "205.006",
@@ -8444,7 +9190,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "205.007",
@@ -8467,7 +9214,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "205.017",
@@ -8490,7 +9238,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "205.100",
@@ -8513,7 +9262,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "205.101",
@@ -8536,7 +9286,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "205.102",
@@ -8559,7 +9310,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "205.103",
@@ -8582,7 +9334,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "206.100",
@@ -8605,7 +9358,8 @@
     "value_map": null,
     "notes": "U16=time delay (minutes), N8=next HVAC operating mode",
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "206.102",
@@ -8628,7 +9382,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "206.104",
@@ -8651,7 +9406,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "206.105",
@@ -8674,7 +9430,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "207.100",
@@ -8697,7 +9454,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "207.101",
@@ -8720,7 +9478,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "207.102",
@@ -8743,7 +9502,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "207.104",
@@ -8766,7 +9526,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "207.105",
@@ -8789,7 +9550,8 @@
     "value_map": null,
     "notes": "HVAC actuator status composite (U8B8); includes actuator value and status bits",
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "207.600",
@@ -8812,7 +9574,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "209.100",
@@ -8835,7 +9598,8 @@
     "value_map": null,
     "notes": "Heat pump mode status composite (V16B8); signed 16-bit value + 8-bit status",
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "209.101",
@@ -8858,7 +9622,8 @@
     "value_map": null,
     "notes": "Absolute room temperature demand composite (V16B8); signed 16-bit + 8-bit status",
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "209.102",
@@ -8881,7 +9646,8 @@
     "value_map": null,
     "notes": "Cooling plant mode status composite (V16B8); signed 16-bit value + 8-bit status",
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "209.103",
@@ -8904,7 +9670,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "210.100",
@@ -8927,7 +9694,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "211.100",
@@ -8950,7 +9718,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "212.100",
@@ -8973,7 +9742,8 @@
     "value_map": null,
     "notes": "Each V16 encoded as KNX F16. Setpoint shifts for Comfort/Standby/Economy.",
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "212.101",
@@ -8996,7 +9766,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "213.100",
@@ -9019,7 +9790,8 @@
     "value_map": null,
     "notes": "Comfort/Standby/Economy/BuildingProtection setpoints",
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "213.101",
@@ -9042,7 +9814,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "213.102",
@@ -9065,7 +9838,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "214.100",
@@ -9088,7 +9862,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "214.101",
@@ -9111,7 +9886,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "215.100",
@@ -9134,7 +9910,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "215.101",
@@ -9157,7 +9934,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "216.100",
@@ -9180,7 +9958,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "217.001",
@@ -9203,7 +9982,8 @@
     "value_map": null,
     "notes": "Main version (0-31), Sub version (0-31), Revision (0-63)",
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "218.001",
@@ -9226,7 +10006,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "218.002",
@@ -9249,7 +10030,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "219.001",
@@ -9275,7 +10057,8 @@
     },
     "notes": "LogNumber(U8), AlarmPriority(N8:0-2,3=void), ApplicationArea(N8), ErrorClass(N8), Attributes(B8), AlarmStatus(B8)",
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "220.100",
@@ -9298,7 +10081,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "221.001",
@@ -9321,7 +10105,8 @@
     "value_map": null,
     "notes": "KNX serial number: 2-byte manufacturer code (N16) + 4-byte serial number (U32); 6 bytes total",
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "222.100",
@@ -9344,7 +10129,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "222.101",
@@ -9367,7 +10153,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "223.100",
@@ -9390,7 +10177,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "224.100",
@@ -9413,7 +10201,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "225.001",
@@ -9436,7 +10225,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "225.002",
@@ -9459,7 +10249,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "225.003",
@@ -9482,7 +10273,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "229.001",
@@ -9505,7 +10297,8 @@
     "value_map": null,
     "notes": "Energy/volume metering. V32=value, N8=metering unit enum, Z8=status/command",
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "230.1000",
@@ -9528,7 +10321,8 @@
     "value_map": null,
     "notes": "DeviceType(U16), SerialNumber(U32), Version(U8), Medium(N8)",
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "231.001",
@@ -9551,7 +10345,8 @@
     "value_map": null,
     "notes": "Language (2 ASCII chars) + Region (2 ASCII chars), e.g. 'deDE'",
     "sparkplug_data_type": "String",
-    "sparkplug_data_type_value": 12
+    "sparkplug_data_type_value": 12,
+    "value_conversion": null
   },
   {
     "dpt_id": "232.600",
@@ -9574,7 +10369,8 @@
     "value_map": null,
     "notes": "Red(0-255), Green(0-255), Blue(0-255). Common in lighting control.",
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "234.001",
@@ -9597,7 +10393,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "String",
-    "sparkplug_data_type_value": 12
+    "sparkplug_data_type_value": 12,
+    "value_conversion": null
   },
   {
     "dpt_id": "234.002",
@@ -9620,7 +10417,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "String",
-    "sparkplug_data_type_value": 12
+    "sparkplug_data_type_value": 12,
+    "value_conversion": null
   },
   {
     "dpt_id": "235.001",
@@ -9643,7 +10441,8 @@
     "value_map": null,
     "notes": "Energy(V32 Wh), Tariff(U8 0-255), Validity(B8)",
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "236.001",
@@ -9666,7 +10465,8 @@
     "value_map": null,
     "notes": "Valid(B1), Priority(N3:0-7), Mode(N4:0-15). 1 octet.",
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "237.600",
@@ -9689,7 +10489,8 @@
     "value_map": null,
     "notes": "Lamp/ballast/converter failure flags + device address (U6: 0-63)",
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "238.001",
@@ -9712,7 +10513,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "238.600",
@@ -9735,7 +10537,8 @@
     "value_map": null,
     "notes": "LampFailure(b6), BallastFailure(b7), DeviceAddress(U6:0-63)",
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "239.001",
@@ -9758,7 +10561,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "240.800",
@@ -9781,7 +10585,8 @@
     "value_map": null,
     "notes": "Position(U8:0-100%), Angle(U8:0-100%), Status(B8). For shutters/blinds.",
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "241.800",
@@ -9804,7 +10609,8 @@
     "value_map": null,
     "notes": "Position, angle, and 16-bit status flags",
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "242.600",
@@ -9827,7 +10633,8 @@
     "value_map": null,
     "notes": "x(U16:0-65535->0.0-1.0), y(U16), Brightness(U8:0-100%), C/B validity bits",
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "243.600",
@@ -9850,7 +10657,8 @@
     "value_map": null,
     "notes": "x, y, TransitionTime(U16:100ms units, 0-6553.5s), Brightness, validity bits",
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "244.600",
@@ -9873,7 +10681,8 @@
     "value_map": null,
     "notes": "ConverterMode(N4:0-7), HardwareStatus(B4), test pending flags, converter failure",
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "245.600",
@@ -9896,7 +10705,8 @@
     "value_map": null,
     "notes": "Last test results (FT/DT/PDT), start methods, battery discharge time, charge level",
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "246.600",
@@ -9919,7 +10729,8 @@
     "value_map": null,
     "notes": "Battery info for DALI devices: 3-bit status flags + 8-bit battery level; 2 bytes total",
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "248.600",
@@ -9942,7 +10753,8 @@
     "value_map": null,
     "notes": "DALI emergency converter fixed info: N8U8U8U8B8 format, 5 bytes",
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "249.600",
@@ -9965,7 +10777,8 @@
     "value_map": null,
     "notes": "Composite type for tunable white lighting: fade time in units of 100ms, colour temperature in Kelvin, brightness in percent (0..100), plus validity flags; 6 bytes total",
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "250.600",
@@ -9988,7 +10801,8 @@
     "value_map": null,
     "notes": "Step-based brightness and CCT control with mask bits",
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "251.600",
@@ -10011,7 +10825,8 @@
     "value_map": null,
     "notes": "RGBW colour value: R[0..255] G[0..255] B[0..255] W[0..255] + 4 reserved bits + 4 validity flags; 6 bytes total",
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "252.600",
@@ -10034,7 +10849,8 @@
     "value_map": null,
     "notes": "4x step codes for R/G/B/W channels + mask byte",
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "253.600",
@@ -10057,7 +10873,8 @@
     "value_map": null,
     "notes": "Relative control of xyY colour: x/y/brightness each encoded as direction+stepcode+validity; 4 bytes total",
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "254.600",
@@ -10080,7 +10897,8 @@
     "value_map": null,
     "notes": "3x step codes for R/G/B channels (no white)",
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "255.001",
@@ -10103,7 +10921,8 @@
     "value_map": null,
     "notes": "Geographic location: Latitude(F32) + Longitude(F32) in degrees; IEEE 754; 8 bytes total",
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "256.001",
@@ -10126,7 +10945,8 @@
     "value_map": null,
     "notes": "DateTime with period information for scheduler/timer use",
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "257.1200",
@@ -10149,7 +10969,8 @@
     "value_map": null,
     "notes": "Three-phase electric current values: 3 × F32 (IEEE 754); 12 bytes; metering application",
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "257.1201",
@@ -10172,7 +10993,8 @@
     "value_map": null,
     "notes": "Three-phase electric potential values: 3 × F32 (IEEE 754); 12 bytes; metering application",
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "257.1202",
@@ -10195,7 +11017,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "265.001",
@@ -10218,7 +11041,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "265.005",
@@ -10241,7 +11065,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "265.009",
@@ -10264,7 +11089,8 @@
     "value_map": null,
     "notes": "Date/time with open/close action scheduling; complex composite with date, time and control flags; 9 bytes",
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "265.011",
@@ -10287,7 +11113,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "265.012",
@@ -10310,7 +11137,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "265.1200",
@@ -10333,7 +11161,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "265.1201",
@@ -10356,7 +11185,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "266.027",
@@ -10379,7 +11209,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "266.056",
@@ -10402,7 +11233,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "266.080",
@@ -10425,7 +11257,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "267.001",
@@ -10448,7 +11281,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "268.1203",
@@ -10471,7 +11305,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "268.1204",
@@ -10494,7 +11329,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "268.1205",
@@ -10517,7 +11353,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "268.1206",
@@ -10540,7 +11377,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "269.1200",
@@ -10563,7 +11401,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "270.1200",
@@ -10586,7 +11425,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "270.1201",
@@ -10609,7 +11449,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "270.1202",
@@ -10632,7 +11473,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "271.1200",
@@ -10655,7 +11497,8 @@
     "value_map": null,
     "notes": "Structured tariff schedule with time/rate fields",
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "272.600",
@@ -10678,7 +11521,8 @@
     "value_map": null,
     "notes": "Status, levels, rated duration for emergency lighting",
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "273.001",
@@ -10701,7 +11545,8 @@
     "value_map": null,
     "notes": "Validity(B8), Date(U16), Time(U8), MinTemp(F16), MaxTemp(F16). 7 octets.",
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "273.002",
@@ -10724,7 +11569,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "273.003",
@@ -10747,7 +11593,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "273.004",
@@ -10770,7 +11617,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "273.005",
@@ -10793,7 +11641,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "273.006",
@@ -10816,7 +11665,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "273.007",
@@ -10839,7 +11689,8 @@
     "value_map": null,
     "notes": null,
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "274.001",
@@ -10862,7 +11713,8 @@
     "value_map": null,
     "notes": "Validity, date, time, main direction, secondary direction. 6 octets.",
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "276.1200",
@@ -10885,7 +11737,8 @@
     "value_map": null,
     "notes": "Battery/charging state + status bits. 4 octets.",
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "277.1200",
@@ -10908,7 +11761,8 @@
     "value_map": null,
     "notes": "4x (Energy V32 Wh + Tariff U8 + Status B8). 20 octets total.",
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "278.1200",
@@ -10931,7 +11785,8 @@
     "value_map": null,
     "notes": "25 octets total.",
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "279.1200",
@@ -10954,7 +11809,8 @@
     "value_map": null,
     "notes": "30 octets total.",
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "280.1200",
@@ -10977,7 +11833,8 @@
     "value_map": null,
     "notes": "55 octets. Most complete metering.",
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "281.1200",
@@ -11000,7 +11857,8 @@
     "value_map": null,
     "notes": "24 octets. Timestamped metering data.",
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "282.1200",
@@ -11023,7 +11881,8 @@
     "value_map": null,
     "notes": "29 octets.",
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "283.1200",
@@ -11046,7 +11905,8 @@
     "value_map": null,
     "notes": "34 octets.",
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   },
   {
     "dpt_id": "284.1200",
@@ -11069,6 +11929,7 @@
     "value_map": null,
     "notes": "59 octets. Complete timestamped metering.",
     "sparkplug_data_type": "Bytes",
-    "sparkplug_data_type_value": 17
+    "sparkplug_data_type_value": 17,
+    "value_conversion": null
   }
 ]

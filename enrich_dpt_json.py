@@ -14,6 +14,7 @@ often misses or mangles.
 
 import json
 import math
+import re
 from pathlib import Path
 
 INPUT_JSON = Path(__file__).parent / "output" / "dpt_new.json"
@@ -1002,6 +1003,193 @@ F32_DEFAULTS = {
 }
 
 
+# Composite payload families (control/value, time/date, access, scene control, date-time).
+COMPOSITE_MAINS = {2, 3, 10, 11, 15, 18, 19}
+# Structured/textual payload families where scalar formulas are not applicable.
+STRUCTURED_MAINS = {16, 232}
+
+
+def _parse_numeric_factor(value) -> float | None:
+    """Extract a numeric factor from coefficient/resolution/step fields."""
+    if isinstance(value, bool):
+        return None
+    if isinstance(value, (int, float)):
+        return float(value)
+    if isinstance(value, str):
+        match = re.match(r"^\s*([+-]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][+-]?\d+)?)", value)
+        if match:
+            return float(match.group(1))
+    return None
+
+
+def _factor_literal(factor: float) -> str:
+    if factor.is_integer():
+        return str(int(factor))
+    return repr(factor)
+
+
+def _resolve_scale_factor(entry: dict) -> float:
+    coefficient = _parse_numeric_factor(entry.get("coefficient"))
+    if coefficient not in (None, 0):
+        return coefficient
+
+    resolution = _parse_numeric_factor(entry.get("resolution"))
+    if resolution not in (None, 0):
+        return resolution
+
+    step = _parse_numeric_factor(entry.get("step"))
+    if step not in (None, 0):
+        return step
+
+    return 1.0
+
+
+def _append_note(notes: str | None, suffix: str) -> str:
+    if not notes:
+        return suffix
+    if suffix in notes:
+        return notes
+    return f"{notes} {suffix}"
+
+
+def _signed_formulas(bits: int, scale: float) -> tuple[str, str]:
+    helper_by_bits = {8: "v8", 16: "v16", 32: "v32"}
+    helper = helper_by_bits.get(bits)
+
+    if helper:
+        decode_expr = f"{helper}_decode(raw_value)"
+        if scale != 1:
+            factor = _factor_literal(scale)
+            return (
+                f"{helper}_encode(round(ui_value / {factor}))",
+                f"{decode_expr} * {factor}",
+            )
+        return (f"{helper}_encode(ui_value)", decode_expr)
+
+    sign_limit = f"2**{bits - 1}"
+    full_range = f"2**{bits}"
+    decode_expr = f"raw_value if raw_value < {sign_limit} else raw_value - {full_range}"
+    if scale != 1:
+        factor = _factor_literal(scale)
+        return (
+            f"round(ui_value / {factor}) if ui_value >= 0 else round(ui_value / {factor}) + {full_range}",
+            f"{decode_expr} * {factor}",
+        )
+    return (
+        f"ui_value if ui_value >= 0 else ui_value + {full_range}",
+        decode_expr,
+    )
+
+
+def _unsigned_formulas(scale: float) -> tuple[str, str]:
+    if scale != 1:
+        factor = _factor_literal(scale)
+        return (f"round(ui_value / {factor})", f"raw_value * {factor}")
+    return ("ui_value", "raw_value")
+
+
+def _resolve_formulas(entry: dict) -> tuple[str | None, str | None, str | None]:
+    main = int(entry.get("dpt_main_number", 0) or 0)
+    sub = int(entry.get("dpt_sub_number", 0) or 0)
+    category = (entry.get("data_type_category") or "").lower()
+    format_code = (entry.get("format_code") or "").upper()
+    size_bits = int(entry.get("size_bits", 0) or 0)
+
+    if main in COMPOSITE_MAINS or category == "composite":
+        return (None, None, "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.")
+
+    if main in STRUCTURED_MAINS or category == "string":
+        return (None, None, "Structured/text DPT; scalar formula_to_bus/formula_from_bus are intentionally null.")
+
+    if category == "character" or main == 4:
+        return ("ord(ui_value)", "chr(raw_value)", None)
+
+    if main == 1:
+        return ("ui_value", "raw_value", None)
+
+    if main == 5:
+        if sub == 1:
+            return ("round(ui_value * 255 / 100)", "raw_value * 100 / 255", None)
+        if sub == 3:
+            return ("round(ui_value * 255 / 360)", "raw_value * 360 / 255", None)
+        return ("ui_value", "raw_value", None)
+
+    if main == 9 or format_code == "F16":
+        return ("dpt9_encode(ui_value)", "dpt9_decode(raw_value)", None)
+
+    if main == 14 or format_code == "F32":
+        return ("f32_encode(ui_value)", "f32_decode(raw_value)", None)
+
+    if main == 17:
+        return ("ui_value", "raw_value", None)
+
+    if main == 18:
+        return (None, None, "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.")
+
+    if category == "boolean":
+        return ("ui_value", "raw_value", None)
+
+    if category == "enum":
+        if main == 20 and sub == 1:
+            return (None, None, "Composite DPT; scalar formula_to_bus/formula_from_bus are intentionally null.")
+        return ("ui_value", "raw_value", None)
+
+    if category == "bitset":
+        return ("ui_value", "raw_value", None)
+
+    if category == "unsigned":
+        to_bus, from_bus = _unsigned_formulas(_resolve_scale_factor(entry))
+        return (to_bus, from_bus, None)
+
+    if category == "signed":
+        to_bus, from_bus = _signed_formulas(size_bits, _resolve_scale_factor(entry))
+        return (to_bus, from_bus, None)
+
+    if category == "float":
+        return ("ui_value", "raw_value", None)
+
+    return (None, None, "No scalar transformer available for this structured DPT.")
+
+
+def _set_value_conversion(entry: dict, formula_to_bus, formula_from_bus) -> dict:
+    updated = dict(entry)
+    updated.pop("formula_to_bus", None)
+    updated.pop("formula_from_bus", None)
+
+    # Identity transforms (passthrough) carry no real conversion semantics, so
+    # represent them as a null value_conversion to match the original payload
+    # convention.
+    if formula_to_bus == "ui_value" and formula_from_bus == "raw_value":
+        updated["value_conversion"] = None
+        return updated
+
+    # Structured/unsupported DPTs have no scalar formulas; keep value_conversion
+    # null instead of emitting an object with null fields.
+    if formula_to_bus is None and formula_from_bus is None:
+        updated["value_conversion"] = None
+        return updated
+
+    value_conversion = updated.get("value_conversion")
+    if not isinstance(value_conversion, dict):
+        value_conversion = {}
+    else:
+        value_conversion = dict(value_conversion)
+
+    value_conversion["formula_to_bus"] = formula_to_bus
+    value_conversion["formula_from_bus"] = formula_from_bus
+    updated["value_conversion"] = value_conversion
+    return updated
+
+
+def apply_bidirectional_transformers(data: list[dict]) -> list[dict]:
+    updated_entries = []
+    for entry in data:
+        formula_to_bus, formula_from_bus, _note = _resolve_formulas(entry)
+        updated_entry = _set_value_conversion(entry, formula_to_bus, formula_from_bus)
+        updated_entries.append(updated_entry)
+    return updated_entries
+
+
 def _canonical_id(main: int, sub: int) -> str:
     """Build the canonical DPT ID string: main.sub with 3-digit zero-padded sub for sub<1000."""
     if sub < 1000:
@@ -1160,6 +1348,7 @@ def enrich():
 
     # Sort
     data.sort(key=lambda r: (r["dpt_main_number"], r["dpt_sub_number"]))
+    data = apply_bidirectional_transformers(data)
 
     OUTPUT_JSON.write_text(
         json.dumps(data, indent=2, ensure_ascii=False),
